@@ -28,10 +28,30 @@
             <!--Static CSS file-->
             <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
             <!--Favicon-->
-            <link rel="apple-touch-icon" sizes="180x180" href="{{ MEDIA_URL }}favicon/apple-touch-icon.png">
-            <link rel="icon" type="image/png" sizes="32x32" href="{{ MEDIA_URL }}favicon/favicon-32x32.png">
-            <link rel="icon" type="image/png" sizes="16x16" href="{{ MEDIA_URL }}favicon/favicon-16x16.png">
-            <link rel="manifest" href="{{ MEDIA_URL }}favicon/site.webmanifest">
+            <link 
+                rel="apple-touch-icon"
+                sizes="180x180"
+                href="{% if DEBUG %}{{ MEDIA_URL }}favicon/apple-touch-icon.png{% else %}{{ MEDIA_URL }}v1742992894/apple-touch-icon_eyexn9.png}"
+
+            >
+            <link 
+                rel="icon"
+                type="image/png"
+                sizes="32x32"
+                href="{% if DEBUG %}{{ MEDIA_URL }}favicon/favicon-32x32.png{% else %}{{ MEDIA_URL }}v1742992894/favicon-32x32_qtwto0.png"
+
+            >
+            <link 
+                rel="icon"
+                type="image/png"
+                sizes="16x16"
+                href="{% if DEBUG %}{{ MEDIA_URL }}favicon/favicon-16x16.png{% else %}{{ MEDIA_URL }}v1742992894/favicon-16x16_eeqpdx.png{% endif %}"
+
+            >
+            <link 
+                rel="manifest"
+                href="{% if DEBUG %}{{ MEDIA_URL }}favicon/site.webmanifest{% else %}{{ MEDIA_URL }}v1742992893/site_xofzlp.webmanifest{% endif %}"
+            >
         {% endblock %}
         {% block extra_css %}
         {% endblock %}
