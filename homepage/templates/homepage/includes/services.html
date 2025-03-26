@@ -7,7 +7,12 @@
                 <div class="card services-card">
                     <div class="row g-0">
                         <div class="col-md-4 services-card-image-container">
-                            <img src="{{ MEDIA_URL }}services-water.webp" class="img-fluid rounded-start services-card-image" alt="An image of a relaxing forest river" loading="lazy">
+                            <img 
+                                src="{% if DEBUG %}{{ MEDIA_URL }}services-water.webp{% else %}{{ MEDIA_URL }}v1742991170/services-water_eaoooj.webp{% endif %}"
+                                class="img-fluid rounded-start services-card-image"
+                                alt="An image of a relaxing forest river"
+                                loading="lazy"
+                            >
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -42,7 +47,12 @@
                 <div class="card services-card">
                     <div class="row g-0">
                         <div class="col-md-4 services-card-image-container">
-                            <img src="{{ MEDIA_URL }}services-hike.webp" class="img-fluid rounded-start services-card-image" alt="An image of a forest from a cave" loading="lazy">
+                            <img 
+                                src="{% if DEBUG %}{{ MEDIA_URL }}services-hike.webp{% else %}{{ MEDIA_URL }}v1742991171/services-hike_n19bbv.webp{% endif %}"
+                                class="img-fluid rounded-start services-card-image"
+                                alt="An image of a forest from a cave"
+                                loading="lazy"
+                            >
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">

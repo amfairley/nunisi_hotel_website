@@ -26,7 +26,11 @@
             <!--Site logo information-->
             <div class="col-4 footer-logo-div d-none d-lg-flex">
                 <a class="footer-logo" href="{% url 'homepage' %}">
-                    <img src="{{ MEDIA_URL }}nunisi-site-logo.png" alt="Nunisi Forest Hotel and Spa Logo" loading="lazy">
+                    <img
+                        src="{% if DEBUG %}{{ MEDIA_URL }}nunisi-site-logo.png{% else %}{{ MEDIA_URL }}v1742992503/nunisi-site-logo_y0xeta.png{% endif %}"
+                        alt="Nunisi Forest Hotel and Spa Logo"
+                        loading="lazy"
+                    >
                 </a>
             </div>  
             <!--Developer contact information-->
