@@ -155,7 +155,7 @@ CLOUDINARY_STORAGE = {
 }
 
 DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
-MEDIA_URL = f"https://res.cloudinary.com/{CLOUDINARY_NAME}/"
+MEDIA_URL = f"https://res.cloudinary.com/{CLOUDINARY_NAME}/image/upload/"
 
 
 STATIC_URL = 'static/'
