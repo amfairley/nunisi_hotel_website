@@ -1,0 +1,1 @@
+web: gunicorn nunisi_hotel_website.wsgi:application
