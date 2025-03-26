@@ -1,0 +1,31 @@
+<header id="index-header" class="navbar navbar-expand-lg bg-nunisi-gold border-dark-gold padding-zero">
+    <div class="container-fluid">
+        <button id="index-burger-nav" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-links">
+                <li class="nav-item d-block d-lg-none index-nav-item">
+                    <a class="nav-link active" aria-current="page" href="#index-booking-form">Book</a>
+                </li>
+                <li class="nav-item index-nav-item">
+                    <a class="nav-link active" aria-current="page" href="#index-about-us">About Us</a>
+                </li>
+                <li class="nav-item index-nav-item">
+                    <a class="nav-link active" aria-current="page" href="#index-services">Services</a>
+                </li>
+                <li class="nav-item index-nav-item">
+                    <a class="nav-link active" aria-current="page" href="#index-location">Location</a>
+                </li>
+                <li class="nav-item index-nav-item">
+                    <a class="nav-link active" aria-current="page" href="#index-faqs">FAQs</a>
+                </li>
+                {% if reviews %}
+                    <li class="nav-item index-nav-item">
+                        <a class="nav-link active" aria-current="page" href="#index-reviews">Reviews</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</header>

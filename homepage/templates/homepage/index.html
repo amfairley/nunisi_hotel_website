@@ -1,5 +1,31 @@
 {% extends 'base.html' %}
 {% load static %}
+
+{% block corecss %}
+    <!--Adds to the block-->
+    {{ block.super }}
+    <style>
+        #index-hero {
+            background-image: url("{{ MEDIA_URL }}hero-image.webp");
+        }
+    </style>
+{% endblock %}
+
+{% block header_content %}
+    {% include 'homepage/includes/header.html' %}
+{% endblock %}
+
 {% block main_content %}
-    <h1>Main page</h1>
+    <main class="content-index">
+        <!--Hero Image-->
+        {% include 'homepage/includes/hero_image.html' %}
+        <!--About Us-->
+        {% include 'homepage/includes/about_us.html' %}
+        <!--Services-->
+        {% include 'homepage/includes/services.html' %}
+        <!--Location-->
+        {% include 'homepage/includes/location.html' %}
+        <!--FAQs-->
+        {% include 'homepage/includes/faq.html' %}
+    </main>
 {% endblock %}

@@ -1,0 +1,38 @@
+<footer class="footer roboto-font bg-nunisi-green font-nunisi-gold">
+    <div class="container footer-container">
+        <div class="row footer-row">
+            <!--Hotel contact information-->
+            <div class="col-12 col-lg-4 hotel-socials">
+                <ul>
+                    <!--Hotel social media links-->
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="facebook-link" aria-label="Follow us on FaceBook">
+                            <i class="fa-brands fa-facebook social-icon"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Follow us on Instagram">
+                            <i class="fa-brands fa-instagram social-icon"></i>
+                        </a>
+                    </li>
+                    <!-- Hotel Email Address -->
+                    <li>
+                        <a href="mailto:nunisi_hotel@gmail.com" class="hotel-email-link" aria-label="Contact us via Email"><i class="fa-solid fa-envelope email-icon-footer"></i>nunisi_hotel@gmail.com</a>
+                    </li>
+                    <!-- Hotel Phone Number -->
+                    <li>
+                        <i class="fa-solid fa-phone phone-icon-footer"></i>555-555-1234
+                    </li>
+                </ul>
+            </div>
+            <!--Site logo information-->
+            <div class="col-4 footer-logo-div d-none d-lg-flex">
+                <a class="footer-logo" href="{% url 'homepage' %}">
+                    <img src="{{ MEDIA_URL }}nunisi-site-logo.png" alt="Nunisi Forest Hotel and Spa Logo" loading="lazy">
+                </a>
+            </div>  
+            <!--Developer contact information-->
+            <div class="col-12 col-lg-4 developer-info-div">
+                <p>Developed by Adam Michael Fairley</p><a href="https://github.com/amfairley" target="_blank" rel="noopener" aria-label="Check out the developers GitHub profile"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>  
+</footer>
