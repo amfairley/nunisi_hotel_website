@@ -6,6 +6,7 @@ def index(request):
     '''Return the homepage'''
     context = {
         'MEDIA_URL': settings.MEDIA_URL,
+        'DEBUG': settings.DEBUG,
     }
     return render(
         request,
