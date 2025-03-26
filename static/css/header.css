@@ -1,0 +1,22 @@
+/* ---------- Navigation bar styling ---------- */
+#top-nav {
+    height: 168px;
+}
+
+/* Logo */
+.site-logo-container {
+    height: 168px;
+    width: 205px;
+    top: 0;
+}
+
+#navbar-brand {
+    height: 168px;
+}
+
+#site-logo-nav {
+    height: 168px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
