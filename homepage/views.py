@@ -6,11 +6,12 @@ from django.utils.translation import get_language, activate, gettext
 
 def index(request):
     '''Return the homepage'''
-    trans = translate(language='en')
+    trans = translate(language=get_language() or settings.LANGUAGE_CODE)
     context = {
         'MEDIA_URL': settings.MEDIA_URL,
         'DEBUG': settings.DEBUG,
         'hotel_name': trans['hotel_name'],
+        'welcome_message': trans['welcome_message'],
     }
     return render(
         request,
@@ -29,7 +30,8 @@ def translate(language):
         activate(language)
         # Select and define translations
         translations = {
-            'hotel_name': _('Nunisi Forest Hotel and Spa')
+            'hotel_name': _('Nunisi Forest Hotel and Spa'),
+            'welcome_message': _('Where luxury is natural!'),
         }
 
     finally:

@@ -146,7 +146,7 @@ LANGUAGES = [
     ('ka', _('Georgian')),  # 'ka' is the language code for Georgian
 ]
 
-LANGUAGE_CODE = 'en'  # Default language
+LANGUAGE_CODE = 'ka'  # Default language
 
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale/'),  # Path where translation files will be stored

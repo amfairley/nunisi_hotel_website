@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-30 08:54+0100\n"
+"POT-Creation-Date: 2025-03-30 16:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,17 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: .\homepage\views.py:12
+#: .\homepage\templates\homepage\includes\hero_image.html:3
+#: .\homepage\views.py:33
 msgid "Nunisi Forest Hotel and Spa"
 msgstr "ნუნისი"
 
-#: .\homepage\views.py:13
-msgid "Welcome to our relaxing retreat in the heart of nature."
-msgstr ""
-
-#: .\homepage\views.py:14
-msgid "Book Now"
-msgstr ""
+#: .\homepage\views.py:34
+msgid "Where luxury is natural!"
+msgstr "TRANSLATION 2"
 
 #: .\nunisi_hotel_website\settings.py:145
 msgid "English"
