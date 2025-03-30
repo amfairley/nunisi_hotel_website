@@ -15,6 +15,7 @@ import cloudinary
 import cloudinary.uploader
 import cloudinary.api
 import os
+from django.utils.translation import gettext_lazy as _
 
 # if in developer mode and there is an env.py file
 if os.path.exists("env.py"):
@@ -36,7 +37,10 @@ if "DEVELOPMENT" in os.environ:
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ["nunisi-hotel-website-5c36c15fb3f8.herokuapp.com", "127.0.0.1"]
+ALLOWED_HOSTS = [
+    "nunisi-hotel-website-5c36c15fb3f8.herokuapp.com",
+    "127.0.0.1"
+]
 
 
 # Application definition
@@ -59,8 +63,9 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',  
+    'whitenoise.middleware.WhiteNoiseMiddleware',  # Static files
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',  # Languages
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -134,13 +139,24 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# Languages
+LANGUAGES = [
+    ('en', _('English')),
+    ('ka', _('Georgian')),  # 'ka' is the language code for Georgian
+]
+
+LANGUAGE_CODE = 'en'  # Default language
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale/'),  # Path where translation files will be stored
+)
 
 USE_I18N = True
-
+USE_L10N = True
 USE_TZ = True
+
+TIME_ZONE = 'UTC'
 
 
 # Static files (CSS, JavaScript, Images)

@@ -1,17 +1,34 @@
-<nav class="navbar navbar-light bg-nunisi-green padding-zero" id="top-nav">
-    <div class="containter w-100">
-        <div class="row w-100">
-            <!--Site Logo-->
-            <div class="col-6 col-lg-auto text-left site-logo-container padding-zero">
-                <a class="navbar-brand" href="{% url 'homepage' %}">
-                    <img 
-                        src="{% if DEBUG %}{{ MEDIA_URL }}nunisi-site-logo.png{% else %}{{ MEDIA_URL }}v1742992503/nunisi-site-logo_y0xeta.png{% endif %}"
-                        alt="Nunisi Forest Hotel and Spa Logo"
-                        id="site-logo-nav"
-                        loading="lazy"
-                    >
-                </a>
-            </div>
+{% load i18n %}
+<nav class="navbar bg-nunisi-green padding-zero w-100" id="top-nav">
+    <!--Site Logo-->
+    <div class="site-logo-container">
+        <a class="navbar-brand" href="{% url 'homepage' %}">
+            <img 
+                src="{% if DEBUG %}{{ MEDIA_URL }}nunisi-site-logo.png{% else %}{{ MEDIA_URL }}v1742992503/nunisi-site-logo_y0xeta.png{% endif %}"
+                alt="Nunisi Forest Hotel and Spa Logo"
+                id="site-logo-nav"
+                loading="lazy"
+            >
+        </a>
+    </div>
+    <div class="site-language-container">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Language
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                {% get_current_language  as LANGUAGE_CODE %}
+                {% get_available_languages  as LANGUAGES %}
+                {% get_language_info_list for LANGUAGES as languages %}
+
+                {% for lang in languages %}
+                    <li>
+                        <a class="dropdown-item" href="/{{ lang.code }}/">
+                            {{ lang.name_local }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
 </nav>
