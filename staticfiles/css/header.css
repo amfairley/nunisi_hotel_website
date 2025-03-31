@@ -1,0 +1,96 @@
+/* ---------- Navigation bar styling ---------- */
+#top-nav {
+    height: 168px;
+}
+
+.header-spacer {
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+}
+
+.site-logo-container,
+#navbar-brand {
+    height: 168px;
+    width: 205px;
+}
+
+#navbar-bran {
+    position: relative;
+}
+
+/*Site Logo */
+#site-logo-nav {
+    height: 168px;
+    width: 205px;
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+
+.site-logo-container,
+.site-language-container {
+    display: inline;
+}
+
+.site-logo-container img{
+    margin-left: 1rem;
+}
+
+/* Language Select
+/* Position it top right */
+.site-language-container {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for flag links */
+.language-flag {
+    display: inline-block;
+    border: 2px solid transparent; /* Default no border */
+    border-radius: 5px;
+    padding: 2px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+/* Active language has a visible border */
+.language-flag.active-language img{
+    border: 2px solid #FDD67C;
+}
+
+/* Language Dropdown */
+/* Position it top right */
+/* .site-language-container {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+} */
+
+/* Remove Down arrow */
+/* .dropdown-toggle::after {
+    display: none !important;
+} */
+
+/* Styling for the button */
+/* #languageDropDownMenuButton {
+    background-color: gray;
+    border: 1px solid #333A3F;
+    border-radius: 0.5rem;
+    color: #333A3F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* 
+#language-slash {
+    margin: 0 0.25rem;
+    padding-bottom: 0.2rem;
+} */
+/* Make options appear on top */
+/* .dropdown-menu li a{
+    position: relative;
+    z-index: 100;
+} */

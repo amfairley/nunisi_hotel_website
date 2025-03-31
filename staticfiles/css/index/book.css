@@ -1,0 +1,43 @@
+#booking-container {
+    border: 0.25rem solid #FDD67C;
+    min-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#booking-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.booking-spacer {
+    display: none;
+}
+
+.booking-com-link {
+    border-radius: 1rem;
+    background-color: #23387E;
+    padding: 1px 5px;
+    color: #f5f5f5;
+}
+
+.booking-phone-number {
+    font-weight: bold;
+}
+
+
+@media (max-width: 430px) {
+    /*Update text-size*/
+    #booking-container h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 620px) {
+    /*Put phone number and link on new lines*/
+    .booking-spacer {
+        display: block;;
+    }
+}
