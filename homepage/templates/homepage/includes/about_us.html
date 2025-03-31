@@ -1,3 +1,29 @@
+<div class="container-fluid" id="index-about-us">
+    <div class="row g-0">
+        <div class="col-12 about-us-background-image">
+            <img
+                src="{% if DEBUG %}{{ MEDIA_URL }}resort-information-image-1.webp{% else %}{{ MEDIA_URL }}v1742992504/resort-information-image-1_usa9x2.webp{% endif %}"
+                class="d-block w-100"
+                alt="An arial view of Nunisi forest"
+                loading="lazy"
+            >
+        </div>
+        <div class="d-none d-lg-block col-6 about-us-empty-space">
+        </div>
+        <div class="col-12 col-md-6 about-us-text">
+            <h3>{{ about_us_title }}</h3>
+            <p>{{ about_us_paragraph_1 }}</p>
+            <p>{{ about_us_paragraph_2 }}</p>
+        </div>
+    </div>
+    <div class="col-12 about-us-bottom-text">
+        <h3>{{ about_us_title }}</h3>
+        <p>{{ about_us_paragraph_1 }}</p>
+        <p>{{ about_us_paragraph_2 }}</p>
+    </div>
+</div>
+
+<!-- 
 <div class="container" id="index-about-us">
     <div class="row">
         <div class="col-12 col-lg-6" id="index-resort-image-column">
@@ -37,4 +63,4 @@
         </article>
     </div>
 </div>
-<hr class="index-horizontal-rule">
+<hr class="index-horizontal-rule"> -->

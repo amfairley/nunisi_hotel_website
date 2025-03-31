@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-30 16:07+0100\n"
+"POT-Creation-Date: 2025-03-31 13:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,13 +19,35 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: .\homepage\templates\homepage\includes\hero_image.html:3
-#: .\homepage\views.py:33
+#: .\homepage\views.py:36
 msgid "Nunisi Forest Hotel and Spa"
-msgstr "ნუნისი"
+msgstr "ნუნისის ფორესტის სასტუმრო და სპა"
 
-#: .\homepage\views.py:34
+#: .\homepage\templates\homepage\includes\hero_image.html:4
+#: .\homepage\views.py:37
 msgid "Where luxury is natural!"
-msgstr "TRANSLATION 2"
+msgstr "მკურნალი წყალი და ულამაზესი ბუნება"
+
+#: .\homepage\views.py:38
+msgid "One of the most popular resorts in Georgia"
+msgstr "საუკეთესო კურორტი საქართველოში"
+
+#: .\homepage\views.py:39
+msgid ""
+"Home to one of the world's finest naturally warm, healing sulfur waters, "
+"Nunisi has been renowned in the Borjomi-Kharagauli region since the 17th "
+"century. Since 1856, Nunisi Balneological Resort has been treating skin "
+"conditions and remains open today for those seeking relaxation in the heart "
+"of nature."
+msgstr "ბუმებრივად თბილ, სამკურნალო, გოგირდოვან წყალს ბოჯომ - ხარაგაულის რაიონში -  ნუნისში შეხვდებით. აქაური მინერალური წყლების შესახებ ჯერ კიდევ XVII საუკუნეში იყო ცნობილი.  ნუნისის ბალნეოლოგიური კურორტი 1856 წლიდან კურნავს კანის დაავადებებს და სწორედ ამ დღიდან მასპინძლობს მათ ვისაც სურს საოცარ, ველურ და თვალწარმტაც ბუნებაში დაისვენოს."
+
+#: .\homepage\views.py:40
+msgid ""
+"Nunisi Forest Hotel and Spa welcomes everyone to spend their days at one of "
+"Georgia's most beautiful resorts. With lush greenery, fresh air, healing "
+"waters, and natural nutrition, it offers the perfect setting for an ideal "
+"vacation."
+msgstr "სასტუმრ  მასპინძ₾ობს ყველას, ვისაც სურს გაატაროს დღეები საქართველოს ერთ-ერთ ულამაზეს კურორტზე: ულამაზესი, მწვანე გარემო, სუფთა ჰაერი, სამკურნალო წყალი, ნატურალური პროდუქტები - ეს ყველაფერი თქვენი იდეალური დასვენების გარანტიაა."
 
 #: .\nunisi_hotel_website\settings.py:145
 msgid "English"

@@ -12,6 +12,9 @@ def index(request):
         'DEBUG': settings.DEBUG,
         'hotel_name': trans['hotel_name'],
         'welcome_message': trans['welcome_message'],
+        'about_us_title': trans['about_us_title'],
+        'about_us_paragraph_1': trans['about_us_paragraph_1'],
+        'about_us_paragraph_2': trans['about_us_paragraph_2'],
     }
     return render(
         request,
@@ -32,6 +35,9 @@ def translate(language):
         translations = {
             'hotel_name': _('Nunisi Forest Hotel and Spa'),
             'welcome_message': _('Where luxury is natural!'),
+            'about_us_title': _('One of the most popular resorts in Georgia'),
+            'about_us_paragraph_1': _("Home to one of the world's finest naturally warm, healing sulfur waters, Nunisi has been renowned in the Borjomi-Kharagauli region since the 17th century. Since 1856, Nunisi Balneological Resort has been treating skin conditions and remains open today for those seeking relaxation in the heart of nature."),
+            'about_us_paragraph_2': _("Nunisi Forest Hotel and Spa welcomes everyone to spend their days at one of Georgia's most beautiful resorts. With lush greenery, fresh air, healing waters, and natural nutrition, it offers the perfect setting for an ideal vacation."),
         }
 
     finally:

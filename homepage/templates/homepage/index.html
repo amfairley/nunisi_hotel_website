@@ -11,23 +11,28 @@
                 url("{{ MEDIA_URL }}hero-image.webp");
         }
     </style>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/index.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/header.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/hero.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/page_break.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/book.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/about_us.css' %}">
+
+
+
 {% endblock %}
 
 {% block header_content %}
-    {% include 'homepage/includes/header.html' %}
 {% endblock %}
 
 {% block main_content %}
+    {% include 'homepage/includes/header.html' %}
     <main class="content-index">
         <!--Hero Image-->
         {% include 'homepage/includes/hero_image.html' %}
-        <!--About Us-->
+        {% include 'homepage/includes/book.html' %}
         {% include 'homepage/includes/about_us.html' %}
-        <!--Services-->
-        {% include 'homepage/includes/services.html' %}
-        <!--Location-->
-        {% include 'homepage/includes/location.html' %}
-        <!--FAQs-->
-        {% include 'homepage/includes/faq.html' %}
+
+
     </main>
 {% endblock %}
