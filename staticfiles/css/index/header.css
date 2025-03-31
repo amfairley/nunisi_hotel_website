@@ -44,6 +44,12 @@
     color: #3A6B35;
 }
 
+/* Scroll off-set */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 53px;
+}
+
 @media (max-width: 992px) {
     /*Burger menu navigation links*/
     .navbar-links {
@@ -65,4 +71,10 @@
     .index-nav-item a:hover::after {
         width: 100%; 
     }
+
+    /* Scroll offset for index header: mobile */
+    html {
+        scroll-padding-top: 230px;
+    }
 }
+

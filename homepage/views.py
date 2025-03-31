@@ -10,6 +10,8 @@ def index(request):
     context = {
         'MEDIA_URL': settings.MEDIA_URL,
         'DEBUG': settings.DEBUG,
+        'header_link_about_us': trans['header_link_about_us'],
+        'header_link_nunisi_water': trans['header_link_nunisi_water'],
         'hotel_name': trans['hotel_name'],
         'welcome_message': trans['welcome_message'],
         'about_us_title': trans['about_us_title'],
@@ -40,6 +42,8 @@ def translate(language):
         activate(language)
         # Select and define translations
         translations = {
+            'header_link_about_us': _('About Us'),
+            'header_link_nunisi_water': _('Nunisi Water'),
             'hotel_name': _('Nunisi Forest Hotel and Spa'),
             'welcome_message': _('Where luxury is natural!'),
             'about_us_title': _('One of the most popular resorts in Georgia'),

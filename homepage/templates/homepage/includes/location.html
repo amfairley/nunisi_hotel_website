@@ -1,12 +1,12 @@
-<div class="container" id="index-location">
-    <div class="row">
-        <div class="col-12 col-lg-6 location-info">
+<div class="container-fluid" id="index-location-container">
+    <div class="row" id="index-location">
+        <div class="col-12 col-md-6 location-info">
             <div class="location-background">
             </div>
-            <h2 class="section-title">Location</h2>
-            <p class="section-text">Our hotel is accessible by car following directions to the location date provided here. Alternatively, there is a train from Tbilisi that stops at a station nearby and we can arrange collection or a taxi to bring you the rest of the way. Access to the resort itself is via a cable car over the river Nunisitskali.</p>
+            <h2 class="section-title">{{ location_title }}</h2>
+            <p class="section-text">{{ location_paragraph }}</p>
         </div>
-        <div class="col-12 col-lg-6 location-map-div">
+        <div class="col-12 col-md-6 location-map-div">
             <!--Map-->
             <div>
                 <iframe 
@@ -22,4 +22,3 @@
         </div>
     </div>
 </div>
-<hr class="index-horizontal-rule">

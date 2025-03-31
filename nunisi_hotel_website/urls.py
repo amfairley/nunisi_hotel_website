@@ -9,12 +9,12 @@ from django.shortcuts import redirect
 
 def redirect_to_default_language(request):
     """Force redirect to Georgian ('ka') unless another language is explicitly set."""
-    # language = get_language_from_request(request) or 'ka'
-    language = 'en'
+    language = get_language_from_request(request) or 'ka'
+    # language = 'en'
 
     # Override browser preference and force 'ka' if no language cookie exists
     if 'django_language' not in request.COOKIES:
-        language = 'en'  # Force default language
+        language = 'ka'  # Force default language
 
     response = redirect(f'/{language}/')
     response.set_cookie('django_language', language)  # Store language preference

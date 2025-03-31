@@ -7,8 +7,13 @@
     <style>
         #index-hero {
             background-image:
-                url("{{ MEDIA_URL }}v1742984202/hero-image_nntk8s.webp"),
-                url("{{ MEDIA_URL }}hero-image.webp");
+                url('{{ MEDIA_URL }}v1742984202/hero-image_nntk8s.webp'),
+                url('{{ MEDIA_URL }}hero-image.webp');
+        }
+        .location-background {
+            background-image: 
+                url('{{ MEDIA_URL }}v1743431422/georgia-map_hm6ezv.webp'),
+                url('{{ MEDIA_URL }}georgia-map.webp');
         }
     </style>
     <link rel="stylesheet" type="text/css" href="{% static 'css/index/index.css' %}">
@@ -19,6 +24,8 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/index/about_us.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/index/water.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/index/spa.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/location.css' %}">
+
 
 
 
@@ -36,5 +43,23 @@
         {% include 'homepage/includes/about_us.html' %}
         {% include 'homepage/includes/water.html' %}
         {% include 'homepage/includes/spa.html' %}
+        {% include 'homepage/includes/location.html' %}
     </main>
+{% endblock %}
+
+{% block postloadjs %}
+    <script>
+        document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
+            /**
+             * Script to hide the homepage navbar burger menu when a link is clicked
+             */
+            link.addEventListener("click", function () {
+                const navbarCollapse = new bootstrap.Collapse(
+                    document.getElementById("navbarSupportedContent"),
+                    {toggle: false}
+                );
+                navbarCollapse.hide();
+            });
+        });
+    </script>
 {% endblock %}

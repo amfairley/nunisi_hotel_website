@@ -206,47 +206,6 @@ main {
     color: #333A3F;
 }
 
-/* Index location section */
-.location-info {
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 300px;
-}
-
-.location-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/media/georgia-map.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.1;
-    border: 1px solid #b88c26;
-    border-radius: 5%;
-    z-index: 1;
-}
-
-#location-map {
-    width: 100%;
-    min-height: 300px;
-    border-radius: 5%;
-}
-
-/* Index FAQ section */
-.faq-list {
-    list-style-type: none;
-}
-
-.faq-question {
-    font-weight: bolder;
-}
 
 /* ---------- Available Rooms ---------- */
 /* Errors */
@@ -1262,10 +1221,10 @@ main {
 /* ---------- Media-queries ---------- */
 @media (min-width: 992px) {
     /* Scroll offset for index header: desktop */
-    html {
+    /* html {
         scroll-behavior: smooth;
         scroll-padding-top: 60px;
-    }
+    } */
 }
 
 @media (max-width: 992px) {
