@@ -11,12 +11,46 @@
             >
         </a>
     </div>
+    <!--Language select-->
     <div class="site-language-container">
+        {% get_current_language as LANGUAGE_CODE %}
+
+        <!-- Georgian Flag -->
+        <a href="/ka/" class="language-flag {% if LANGUAGE_CODE == 'ka' %}active-language{% endif %}">
+            <img 
+                src="{% if DEBUG %}{{ MEDIA_URL }}flags/ka.gif{% else %}{{ MEDIA_URL }}v1743355877/ka_rcciif.gif{% endif %}"
+                alt="Georgian Flag"
+                loading="lazy"
+            >
+        </a>
+        <!-- British Flag -->
+        <a href="/en/" class="language-flag {% if LANGUAGE_CODE == 'en' %}active-language{% endif %}">
+            <img 
+                src="{% if DEBUG %}{{ MEDIA_URL }}flags/gb.gif{% else %}{{ MEDIA_URL }}v1743355877/gb_cakgee.gif{% endif %}"
+                alt="British Flag"
+                loading="lazy"
+            >
+        </a>
+    </div>
+    <!--Language drop downselector-->
+    <!-- <div class="site-language-container">
         <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                Language
+            <button class="btn dropdown-toggle" type="button" id="languageDropDownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <img 
+                    src="{% if DEBUG %}{{ MEDIA_URL }}flags/ka.gif{% else %}{{ MEDIA_URL }}v1743355877/ka_rcciif.gif{% endif %}"
+                    alt="Georgian Flag"
+                    class="language-button-flags"
+                    loading="lazy"
+                >
+                <span id="language-slash">/</span>
+                <img 
+                    src="{% if DEBUG %}{{ MEDIA_URL }}flags/gb.gif{% else %}{{ MEDIA_URL }}v1743355877/gb_cakgee.gif{% endif %}"
+                    alt="British Flag"
+                    id="language-button-flags"
+                    loading="lazy"
+                >
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropDownMenuButton">
                 {% get_current_language  as LANGUAGE_CODE %}
                 {% get_available_languages  as LANGUAGES %}
                 {% get_language_info_list for LANGUAGES as languages %}
@@ -30,5 +64,5 @@
                 {% endfor %}
             </ul>
         </div>
-    </div>
+    </div> -->
 </nav>
