@@ -1,6 +1,6 @@
 #booking-container {
     border: 0.25rem solid #FDD67C;
-    min-height: 5rem;
+    min-height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;

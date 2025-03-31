@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-31 13:05+0100\n"
+"POT-Creation-Date: 2025-03-31 13:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,36 +18,89 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: .\homepage\templates\homepage\includes\hero_image.html:3
-#: .\homepage\views.py:36
+#: .\homepage\views.py:43
 msgid "Nunisi Forest Hotel and Spa"
 msgstr "ნუნისის ფორესტის სასტუმრო და სპა"
 
-#: .\homepage\templates\homepage\includes\hero_image.html:4
-#: .\homepage\views.py:37
+#: .\homepage\views.py:44
 msgid "Where luxury is natural!"
 msgstr "მკურნალი წყალი და ულამაზესი ბუნება"
 
-#: .\homepage\views.py:38
+#: .\homepage\views.py:45
 msgid "One of the most popular resorts in Georgia"
 msgstr "საუკეთესო კურორტი საქართველოში"
 
-#: .\homepage\views.py:39
+#: .\homepage\views.py:46
 msgid ""
 "Home to one of the world's finest naturally warm, healing sulfur waters, "
 "Nunisi has been renowned in the Borjomi-Kharagauli region since the 17th "
 "century. Since 1856, Nunisi Balneological Resort has been treating skin "
 "conditions and remains open today for those seeking relaxation in the heart "
 "of nature."
-msgstr "ბუმებრივად თბილ, სამკურნალო, გოგირდოვან წყალს ბოჯომ - ხარაგაულის რაიონში -  ნუნისში შეხვდებით. აქაური მინერალური წყლების შესახებ ჯერ კიდევ XVII საუკუნეში იყო ცნობილი.  ნუნისის ბალნეოლოგიური კურორტი 1856 წლიდან კურნავს კანის დაავადებებს და სწორედ ამ დღიდან მასპინძლობს მათ ვისაც სურს საოცარ, ველურ და თვალწარმტაც ბუნებაში დაისვენოს."
+msgstr ""
+"ბუმებრივად თბილ, სამკურნალო, გოგირდოვან წყალს ბოჯომ - ხარაგაულის რაიონში -  "
+"ნუნისში შეხვდებით. აქაური მინერალური წყლების შესახებ ჯერ კიდევ XVII "
+"საუკუნეში იყო ცნობილი.  ნუნისის ბალნეოლოგიური კურორტი 1856 წლიდან კურნავს "
+"კანის დაავადებებს და სწორედ ამ დღიდან მასპინძლობს მათ ვისაც სურს საოცარ, "
+"ველურ და თვალწარმტაც ბუნებაში დაისვენოს."
 
-#: .\homepage\views.py:40
+#: .\homepage\views.py:47
 msgid ""
 "Nunisi Forest Hotel and Spa welcomes everyone to spend their days at one of "
 "Georgia's most beautiful resorts. With lush greenery, fresh air, healing "
 "waters, and natural nutrition, it offers the perfect setting for an ideal "
 "vacation."
-msgstr "სასტუმრ  მასპინძ₾ობს ყველას, ვისაც სურს გაატაროს დღეები საქართველოს ერთ-ერთ ულამაზეს კურორტზე: ულამაზესი, მწვანე გარემო, სუფთა ჰაერი, სამკურნალო წყალი, ნატურალური პროდუქტები - ეს ყველაფერი თქვენი იდეალური დასვენების გარანტიაა."
+msgstr ""
+"სასტუმრ  მასპინძ₾ობს ყველას, ვისაც სურს გაატაროს დღეები საქართველოს ერთ-ერთ "
+"ულამაზეს კურორტზე: ულამაზესი, მწვანე გარემო, სუფთა ჰაერი, სამკურნალო წყალი, "
+"ნატურალური პროდუქტები - ეს ყველაფერი თქვენი იდეალური დასვენების გარანტიაა."
+
+#: .\homepage\views.py:48
+msgid "The Unique Waters of Nunisi Forest Hotel and Spa"
+msgstr "ნუნისის უნიკალური წყალი"
+
+#: .\homepage\views.py:49
+msgid ""
+"The secret behind Nunisi's healing power lies in its water. Rich in silicic "
+"acid, Nunisi's mineral waters are renowned for their therapeutic benefits. "
+"They aid in treating various skin conditions such as psoriasis, eczema, "
+"neurodermatitis, and impetigo, as well as bone, joint, and peripheral "
+"nervous system disorders. The primary treatment method involves mineral "
+"water baths, offering a natural path to wellness and relaxation."
+msgstr "ნუნისის მაკურნებელი ძალის საიდუმლო წყლის შემადგენლობაშია.წყლის სამკურნალო თვისებებს კი კაჟმჟავას მაღალი კონცენტრაცია განაპირობებს. კაჟმჟავას შემცველობის გამო ნუნისის წყალი უხდება კანის დაავადებებს – ფსორიაზს, ეგზემას, ნეიროდერმიტს, იმპეტიგოს, ასევე, ალერგიას,ძვალ-სახსართა და პერიფერიული ნერვული სისტემის დაავადებებს. მკურნალობის ძირითადი მეთოდი მინერალური წყლის აბაზანებია."
+
+#: .\homepage\views.py:50
+msgid "Spa Procedures"
+msgstr "სპა პროცედურები"
+
+#: .\homepage\views.py:51
+msgid ""
+"Since many guests visit Nunisi for health and wellness treatments, we offer "
+"a range of additional services to complement our mineral bath therapy. These "
+"include private doctor consultations, massage therapy, and other medical "
+"services designed to enhance relaxation and healing."
+msgstr "იქიდან გამომდინარე, რომ სასტუმრო „Nunisi Forest and Spa-“ს ძირითადი სტუმრები  გაჯანსაღებისა და სამკურნალო პროცედურების ჩატარების მიზნით ჩამოდიან, სასტუმრო აბაზანების პროცედურების გარდა სტუმრებს სთავაზობს გამაჯანსაღებელ სერვისებს - კერძო ექიმის კონსულტაცია, მასაჟის კაბინეტი, იოგა და სხვა გამაჯანსაღებელი მომსახურება."
+
+#: .\homepage\views.py:52
+msgid ""
+"Doctor Consultations: Guests have the opportunity to receive personalized "
+"advice from a qualified doctor. Each consultation is tailored to the "
+"individual, ensuring the most appropriate treatment plan for their specific "
+"needs."
+msgstr "ექიმის კონსულტაცია: ყველა სტუმარს შესაძლებლობა ექნება კონსულტაცია გაიაროს მაღალ კვალიფიციურ ექიმთან. ექიმი თითოეულ სტუმარს მიუდგება ინდივიდუალურად და შეურჩევს მისთვის სასურველ პროცედურების კურსს."
+
+#: .\homepage\views.py:53
+msgid "Location"
+msgstr "ლოკაცია"
+
+#: .\homepage\views.py:54
+msgid ""
+"Situated 750 meters above sea level within the Borjomi-Kharagauli National "
+"Park, in the scenic gorge of the Nunisistskali River, lies the Nunisi Forest "
+"Hotel and Spa. With its unique combination of a mild climate and high-"
+"alkalinity mineral water, Nunisi is especially beneficial for individuals "
+"suffering from skin conditions."
+msgstr "ბორჯომ-ხარაგაულის ეროვნული პარკის ტერიტორიაზე, მდინარე ნუნისისწყლის ხეობაში, ბალნეო-კლიმატური კურორტი ნუნისი მდებარეობს ზღვის დონიდან 750 მ სიმაღლეზე. ბუნებრივი სამკურნალო ფაქტორები – ჰავა და მაღალი ტუტიანობით გამორჩეული წყალი, რომელიც განსაკუთრებით სასარგებლოა მათთვის, ვისაც კანის დაავადებები აწუხებს."
 
 #: .\nunisi_hotel_website\settings.py:145
 msgid "English"

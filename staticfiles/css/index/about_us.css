@@ -46,7 +46,8 @@
     font-family: Caveat, "Brush Script MT", cursive;
     color: #FDD67C;
     font-size: 3rem;
-    text-align: center;   
+    text-align: center;
+    width: 100%;  
 }
 
 .about-us-text p {

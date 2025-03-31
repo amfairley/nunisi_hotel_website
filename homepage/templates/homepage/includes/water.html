@@ -1,0 +1,21 @@
+<div class="container-fluid" id="index-water">
+    <div class="row g-0">
+        <div class="col-12 water-background-image">
+            <img 
+                src="{% if DEBUG %}{{ MEDIA_URL }}services-water.webp{% else %}{{ MEDIA_URL }}v1742991170/services-water_eaoooj.webp{% endif %}"
+                alt="An image of a relaxing forest river"
+                loading="lazy"
+            >
+        </div>
+        <div class="col-12 col-md-6 water-text">
+            <h3>{{ water_title }}</h3>
+            <p>{{ water_paragraph }}</p>
+        </div>
+        <div class="d-none d-lg-block col-6 water-empty-space">
+        </div>
+    </div>
+    <div class="col-12 water-bottom-text">
+        <h3>{{ water_title }}</h3>
+        <p>{{ water_paragraph }}</p>
+    </div>
+</div>

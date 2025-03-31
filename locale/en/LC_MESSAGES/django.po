@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-31 13:05+0100\n"
+"POT-Creation-Date: 2025-03-31 13:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,21 +18,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\homepage\templates\homepage\includes\hero_image.html:3
-#: .\homepage\views.py:36
+#: .\homepage\views.py:43
 msgid "Nunisi Forest Hotel and Spa"
 msgstr "Nunisi Forest Hotel and Spa"
 
-#: .\homepage\templates\homepage\includes\hero_image.html:4
-#: .\homepage\views.py:37
+#: .\homepage\views.py:44
 msgid "Where luxury is natural!"
 msgstr "Where luxury is natural!"
 
-#: .\homepage\views.py:38
+#: .\homepage\views.py:45
 msgid "One of the most popular resorts in Georgia"
 msgstr "One of the most popular resorts in Georgia"
 
-#: .\homepage\views.py:39
+#: .\homepage\views.py:46
 msgid ""
 "Home to one of the world's finest naturally warm, healing sulfur waters, "
 "Nunisi has been renowned in the Borjomi-Kharagauli region since the 17th "
@@ -46,7 +44,7 @@ msgstr ""
 "conditions and remains open today for those seeking relaxation in the heart "
 "of nature."
 
-#: .\homepage\views.py:40
+#: .\homepage\views.py:47
 msgid ""
 "Nunisi Forest Hotel and Spa welcomes everyone to spend their days at one of "
 "Georgia's most beautiful resorts. With lush greenery, fresh air, healing "
@@ -57,6 +55,72 @@ msgstr ""
 "Georgia's most beautiful resorts. With lush greenery, fresh air, healing "
 "waters, and natural nutrition, it offers the perfect setting for an ideal "
 "vacation."
+
+#: .\homepage\views.py:48
+msgid "The Unique Waters of Nunisi Forest Hotel and Spa"
+msgstr "The Unique Waters of Nunisi Forest Hotel and Spa"
+
+#: .\homepage\views.py:49
+msgid ""
+"The secret behind Nunisi's healing power lies in its water. Rich in silicic "
+"acid, Nunisi's mineral waters are renowned for their therapeutic benefits. "
+"They aid in treating various skin conditions such as psoriasis, eczema, "
+"neurodermatitis, and impetigo, as well as bone, joint, and peripheral "
+"nervous system disorders. The primary treatment method involves mineral "
+"water baths, offering a natural path to wellness and relaxation."
+msgstr ""
+"The secret behind Nunisi's healing power lies in its water. Rich in silicic "
+"acid, Nunisi's mineral waters are renowned for their therapeutic benefits. "
+"They aid in treating various skin conditions such as psoriasis, eczema, "
+"neurodermatitis, and impetigo, as well as bone, joint, and peripheral "
+"nervous system disorders. The primary treatment method involves mineral "
+"water baths, offering a natural path to wellness and relaxation."
+
+#: .\homepage\views.py:50
+msgid "Spa Procedures"
+msgstr "Spa Procedures"
+
+#: .\homepage\views.py:51
+msgid ""
+"Since many guests visit Nunisi for health and wellness treatments, we offer "
+"a range of additional services to complement our mineral bath therapy. These "
+"include private doctor consultations, massage therapy, and other medical "
+"services designed to enhance relaxation and healing."
+msgstr ""
+"Since many guests visit Nunisi for health and wellness treatments, we offer "
+"a range of additional services to complement our mineral bath therapy. These "
+"include private doctor consultations, massage therapy, and other medical "
+"services designed to enhance relaxation and healing."
+
+#: .\homepage\views.py:52
+msgid ""
+"Doctor Consultations: Guests have the opportunity to receive personalized "
+"advice from a qualified doctor. Each consultation is tailored to the "
+"individual, ensuring the most appropriate treatment plan for their specific "
+"needs."
+msgstr ""
+"Doctor Consultations: Guests have the opportunity to receive personalized "
+"advice from a qualified doctor. Each consultation is tailored to the "
+"individual, ensuring the most appropriate treatment plan for their specific "
+"needs."
+
+#: .\homepage\views.py:53
+msgid "Location"
+msgstr "Location"
+
+#: .\homepage\views.py:54
+msgid ""
+"Situated 750 meters above sea level within the Borjomi-Kharagauli National "
+"Park, in the scenic gorge of the Nunisistskali River, lies the Nunisi Forest "
+"Hotel and Spa. With its unique combination of a mild climate and high-"
+"alkalinity mineral water, Nunisi is especially beneficial for individuals "
+"suffering from skin conditions."
+msgstr ""
+"Situated 750 meters above sea level within the Borjomi-Kharagauli National "
+"Park, in the scenic gorge of the Nunisistskali River, lies the Nunisi Forest "
+"Hotel and Spa. With its unique combination of a mild climate and high-"
+"alkalinity mineral water, Nunisi is especially beneficial for individuals "
+"suffering from skin conditions."
 
 #: .\nunisi_hotel_website\settings.py:145
 msgid "English"
