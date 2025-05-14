@@ -12,7 +12,6 @@
 
 .index-nav-item a{
     color: #3A6B35 !important;
-    font-weight: bolder;
     position: relative;
     text-decoration: none;
     display: inline-block;
@@ -26,7 +25,7 @@
     width: 0;
     background-color: #3A6B35;
     transition: width 0.3s ease;
-    height: 3px;
+    height: 2px;
 }
 
 .index-nav-item a:hover::after {
@@ -66,7 +65,7 @@ html {
         width: 0;
         background-color: #3A6B35;
         transition: width 0.3s ease;
-        height: 3px;
+        height: 2px;
     }
     .index-nav-item a:hover::after {
         width: 100%; 

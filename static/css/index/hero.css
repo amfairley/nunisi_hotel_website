@@ -5,17 +5,51 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem; /* for some spacing from the edges */
 }
 
 #hero-title {
     text-align: center;
     color: #F5F5F5;
     font-size: 6rem;
+    text-transform: uppercase;
     text-shadow: 
         2px 2px 0px #333A3F,
         -1px -1px 0px #333A3F,
         -1px 1px 0px #333A3F,
         1px 1px 0px #333A3F;
+    /*Stretch the text vertically*/
+    transform: scaleY(1.2);
+    display: inline-block;
+}
+
+.title-font {
+    font-family: Jost, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Prata;
+    font-size: 5rem !important;
+    font-family: 'Tenor Sans';
+    font-family: 'Cinzel Decorative';
+    font-weight: 700;
+    font-family: 'Playfair Display FC';
+    font-size: 5.5rem !important;
+    font-family: Staatliches;
+    font-weight: 400;
+    font-size: 8rem !important;
+    font-family: 'Vollkorn SC';
+    font-weight: 700;
+    font-size: 5.5rem !important;
+    font-family: Cinzel;
+    font-size: 5rem !important;
+    font-family: 'Cormorant Garamond';
+    font-size: 5.5rem !important;
+    font-family: Unbounded;
+    font-size: 4rem !important;
 }
 
 #hero-message {

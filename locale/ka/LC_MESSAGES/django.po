@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-31 15:36+0100\n"
+"POT-Creation-Date: 2025-05-08 17:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,27 +18,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: .\homepage\views.py:45
+#: .\homepage\views.py:50
 msgid "About Us"
 msgstr "ჩვენს შესახებ"
 
-#: .\homepage\views.py:46
+#: .\homepage\views.py:51
 msgid "Nunisi Water"
 msgstr "ნუნისის წყალი"
 
-#: .\homepage\views.py:47
+#: .\homepage\views.py:52
 msgid "Nunisi Forest Hotel and Spa"
-msgstr "ნუნისის ფორესტის სასტუმრო და სპა"
+msgstr "ნუნისი ფორესტის სასტუმრო და სპა"
 
-#: .\homepage\views.py:48
+#: .\homepage\views.py:53
 msgid "Where luxury is natural!"
 msgstr "მკურნალი წყალი და ულამაზესი ბუნება"
 
-#: .\homepage\views.py:49
+#: .\homepage\views.py:54
+msgid "Book now via"
+msgstr "დაჯავშნეთ ახლავე"
+
+#: .\homepage\views.py:55
+msgid " Email: nunisi2002@gmail.com"
+msgstr " ელექტრონული ფოსტა: nunisi2002@gmail.com"
+
+#: .\homepage\views.py:56
+msgid " Phone: (+995) 599 22 55 80"
+msgstr " ტელეფონი: (+995) 599 22 55 80"
+
+#: .\homepage\views.py:57 .\venv\Lib\site-packages\django\utils\text.py:286
+msgid "or"
+msgstr "ან"
+
+#: .\homepage\views.py:58
+msgid "Book through booking.com"
+msgstr "დაჯავშნეთ ახლავე booking.com"
+
+#: .\homepage\views.py:59
 msgid "One of the most popular resorts in Georgia"
 msgstr "საუკეთესო კურორტი საქართველოში"
 
-#: .\homepage\views.py:50
+#: .\homepage\views.py:60
 msgid ""
 "Home to one of the world's finest naturally warm, healing sulfur waters, "
 "Nunisi has been renowned in the Borjomi-Kharagauli region since the 17th "
@@ -52,7 +72,7 @@ msgstr ""
 "კანის დაავადებებს და სწორედ ამ დღიდან მასპინძლობს მათ ვისაც სურს საოცარ, "
 "ველურ და თვალწარმტაც ბუნებაში დაისვენოს."
 
-#: .\homepage\views.py:51
+#: .\homepage\views.py:61
 msgid ""
 "Nunisi Forest Hotel and Spa welcomes everyone to spend their days at one of "
 "Georgia's most beautiful resorts. With lush greenery, fresh air, healing "
@@ -63,11 +83,11 @@ msgstr ""
 "ულამაზეს კურორტზე: ულამაზესი, მწვანე გარემო, სუფთა ჰაერი, სამკურნალო წყალი, "
 "ნატურალური პროდუქტები - ეს ყველაფერი თქვენი იდეალური დასვენების გარანტიაა."
 
-#: .\homepage\views.py:52
+#: .\homepage\views.py:62
 msgid "The Unique Waters of Nunisi Forest Hotel and Spa"
 msgstr "ნუნისის უნიკალური წყალი"
 
-#: .\homepage\views.py:53
+#: .\homepage\views.py:63
 msgid ""
 "The secret behind Nunisi's healing power lies in its water. Rich in silicic "
 "acid, Nunisi's mineral waters are renowned for their therapeutic benefits. "
@@ -83,11 +103,11 @@ msgstr ""
 "ნერვული სისტემის დაავადებებს. მკურნალობის ძირითადი მეთოდი მინერალური წყლის "
 "აბაზანებია."
 
-#: .\homepage\views.py:54
-msgid "Spa Procedures"
-msgstr "სპა პროცედურები"
+#: .\homepage\views.py:64
+msgid "Services"
+msgstr "მომსახურება"
 
-#: .\homepage\views.py:55
+#: .\homepage\views.py:65
 msgid ""
 "Since many guests visit Nunisi for health and wellness treatments, we offer "
 "a range of additional services to complement our mineral bath therapy. These "
@@ -100,7 +120,7 @@ msgstr ""
 "გამაჯანსაღებელ სერვისებს - კერძო ექიმის კონსულტაცია, მასაჟის კაბინეტი, იოგა "
 "და სხვა გამაჯანსაღებელი მომსახურება."
 
-#: .\homepage\views.py:56
+#: .\homepage\views.py:66
 msgid ""
 "Doctor Consultations: Guests have the opportunity to receive personalized "
 "advice from a qualified doctor. Each consultation is tailored to the "
@@ -111,11 +131,11 @@ msgstr ""
 "მაღალ კვალიფიციურ ექიმთან. ექიმი თითოეულ სტუმარს მიუდგება ინდივიდუალურად და "
 "შეურჩევს მისთვის სასურველ პროცედურების კურსს."
 
-#: .\homepage\views.py:57
+#: .\homepage\views.py:67
 msgid "Location"
 msgstr "ლოკაცია"
 
-#: .\homepage\views.py:58
+#: .\homepage\views.py:68
 msgid ""
 "Situated 750 meters above sea level within the Borjomi-Kharagauli National "
 "Park, in the scenic gorge of the Nunisistskali River, lies the Nunisi Forest "
@@ -1144,10 +1164,6 @@ msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s…"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\utils\text.py:286
-msgid "or"
-msgstr ""
-
 #. Translators: This string is used as a separator between list elements
 #: .\venv\Lib\site-packages\django\utils\text.py:305
 #: .\venv\Lib\site-packages\django\utils\timesince.py:135
@@ -1364,3 +1380,6 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:236
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid "Spa Procedures"
+#~ msgstr "სპა პროცედურები"

@@ -1,22 +1,26 @@
 <div id="booking-container">
     <h2 class="jost-font">
-        Book now by calling us on
-        <br class="booking-spacer">
-        <span class="booking-phone-number">
-            +959000000
-        </span>
-        <br class="booking-spacer">
-        or book through
-        <br class="booking-spacer">
-        <a 
-            class="booking-com-link"
-            href="https://www.booking.com/hotel/ge/nunisi-forest-spa.html"
-            aria-label = "Go to the booking.com page for Nunisi Hotel Forest and Spa"
-            title="booking.com page"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Booking.com 
-        </a>
+        {{ booking_title }}
+        <ul class="booking-info-list">
+            <li>
+                <i class="fa-solid fa-envelope"></i>{{ booking_email }}
+            </li>
+            <li>
+                <i class="fa-solid fa-phone"></i>{{ booking_phone }}
+            </li>
+            <li>
+                {{ booking_or }}
+                <a 
+                    class="booking-com-link"
+                    href="https://www.booking.com/hotel/ge/nunisi-forest-spa.html"
+                    aria-label = "Go to the booking.com page for Nunisi Hotel Forest and Spa"
+                    title="{{ booking_booking_com }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Booking.com 
+                </a>
+            </li>
+        </ul>
     </h2>
 </div>
