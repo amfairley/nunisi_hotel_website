@@ -33,26 +33,26 @@
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropDownMenuButton" id="languageDropDownMenuOptions">
                 {% for lang in languages %}
                     <li>
-                <a class="dropdown-item d-flex align-items-center" href="/{{ lang.code }}/">
-                    {% if DEBUG %}
-                        <img 
-                            src="{{ MEDIA_URL }}flags/{{ lang.code }}.gif"
-                            alt="{{ lang.name_local }} flag"
-                            class="language-dropdown-flag me-2"
-                            loading="lazy"
-                        >
-                    {% else %}
-                        <img 
-                            src="{% if LANGUAGE_CODE == 'ka' %}
-                                    {{ MEDIA_URL }}v1743355877/ka_rcciif.gif
-                                {% elif LANGUAGE_CODE == 'en' %}
-                                    {{ MEDIA_URL }}v1743355877/gb_cakgee.gif
-                                {% endif %}"
-                            alt="{{ lang.name_local }} flag"
-                            class="language-dropdown-flag me-2"
-                            loading="lazy"
-                        >
-                    {% endif %}
+                        <a class="dropdown-item d-flex align-items-center" href="/{{ lang.code }}/">
+                            {% if DEBUG %}
+                                <img 
+                                    src="{{ MEDIA_URL }}flags/{{ lang.code }}.gif"
+                                    alt="{{ lang.name_local }} flag"
+                                    class="language-dropdown-flag me-2"
+                                    loading="lazy"
+                                >
+                            {% else %}
+                                <img 
+                                    src="{% if lang.code == 'ka' %}
+                                            {{ MEDIA_URL }}v1743355877/ka_rcciif.gif
+                                        {% elif lang.code == 'en' %}
+                                            {{ MEDIA_URL }}v1743355877/gb_cakgee.gif
+                                        {% endif %}"
+                                    alt="{{ lang.name_local }} flag"
+                                    class="language-dropdown-flag me-2"
+                                    loading="lazy"
+                                >
+                            {% endif %}
                             {{ lang.name_local }}
                         </a>
                     </li>
