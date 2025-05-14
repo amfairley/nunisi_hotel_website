@@ -1,40 +1,19 @@
 /* ---------- Navigation bar styling ---------- */
+/* Whole navigation bar */
 #top-nav {
-    height: 168px;
-}
-
-.header-spacer {
-    display: flex;
-    justify-content: space-between;
-    align-items:start;
-}
-
-.site-logo-container,
-#navbar-brand {
-    height: 168px;
-    width: 205px;
-}
-
-#navbar-bran {
-    position: relative;
+    height: 100px;
+    text-align: center;
 }
 
 /*Site Logo */
 #site-logo-nav {
-    height: 168px;
-    width: 205px;
+    height: 100px;
+    width: 122px;
     position: absolute;
     top: 0;
-    left: 0;
-} 
-
-.site-logo-container,
-.site-language-container {
-    display: inline;
-}
-
-.site-logo-container img{
-    margin-left: 1rem;
+    margin: 0;
+    /* Centres the image - half of image width */
+    left: calc(50% - 61px);
 }
 
 /* Language Select
@@ -43,54 +22,56 @@
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
-    display: flex;
-    justify-content: space-between;
 }
 
 /* Style for flag links */
 .language-flag {
     display: inline-block;
-    border: 2px solid transparent; /* Default no border */
+    border: 2px solid transparent;
     border-radius: 5px;
     padding: 2px;
     transition: border-color 0.2s ease-in-out;
 }
 
-/* Active language has a visible border */
-.language-flag.active-language img{
-    border: 2px solid #FDD67C;
+/* Remove Down arrow */
+.dropdown-toggle::after {
+    display: none !important;
 }
 
-/* Language Dropdown */
-/* Position it top right */
-/* .site-language-container {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-} */
-
-/* Remove Down arrow */
-/* .dropdown-toggle::after {
-    display: none !important;
-} */
-
-/* Styling for the button */
-/* #languageDropDownMenuButton {
-    background-color: gray;
+/* Language button */
+#languageDropDownMenuButton {
+    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #FFD95B;
+    background-color: rgba(128, 128, 128, 0.5);
     border: 1px solid #333A3F;
     border-radius: 0.5rem;
-    color: #333A3F;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-/* 
-#language-slash {
-    margin: 0 0.25rem;
-    padding-bottom: 0.2rem;
-} */
-/* Make options appear on top */
-/* .dropdown-menu li a{
-    position: relative;
-    z-index: 100;
-} */
+    transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease;
+}
+
+#languageDropDownMenuButton:hover,
+#languageDropDownMenuButton:active,
+#languageDropDownMenuButton.show {
+    color: #3A6B35;
+    background-color: #FFD95B;
+    border: #B88C26;
+}
+
+#languageDropDownMenuOptions {
+    background-color: #FFD95B;
+    z-index: 100000000;
+}
+
+#languageDropDownMenuOptions a{
+    font-family: Roboto, Arial, Helvetica, sans-serif;;
+    color: #3A6B35;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#languageDropDownMenuOptions a:hover {
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+#languageDropDownMenuOptions a img{
+    padding-top: 2px;
+}

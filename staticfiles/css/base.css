@@ -1,47 +1,8 @@
 /* ---------- Fonts ---------- */
 /* Google font imports */
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Jost&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@700&family=Cormorant+Garamond:ital,wght@0,700;1,700&family=Playfair+Display+SC:ital,wght@0,700;1,700&family=Prata&family=Staatliches&family=Tenor+Sans&family=Unbounded:wght@700&family=Vollkorn+SC:wght@700&display=swap');
 
-/* Font classes */
-.jost-font {
-    font-family: Jost, Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-.caveat-font {
-    font-family: Caveat, "Brush Script MT", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-.roboto-font {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* Font colour classes */
-.font-nunisi-gold {
-    color: #FDD67C;
-}
-
-.font-nunisi-green {
-    color: #3A6B35;
-}
-
-.font-off-black {
-    color: #333A3F;
-}
-
-.font-off-white {
-    color: #F5F5F5;
-}
-
-/* Font weight classes */
-.font-weight-bolder {
-    font-weight: bolder;
-}
 
 /* ---------- Global styling ---------- */
 * {
@@ -65,6 +26,70 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+/* Background colours */
+.bg-nunisi-green {
+    background-color: #3A6B35;
+}
+
+.bg-nunisi-gold {
+    background-color: #FFD95B;
+}
+
+/* Border colours */
+.border-dark-gold {
+    border: 1px solid #b88c26;
+}
+
+
+
+
+
+
+
+/* Font classes */
+.jost-font {
+    font-family: Jost, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.caveat-font {
+    font-family: Caveat, "Brush Script MT", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.roboto-font {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Font colour classes */
+.font-nunisi-gold {
+    /* color: #FDD67C; */
+    color: #FFD95B;
+}
+
+.font-nunisi-green {
+    color: #3A6B35;
+}
+
+.font-off-black {
+    color: #333A3F;
+}
+
+.font-off-white {
+    color: #F5F5F5;
+}
+
+/* Font weight classes */
+.font-weight-bolder {
+    font-weight: bolder;
+}
+
+
 
 /* Site background */
 .content {
@@ -99,13 +124,9 @@ main {
 }
 
 /* Background colours */
-.bg-nunisi-green {
-    background-color: #3A6B35;
-}
 
-.bg-nunisi-gold {
-    background-color: #FDD67C;
-}
+
+
 
 .bg-nunisi-dark-gold {
     background-color: #b88c26;
@@ -117,9 +138,6 @@ main {
     border-radius: 3%;
 }
 
-.border-dark-gold {
-    border: 1px solid #b88c26;
-}
 
 /* ---------- index.html ---------- */
 

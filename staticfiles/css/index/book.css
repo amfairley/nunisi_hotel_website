@@ -12,8 +12,13 @@
     line-height: 3rem;
 }
 
-.booking-spacer {
-    display: none;
+.booking-info-list {
+    list-style-type: none;
+    font-size: smaller;
+}
+
+.booking-info-list li {
+    padding: 0.5rem;
 }
 
 .booking-com-link {
