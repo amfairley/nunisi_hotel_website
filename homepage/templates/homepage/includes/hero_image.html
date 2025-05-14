@@ -1,5 +1,47 @@
 {% load i18n %}
-<section id="index-hero" aria-label="Nunisi Forest and Spa Hotel Arial Photo">
+<div class="carousel-container position-relative">
+    <!--Overlay-->
+    <div class="carousel-overlay">
+        <h1 id="hero-title">{{ hotel_name }}</h1>
+        <h2 id="hero-message">{{ welcome_message }}</h2>
+    </div>
+
+    <!--Carousel-->
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="7000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="zoom-wrapper">
+                    <img src="{% if DEBUG %}{{ MEDIA_URL }}hero_carousel_images/main_house_day.webp{% else %}{{ MEDIA_URL }}v1747244369/main_house_day_ui6vtj.webp{% endif %}" class="d-block w-100" alt="The main house during the day">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="zoom-wrapper">
+                    <img src="{% if DEBUG %}{{ MEDIA_URL }}hero_carousel_images/main_path.webp{% else %}{{ MEDIA_URL }}v1747244366/main_path_coisvd.webp{% endif %}" class="d-block w-100" alt="A walk through the grounds">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="zoom-wrapper">
+                    <img src="{% if DEBUG %}{{ MEDIA_URL }}hero_carousel_images/church.webp{% else %}{{ MEDIA_URL }}v1747244367/church_ey2gr7.webp{% endif %}" class="d-block w-100" alt="The on site chapel">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="zoom-wrapper">
+                    <img src="{% if DEBUG %}{{ MEDIA_URL }}hero_carousel_images/main_house_night.webp{% else %}{{ MEDIA_URL }}v1747244369/main_house_night_fcsmin.webp{% endif %}" class="d-block w-100" alt="The main house at night">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <section id="index-hero" aria-label="Nunisi Forest and Spa Hotel Arial Photo">
     <h1 id="hero-title" class="title-font">{{ hotel_name }}</h1>
     <h2 id="hero-message" class="caveat-font">{{ welcome_message }}</h2>
-</section>
+</section> -->

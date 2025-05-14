@@ -1,21 +1,25 @@
-/* Index hero section */
-#index-hero {
-    width: 100%;
-    height: 65vh;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
+/* Carousel container */
+.carousel-container {
+  position: relative;
+}
 
+/* Carousel Overlay */
+.carousel-overlay {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    /* Put the title at the top and message at the bottom */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2rem; /* for some spacing from the edges */
 }
 
+/* Title */
 #hero-title {
     text-align: center;
     color: #F5F5F5;
-    font-size: 6rem;
+    font-size: 5rem;
     text-transform: uppercase;
     text-shadow: 
         2px 2px 0px #333A3F,
@@ -25,46 +29,107 @@
     /*Stretch the text vertically*/
     transform: scaleY(1.2);
     display: inline-block;
+    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
+    padding-top: 1.5rem;
 }
 
-.title-font {
-    font-family: Jost, Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-family: Prata;
-    font-size: 5rem !important;
-    font-family: 'Tenor Sans';
-    font-family: 'Cinzel Decorative';
-    font-weight: 700;
-    font-family: 'Playfair Display FC';
-    font-size: 5.5rem !important;
-    font-family: Staatliches;
-    font-weight: 400;
-    font-size: 8rem !important;
-    font-family: 'Vollkorn SC';
-    font-weight: 700;
-    font-size: 5.5rem !important;
-    font-family: Cinzel;
-    font-size: 5rem !important;
-    font-family: 'Cormorant Garamond';
-    font-size: 5.5rem !important;
-    font-family: Unbounded;
-    font-size: 4rem !important;
-}
-
+/* Message */
 #hero-message {
     text-align: center;
     color: #f5f5f5;
+    font-family: Caveat, "Brush Script MT", cursive;
+    font-size: 4rem;
     text-shadow: 
         2px 2px 0px #333A3F,
         -1px -1px 0px #333A3F,
         -1px 1px 0px #333A3F,
         1px 1px 0px #333A3F;
+    margin-bottom: 2rem;
 }
 
-@media (max-width: 760px) {
-    /*Update hero text size*/
+/* Carousel zoom */
+.zoom-wrapper {
+  overflow: hidden;
+}
+
+.zoom-wrapper img {
+  animation: zoomFade 7s ease-in-out forwards;
+  transform-origin: center center;
+}
+
+@keyframes zoomFade {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+/* Carousel images */
+.carousel-inner {
+    height: 100%; /* or whatever height you want */
+    max-height: 75vh;
+    display: flex;
+    align-items: center; /* vertical centering */
+}
+
+.carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain; /* or 'cover' if you prefer full coverage with cropping */
+}
+
+/*Make sure carousel images don’t cover the overlay */
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+  position: relative;
+  z-index: 1;
+}
+
+/* Put indicators above the hero message */
+.carousel-indicators {
+    z-index: 400;
+}
+
+
+/* Resize carousel on screen widths */
+@media (max-width: 1000px) {
+    /* Reduce hero title */
     #hero-title {
+        font-size: 3.5rem;
+    }
+    /* Reduce hero message */
+    #hero-message {
         font-size: 3rem;
+    }
+}
+
+
+@media (max-width: 660px) {
+    /* Reduce hero title */
+    #hero-title {
+        font-size: 2rem;
+    }
+    /* Reduce hero message */
+    #hero-message {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    /* Reduce hero title */
+    #hero-title {
+        font-size: 1.5rem;
+    }
+    /* Reduce hero message */
+    #hero-message {
+        font-size: 1rem;
     }
 }
