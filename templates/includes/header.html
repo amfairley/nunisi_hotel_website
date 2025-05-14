@@ -1,8 +1,11 @@
 {% load i18n %}
-<nav class="navbar bg-nunisi-green padding-zero w-100" id="top-nav">
+<nav class="navbar bg-nunisi-green" id="top-nav">
     <!--Site Logo-->
     <div class="site-logo-container">
-        <a class="navbar-brand" href="{% url 'homepage' %}">
+        <a
+            href="{% url 'homepage' %}"
+            aria-label="Go to the Nunisi Forest Hotel and Spa Homepage"
+        >
             <img 
                 src="{% if DEBUG %}{{ MEDIA_URL }}nunisi-site-logo.png{% else %}{{ MEDIA_URL }}v1742992503/nunisi-site-logo_y0xeta.png{% endif %}"
                 alt="Nunisi Forest Hotel and Spa Logo"
@@ -11,11 +14,54 @@
             >
         </a>
     </div>
-    <!--Language select-->
+    <!-- Language dropdown selector -->
     <div class="site-language-container">
         {% get_current_language as LANGUAGE_CODE %}
+        {% get_available_languages as LANGUAGES %}
+        {% get_language_info_list for LANGUAGES as languages %}
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button"
+                    id="languageDropDownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <!--Set current language-->
+                {% if LANGUAGE_CODE == 'ka' %}
+                    KA
+                {% elif LANGUAGE_CODE == 'en' %}
+                    EN
+                {% endif %}
+            </button>
 
-        <!-- Georgian Flag -->
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropDownMenuButton" id="languageDropDownMenuOptions">
+                {% for lang in languages %}
+                    <li>
+                <a class="dropdown-item d-flex align-items-center" href="/{{ lang.code }}/">
+                    {% if DEBUG %}
+                        <img 
+                            src="{{ MEDIA_URL }}flags/{{ lang.code }}.gif"
+                            alt="{{ lang.name_local }} flag"
+                            class="language-dropdown-flag me-2"
+                            loading="lazy"
+                        >
+                    {% else %}
+                        <img 
+                            src="{% if LANGUAGE_CODE == 'ka' %}
+                                    {{ MEDIA_URL }}v1743355877/ka_rcciif.gif
+                                {% elif LANGUAGE_CODE == 'en' %}
+                                    {{ MEDIA_URL }}v1743355877/gb_cakgee.gif
+                                {% endif %}"
+                            alt="{{ lang.name_local }} flag"
+                            class="language-dropdown-flag me-2"
+                            loading="lazy"
+                        >
+                    {% endif %}
+                            {{ lang.name_local }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <!--Language select-->
+    <!-- <div class="site-language-container">
         <a href="/ka/" class="language-flag {% if LANGUAGE_CODE == 'ka' %}active-language{% endif %}">
             <img 
                 src="{% if DEBUG %}{{ MEDIA_URL }}flags/ka.gif{% else %}{{ MEDIA_URL }}v1743355877/ka_rcciif.gif{% endif %}"
@@ -23,7 +69,6 @@
                 loading="lazy"
             >
         </a>
-        <!-- British Flag -->
         <a href="/en/" class="language-flag {% if LANGUAGE_CODE == 'en' %}active-language{% endif %}">
             <img 
                 src="{% if DEBUG %}{{ MEDIA_URL }}flags/gb.gif{% else %}{{ MEDIA_URL }}v1743355877/gb_cakgee.gif{% endif %}"
@@ -31,38 +76,5 @@
                 loading="lazy"
             >
         </a>
-    </div>
-    <!--Language drop downselector-->
-    <!-- <div class="site-language-container">
-        <div class="dropdown">
-            <button class="btn dropdown-toggle" type="button" id="languageDropDownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                <img 
-                    src="{% if DEBUG %}{{ MEDIA_URL }}flags/ka.gif{% else %}{{ MEDIA_URL }}v1743355877/ka_rcciif.gif{% endif %}"
-                    alt="Georgian Flag"
-                    class="language-button-flags"
-                    loading="lazy"
-                >
-                <span id="language-slash">/</span>
-                <img 
-                    src="{% if DEBUG %}{{ MEDIA_URL }}flags/gb.gif{% else %}{{ MEDIA_URL }}v1743355877/gb_cakgee.gif{% endif %}"
-                    alt="British Flag"
-                    id="language-button-flags"
-                    loading="lazy"
-                >
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropDownMenuButton">
-                {% get_current_language  as LANGUAGE_CODE %}
-                {% get_available_languages  as LANGUAGES %}
-                {% get_language_info_list for LANGUAGES as languages %}
-
-                {% for lang in languages %}
-                    <li>
-                        <a class="dropdown-item" href="/{{ lang.code }}/">
-                            {{ lang.name_local }}
-                        </a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
     </div> -->
 </nav>

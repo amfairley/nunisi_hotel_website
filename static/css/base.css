@@ -1,3 +1,10 @@
+/* Background colours */
+.bg-nunisi-green {
+    background-color: #3A6B35;
+}
+
+
+
 /* ---------- Fonts ---------- */
 /* Google font imports */
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Jost&family=Roboto:ital,wght@0,400;1,300&display=swap');
@@ -24,7 +31,8 @@
 
 /* Font colour classes */
 .font-nunisi-gold {
-    color: #FDD67C;
+    /* color: #FDD67C; */
+    color: #FFD95B;
 }
 
 .font-nunisi-green {
@@ -100,9 +108,7 @@ main {
 }
 
 /* Background colours */
-.bg-nunisi-green {
-    background-color: #3A6B35;
-}
+
 
 .bg-nunisi-gold {
     background-color: #FDD67C;
