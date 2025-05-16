@@ -1,51 +1,121 @@
+/* Container for the section */
 #booking-container {
     min-height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 217%2c 91%2c 1)'%3e%3c/rect%3e%3cpath d='M0 0L533.61 0L0 775.52z' filter='url(%23SvgjsFilter1009)' fill='rgba(58%2c 107%2c 53%2c 1)'%3e%3c/path%3e%3cpath d='M0 560L533.61 560L0 -215.51999999999998z' filter='url(%23SvgjsFilter1009)' fill='rgba(58%2c 107%2c 53%2c 1)'%3e%3c/path%3e%3cpath d='M1440 560L906.39 560L1440 -215.51999999999998z' filter='url(%23SvgjsFilter1009)' fill='rgba(58%2c 107%2c 53%2c 1)'%3e%3c/path%3e%3cpath d='M1440 0L906.39 0L1440 775.52z' filter='url(%23SvgjsFilter1009)' fill='rgba(58%2c 107%2c 53%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cfilter height='130%25' id='SvgjsFilter1009'%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='-5' in='TopLeftG' result='TopLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopLeftO' result='TopLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='-5' in='TopRightG' result='TopRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopRightO' result='TopRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='5' in='BottomLeftG' result='BottomLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomLeftO' result='BottomLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='5' in='BottomRightG' result='BottomRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomRightO' result='BottomRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeMerge%3e%3cfeMergeNode in='TopLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='TopRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='SourceGraphic'%3e%3c/feMergeNode%3e%3c/feMerge%3e%3c/filter%3e%3c/defs%3e%3c/svg%3e");    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #FAF3DF;
+    padding: 2rem;
+    border-top: 2px solid #D4B15C;
+    border-bottom: 2px solid #D4B15C;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
+/* Container for the information in the section */
 #booking-container h2 {
-    margin-top: 1rem;
+    font-family: Jost, Arial, Helvetica, sans-serif;
+    color: #333A3F;
     text-align: center;
     font-size: 2rem;
     line-height: 3rem;
+    background-color: #FAF3DF;
+    border: 2px solid #3A6B35;
+    border-radius: 0.5rem;
+    padding: 1rem 6rem;
+    margin: 0 auto;
+    position: relative;
+    box-shadow:
+        inset 0 0 0 2px #B88C26, /* inner gold trim */
+        0 2px 10px rgba(0, 0, 0, 0.05); /* soft outer shadow */
+    letter-spacing: 0.02em;
+    background-image: linear-gradient(145deg, rgba(255,255,255,0.1) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.1) 75%, transparent 75%, transparent);
+    background-size: 2rem 2rem;
 }
 
+/* Title */
+.booking-title {
+    display: block;
+    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    color: #2e3b2d;
+    margin-bottom: 1rem;
+}
+
+/* List */
 .booking-info-list {
     list-style-type: none;
-    font-size: smaller;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0 auto;
+    color: #3c3c3c;
 }
 
-.booking-info-list li {
-    padding: 0.5rem;
+/* Links */
+.facebook-link {
+    border-radius: 1rem;
+    background-color: #1877F2;
+    padding: 0.3rem 0.7rem;
+    color: #f5f5f5;
+    margin-right: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.facebook-link:hover {
+    background-color: #145dc2;
 }
 
 .booking-com-link {
     border-radius: 1rem;
     background-color: #23387E;
-    padding: 1px 5px;
+    padding: 0.3rem 0.7rem;
+    margin-left: 0.5rem;
     color: #f5f5f5;
-}
-
-.booking-phone-number {
+    text-decoration: none;
     font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
+.booking-com-link:hover {
+    background-color: #1c2d6b;
+}
 
-@media (max-width: 430px) {
-    /*Update text-size*/
+/* Media queries */
+@media (max-width: 650px) {
+    /* Reduce side padding */
     #booking-container h2 {
+        padding: 1rem;
+    }
+    /* Reduce title size */
+    .booking-title {
         font-size: 1.5rem;
+        margin-bottom: 0.5rem;
     }
 }
 
-@media (max-width: 620px) {
-    /*Put phone number and link on new lines*/
-    .booking-spacer {
-        display: block;;
+@media (max-width: 430px) {
+    /* Reduce container padding */
+    #booking-container {
+        padding: 1rem;
+    }
+
+    /* Reduce text size */
+    .booking-title {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .booking-info-list {
+        font-size: 0.7rem;
+    }
+
+    .facebook-link {
+        margin-right: 0.3rem;
+    }
+
+    .booking-com-link {
+        margin-left: 0.3rem;
     }
 }

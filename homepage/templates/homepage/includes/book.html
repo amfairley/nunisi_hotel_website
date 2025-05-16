@@ -1,6 +1,6 @@
 <div id="booking-container">
-    <h2 class="jost-font">
-        {{ booking_title }}
+    <h2>
+        <span class="booking-title">{{ booking_title }}</span>
         <ul class="booking-info-list">
             <li>
                 <i class="fa-solid fa-envelope"></i>{{ booking_email }}
@@ -9,12 +9,21 @@
                 <i class="fa-solid fa-phone"></i>{{ booking_phone }}
             </li>
             <li>
+                Through 
+                <a 
+                    href="https://www.facebook.com/NunisiResort"
+                    target="_blank"
+                    rel="noopener"
+                    class="facebook-link"
+                    aria-label="Go to our FaceBook page to book"
+                >
+                    Facebook
+                </a>
                 {{ booking_or }}
                 <a 
                     class="booking-com-link"
                     href="https://www.booking.com/hotel/ge/nunisi-forest-spa.html"
                     aria-label = "Go to the booking.com page for Nunisi Hotel Forest and Spa"
-                    title="{{ booking_booking_com }}"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
