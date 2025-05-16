@@ -6,9 +6,6 @@
     align-items: center;
     background-color: #FAF3DF;
     padding: 2rem;
-    border-top: 2px solid #D4B15C;
-    border-bottom: 2px solid #D4B15C;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 /* Container for the information in the section */
