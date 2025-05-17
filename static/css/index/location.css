@@ -5,12 +5,12 @@
 }
 
 #index-location {
-    border-top: 1px solid #FDD67C;
     box-sizing: border-box;
     margin: 0;
     padding: 1rem;
     width: 100%;
     position: relative;
+    background-color: #FAF3DF;
 }
 
 .location-info {
@@ -24,6 +24,27 @@
     margin: 0;
 }
 
+.location-info h3 {
+    font-family: Parisienne, 'Brush Script MT', 'Lucida Handwriting', cursive;
+    color: #FFD95B;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    text-shadow: 
+        2px 2px 0px #333A3F,
+        -1px -1px 0px #333A3F,
+        -1px 1px 0px #333A3F,
+        1px 1px 0px #333A3F;
+}
+
+.location-info p {
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 1rem;
+    align-items: baseline;
+}
+
 .location-background {
     position: absolute;
     top: 0;
@@ -33,9 +54,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.1;
-    border: 1px solid #b88c26;
-    border-radius: 5%;
+    opacity: 0.3;
+    border-radius: 0.5rem;
     z-index: 1;
 }
 
@@ -46,9 +66,15 @@
 }
 
 @media (max-width: 768px) {
-    /*Add space between sections */
+    /* Add space between sections */
     .location-info {
         margin-bottom: 1rem;
     }
+}
 
+@media (max-width: 550px) {
+    /* Centre map image */
+    .location-background {
+        background-size: contain;
+    }
 }
