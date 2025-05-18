@@ -1,42 +1,93 @@
-<footer class="footer roboto-font bg-nunisi-green font-nunisi-gold">
-    <div class="container footer-container">
-        <div class="row footer-row">
-            <!--Hotel contact information-->
-            <div class="col-12 col-lg-4 hotel-socials">
-                <ul>
-                    <!--Hotel social media links-->
+<footer class="footer container-fluid bg-nunisi-green">
+    <div class="row footer-row">
+        <!--Hotel contact information - Desktop-->
+        <div class="col-4 footer-section d-none d-md-block">
+            <p class="footer-section-title">Contact us</p>
+            <ul class="footer-list">
+                <!-- Hotel Email Address -->
+                <li>
+                    <a href="mailto:nunisi2002@gmail.com" class="hotel-email-link" aria-label="Contact us via Email"><i class="fa-solid fa-envelope email-icon-footer"></i>nunisi2002@gmail.com</a>
+                </li>
+                <!-- Hotel Phone Number -->
+                <li>
+                    <i class="fa-solid fa-phone phone-icon-footer"></i>599 22 55 80
+                </li>
+                <!-- Hotel Address -->
+                <a
+                    class="footer-hotel-link"
+                    href="https://www.google.com/maps/place/Nunisi+forest+Hotel%26+SPA/@42.0551151,43.3603537,9.79z/data=!4m9!3m8!1s0x40434975bb81cdc9:0xdeb6f561bb0e19e5!5m2!4m1!1i2!8m2!3d41.9505705!4d43.4076541!16s%2Fg%2F11fxzz6kb3?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Open google maps"
+                >
                     <li>
-                        <a href="https://www.facebook.com/NunisiResort" target="_blank" rel="noopener" class="facebook-link" aria-label="Follow us on FaceBook">
-                            <i class="fa-brands fa-facebook social-icon"></i>
-                        </a>
-                        <a href="https://www.instagram.com/nunisi_forest_hotel_and_spa/" target="_blank" rel="noopener" aria-label="Follow us on Instagram">
-                            <i class="fa-brands fa-instagram social-icon"></i>
-                        </a>
+                        <i class="fa-solid fa-map-location-dot map-icon-footer"></i>10 Cereteli street, Borough
                     </li>
-                    <!-- Hotel Email Address -->
                     <li>
-                        <a href="mailto:nunisi2002@gmail.com" class="hotel-email-link" aria-label="Contact us via Email"><i class="fa-solid fa-envelope email-icon-footer"></i>nunisi2002@gmail.com</a>
+                        <i class="fa-solid fa-map-location-dot map-icon-footer map-2"></i>Kharagauli, Georgia
                     </li>
-                    <!-- Hotel Phone Number -->
-                    <li>
-                        <i class="fa-solid fa-phone phone-icon-footer"></i>599 22 55 80
-                    </li>
-                </ul>
-            </div>
-            <!--Site logo information-->
-            <div class="col-4 footer-logo-div d-none d-lg-flex">
-                <a class="footer-logo" href="{% url 'homepage' %}">
-                    <img
-                        src="{% if DEBUG %}{{ MEDIA_URL }}nunisi-site-logo.png{% else %}{{ MEDIA_URL }}v1742992503/nunisi-site-logo_y0xeta.png{% endif %}"
-                        alt="Nunisi Forest Hotel and Spa Logo"
-                        loading="lazy"
-                    >
                 </a>
-            </div>  
-            <!--Developer contact information-->
-            <div class="col-12 col-lg-4 developer-info-div">
-                <p>Developed by Adam Michael Fairley</p><a href="https://github.com/amfairley" target="_blank" rel="noopener" aria-label="Check out the developers GitHub profile"><i class="fa-brands fa-github"></i></a>
-            </div>
+            </ul>
         </div>
-    </div>  
+        <!--Site logo information-->
+        <div class="col-12 col-md-4 footer-logo-div footer-section">
+            <a class="footer-logo" href="{% url 'homepage' %}">
+                <img
+                    src="{% if DEBUG %}{{ MEDIA_URL }}nunisi-site-logo.png{% else %}{{ MEDIA_URL }}v1742992503/nunisi-site-logo_y0xeta.png{% endif %}"
+                    alt="Nunisi Forest Hotel and Spa Logo"
+                    loading="lazy"
+                >
+            </a>
+            <p class="footer-copywrite">&copy; 2025 Nunisi Nature Hotel. All rights reserved.</p>
+        </div>  
+        <!--Social Media-->
+        <div class="col-12 col-md-4 footer-section">
+            <p class="footer-section-title">Follow us on social media</p>
+            <!--Hotel social media links-->
+            <ul class="footer-list social-media-list">
+                <li>
+                    <a href="https://www.facebook.com/NunisiResort" target="_blank" rel="noopener" aria-label="Follow us on FaceBook" class="footer-facebook-link">
+                        <i class="fa-brands fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/nunisi_forest_hotel_and_spa/" target="_blank" rel="noopener" aria-label="Follow us on Instagram" class="footer-instagram-link">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--Hotel contact information - Mobile-->
+        <div class="col-12 footer-section d-block d-md-none hotel-contact">
+            <p class="footer-section-title">Contact us</p>
+            <ul class="footer-list contact-list">
+                <!-- Hotel Email Address -->
+                <li>
+                    <a href="mailto:nunisi2002@gmail.com" class="hotel-email-link" aria-label="Contact us via Email"><i class="fa-solid fa-envelope email-icon-footer"></i>nunisi2002@gmail.com</a>
+                </li>
+                <!-- Hotel Phone Number -->
+                <li>
+                    <i class="fa-solid fa-phone phone-icon-footer"></i>599 22 55 80
+                </li>
+                <!-- Hotel Address -->
+                <a
+                    class="footer-hotel-link"
+                    href="https://www.google.com/maps/place/Nunisi+forest+Hotel%26+SPA/@42.0551151,43.3603537,9.79z/data=!4m9!3m8!1s0x40434975bb81cdc9:0xdeb6f561bb0e19e5!5m2!4m1!1i2!8m2!3d41.9505705!4d43.4076541!16s%2Fg%2F11fxzz6kb3?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Open google maps"
+                >
+                    <li>
+                        <i class="fa-solid fa-map-location-dot map-icon-footer"></i>10 Cereteli street, Borough
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-map-location-dot map-icon-footer map-2"></i>Kharagauli, Georgia
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
 </footer>
