@@ -1,48 +1,118 @@
+/* Container for the section */
 #booking-container {
-    border: 0.25rem solid #FDD67C;
     min-height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FAF3DF;
+    padding: 2rem;
 }
 
+/* Container for the information in the section */
 #booking-container h2 {
+    font-family: Jost, Arial, Helvetica, sans-serif;
+    color: #333A3F;
     text-align: center;
     font-size: 2rem;
     line-height: 3rem;
+    background-color: #FAF3DF;
+    border: 2px solid #3A6B35;
+    border-radius: 0.5rem;
+    padding: 1rem 6rem;
+    margin: 0 auto;
+    position: relative;
+    box-shadow:
+        inset 0 0 0 2px #B88C26, /* inner gold trim */
+        0 2px 10px rgba(0, 0, 0, 0.05); /* soft outer shadow */
+    letter-spacing: 0.02em;
+    background-image: linear-gradient(145deg, rgba(255,255,255,0.1) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.1) 75%, transparent 75%, transparent);
+    background-size: 2rem 2rem;
 }
 
+/* Title */
+.booking-title {
+    display: block;
+    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    color: #2e3b2d;
+    margin-bottom: 1rem;
+}
+
+/* List */
 .booking-info-list {
     list-style-type: none;
-    font-size: smaller;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0 auto;
+    color: #3c3c3c;
 }
 
-.booking-info-list li {
-    padding: 0.5rem;
+/* Links */
+.facebook-link {
+    border-radius: 1rem;
+    background-color: #1877F2;
+    padding: 0.3rem 0.7rem;
+    color: #f5f5f5;
+    margin-right: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.facebook-link:hover {
+    background-color: #145dc2;
 }
 
 .booking-com-link {
     border-radius: 1rem;
     background-color: #23387E;
-    padding: 1px 5px;
+    padding: 0.3rem 0.7rem;
+    margin-left: 0.5rem;
     color: #f5f5f5;
-}
-
-.booking-phone-number {
+    text-decoration: none;
     font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
+.booking-com-link:hover {
+    background-color: #1c2d6b;
+}
 
-@media (max-width: 430px) {
-    /*Update text-size*/
+/* Media queries */
+@media (max-width: 650px) {
+    /* Reduce side padding */
     #booking-container h2 {
+        padding: 1rem;
+    }
+    /* Reduce title size */
+    .booking-title {
         font-size: 1.5rem;
+        margin-bottom: 0.5rem;
     }
 }
 
-@media (max-width: 620px) {
-    /*Put phone number and link on new lines*/
-    .booking-spacer {
-        display: block;;
+@media (max-width: 430px) {
+    /* Reduce container padding */
+    #booking-container {
+        padding: 1rem;
+    }
+
+    /* Reduce text size */
+    .booking-title {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .booking-info-list {
+        font-size: 0.7rem;
+    }
+
+    .facebook-link {
+        margin-right: 0.3rem;
+    }
+
+    .booking-com-link {
+        margin-left: 0.3rem;
     }
 }

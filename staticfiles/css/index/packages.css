@@ -1,0 +1,56 @@
+#index-packages {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem 0;
+    width: 100%;
+    position: relative;
+    background-color: #FAF3DF;
+}
+
+#index-packages h2 {
+    font-family: Parisienne, 'Brush Script MT', 'Lucida Handwriting', cursive;
+    color: #FFD95B;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    text-shadow: 
+        2px 2px 0px #333A3F,
+        -1px -1px 0px #333A3F,
+        -1px 1px 0px #333A3F,
+        1px 1px 0px #333A3F;
+}
+
+.index-package-card {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: #333A3F;
+    border: 2px solid #3A6B35;
+    border-radius: 0.5rem;
+    box-shadow:
+        inset 0 0 0 1px rgba(184, 140, 38, 0.3), /* subtler inner gold trim */
+        0 1px 6px rgba(0, 0, 0, 0.03); /* softer outer shadow */
+    letter-spacing: 0.02em;
+    background-image: linear-gradient(145deg, rgba(255,255,255,0.05) 25%, transparent 25%, 
+                      transparent 50%, rgba(255,255,255,0.05) 50%, 
+                      rgba(255,255,255,0.05) 75%, transparent 75%, transparent);
+}
+
+.package-title {
+    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
+    color: #333A3F;
+}
+
+.package-list {
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+.package-icon {
+    display: inline-block;
+    width: 1.2rem;
+    text-align: left;
+}

@@ -20,8 +20,10 @@
 
 /* Page Navigation Links */
 .navbar-links {
-    font-family: Caveat, "Brush Script MT", cursive;
-    font-size: 1.5rem;
+    font-family: 'Cormorant Garamond';
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    font-size: 1rem;
 }
 
 .nav-link{
@@ -56,7 +58,6 @@ html {
 @media (max-width: 992px) {
     /*Burger menu navigation links*/
     .navbar-links {
-        font-family: Jost, Arial, Helvetica, sans-serif !important;
         font-size: 1rem !important;
     }
 

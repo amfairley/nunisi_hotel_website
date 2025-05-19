@@ -17,34 +17,34 @@
 
 /* Title */
 #hero-title {
-    text-align: center;
-    color: #F5F5F5;
-    font-size: 5rem;
-    text-transform: uppercase;
-    text-shadow: 
-        2px 2px 0px #333A3F,
-        -1px -1px 0px #333A3F,
-        -1px 1px 0px #333A3F,
-        1px 1px 0px #333A3F;
-    /*Stretch the text vertically*/
-    transform: scaleY(1.2);
-    display: inline-block;
-    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
-    padding-top: 1.5rem;
+  text-align: center;
+  color: #F5F5F5;s
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-shadow: 
+      2px 2px 0px #333A3F,
+      -1px -1px 0px #333A3F,
+      -1px 1px 0px #333A3F,
+      1px 1px 0px #333A3F;
+  /*Stretch the text vertically*/
+  transform: scaleY(1.2);
+  display: inline-block;
+  font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
+  padding-top: 1.5rem;
 }
 
 /* Message */
 #hero-message {
     text-align: center;
     color: #f5f5f5;
-    font-family: Caveat, "Brush Script MT", cursive;
-    font-size: 4rem;
+    font-family: Parisienne, "Brush Script MT", 'Lucida Handwriting', cursive;
+    font-size: 3.5rem;
     text-shadow: 
         2px 2px 0px #333A3F,
         -1px -1px 0px #333A3F,
         -1px 1px 0px #333A3F,
         1px 1px 0px #333A3F;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 /* Carousel zoom */
@@ -107,7 +107,7 @@
     }
     /* Reduce hero message */
     #hero-message {
-        font-size: 3rem;
+        font-size: 2.75rem;
     }
 }
 
