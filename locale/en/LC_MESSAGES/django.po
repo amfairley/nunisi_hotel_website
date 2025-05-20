@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-08 17:30+0100\n"
+"POT-Creation-Date: 2025-05-19 13:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,47 +18,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\homepage\views.py:50
+#: .\homepage\views.py:76
 msgid "About Us"
 msgstr "About Us"
 
-#: .\homepage\views.py:51
+#: .\homepage\views.py:77
 msgid "Nunisi Water"
 msgstr "Nunisi Water"
 
-#: .\homepage\views.py:52
+#: .\homepage\views.py:78
 msgid "Nunisi Forest Hotel and Spa"
 msgstr "Nunisi Forest Hotel and Spa"
 
-#: .\homepage\views.py:53
+#: .\homepage\views.py:79
 msgid "Where luxury is natural!"
 msgstr "Where luxury is natural!"
 
-#: .\homepage\views.py:54
+#: .\homepage\views.py:80
 msgid "Book now via"
 msgstr "Book now via"
 
-#: .\homepage\views.py:55
+#: .\homepage\views.py:81
 msgid " Email: nunisi2002@gmail.com"
 msgstr " Email: nunisi2002@gmail.com"
 
-#: .\homepage\views.py:56
+#: .\homepage\views.py:82
 msgid " Phone: (+995) 599 22 55 80"
 msgstr " Phone: (+995) 599 22 55 80"
 
-#: .\homepage\views.py:57 .\venv\Lib\site-packages\django\utils\text.py:286
+#: .\homepage\views.py:83 .\venv\Lib\site-packages\django\utils\text.py:286
 msgid "or"
 msgstr "or"
 
-#: .\homepage\views.py:58
+#: .\homepage\views.py:84
 msgid "Book through booking.com"
 msgstr "Book through booking.com"
 
-#: .\homepage\views.py:59
+#: .\homepage\views.py:85
 msgid "One of the most popular resorts in Georgia"
 msgstr "One of the most popular resorts in Georgia"
 
-#: .\homepage\views.py:60
+#: .\homepage\views.py:86
 msgid ""
 "Home to one of the world's finest naturally warm, healing sulfur waters, "
 "Nunisi has been renowned in the Borjomi-Kharagauli region since the 17th "
@@ -72,7 +72,7 @@ msgstr ""
 "conditions and remains open today for those seeking relaxation in the heart "
 "of nature."
 
-#: .\homepage\views.py:61
+#: .\homepage\views.py:87
 msgid ""
 "Nunisi Forest Hotel and Spa welcomes everyone to spend their days at one of "
 "Georgia's most beautiful resorts. With lush greenery, fresh air, healing "
@@ -84,11 +84,11 @@ msgstr ""
 "waters, and natural nutrition, it offers the perfect setting for an ideal "
 "vacation."
 
-#: .\homepage\views.py:62
+#: .\homepage\views.py:88
 msgid "The Unique Waters of Nunisi Forest Hotel and Spa"
 msgstr "The Unique Waters of Nunisi Forest Hotel and Spa"
 
-#: .\homepage\views.py:63
+#: .\homepage\views.py:89
 msgid ""
 "The secret behind Nunisi's healing power lies in its water. Rich in silicic "
 "acid, Nunisi's mineral waters are renowned for their therapeutic benefits. "
@@ -104,11 +104,11 @@ msgstr ""
 "nervous system disorders. The primary treatment method involves mineral "
 "water baths, offering a natural path to wellness and relaxation."
 
-#: .\homepage\views.py:64
+#: .\homepage\views.py:90
 msgid "Services"
 msgstr "Services"
 
-#: .\homepage\views.py:65
+#: .\homepage\views.py:91
 msgid ""
 "Since many guests visit Nunisi for health and wellness treatments, we offer "
 "a range of additional services to complement our mineral bath therapy. These "
@@ -120,7 +120,7 @@ msgstr ""
 "include private doctor consultations, massage therapy, and other medical "
 "services designed to enhance relaxation and healing."
 
-#: .\homepage\views.py:66
+#: .\homepage\views.py:92
 msgid ""
 "Doctor Consultations: Guests have the opportunity to receive personalized "
 "advice from a qualified doctor. Each consultation is tailored to the "
@@ -132,11 +132,115 @@ msgstr ""
 "individual, ensuring the most appropriate treatment plan for their specific "
 "needs."
 
-#: .\homepage\views.py:67
+#: .\homepage\views.py:93
+msgid "Choose from one of our tailored experience packages"
+msgstr "Choose from one of our tailored experience packages*"
+
+#: .\homepage\views.py:94
+msgid "Or contact us to arrange a bespoke holiday."
+msgstr "*Or contact us to arrange a bespoke holiday."
+
+#: .\homepage\views.py:95
+msgid "Medical Package"
+msgstr "Medical Package"
+
+#: .\homepage\views.py:96
+msgid "Wellness Recreational Package"
+msgstr "Wellness Recreational Package"
+
+#: .\homepage\views.py:97
+msgid "Esthetic Retreat Package"
+msgstr "Esthetic Retreat Package"
+
+#: .\homepage\views.py:98
+msgid "Beauty Restoration Package"
+msgstr "Beauty Restoration Package"
+
+#: .\homepage\views.py:99
+msgid "Family Package"
+msgstr "Family Package (2 adults, 2 children)"
+
+#: .\homepage\views.py:100
+msgid "One week of hotel accommodation"
+msgstr "One week of hotel accommodation"
+
+#: .\homepage\views.py:101
+msgid "Five days of hotel accommodation"
+msgstr "Five days of hotel accommodation"
+
+#: .\homepage\views.py:102
+msgid "Three meals a day"
+msgstr "Three meals a day"
+
+#: .\homepage\views.py:103
+msgid "Three healthy meals a day"
+msgstr "Three healthy meals a day"
+
+#: .\homepage\views.py:104
+msgid "Three meals a day including a child menu"
+msgstr "Three meals a day including a child menu"
+
+#: .\homepage\views.py:105
+msgid "Dermatologist consultation"
+msgstr "Dermatologist consultation"
+
+#: .\homepage\views.py:106
+msgid "Wellness procedure of 2 showers and 10 baths"
+msgstr "Wellness procedure of 2 showers and 10 baths"
+
+#: .\homepage\views.py:107
+msgid "10 procedures in a mineral water pool"
+msgstr "10 procedures in a mineral water pool"
+
+#: .\homepage\views.py:108
+msgid "Access to the mineral pool"
+msgstr "Access to the mineral pool"
+
+#: .\homepage\views.py:109
+msgid "Nunisi water procedures for skin rejuvenation and anti-aging"
+msgstr "Nunisi water procedures for skin rejuvenation and anti-aging"
+
+#: .\homepage\views.py:110
+msgid "Massage"
+msgstr "Massage"
+
+#: .\homepage\views.py:111
+msgid "Facial massage"
+msgstr "Facial massage"
+
+#: .\homepage\views.py:112
+msgid "Morning exercise with instructor"
+msgstr "Morning exercise with instructor"
+
+#: .\homepage\views.py:113
+msgid "Morning and evening exercises with instructor"
+msgstr "Morning and evening exercises with instructor"
+
+#: .\homepage\views.py:114
+msgid "Evening yoga and meditation"
+msgstr "Evening yoga and meditation"
+
+#: .\homepage\views.py:115
+msgid "Guided sight-seeing hike"
+msgstr "Guided sight-seeing hike"
+
+#: .\homepage\views.py:116
+msgid "Horse riding"
+msgstr "Horse riding"
+
+#: .\homepage\views.py:117
+msgid "Fishing"
+msgstr "Fishing"
+
+#: .\homepage\views.py:118
+msgid "Educational and entertainment activities"
+msgstr "Educational and entertainment activities"
+
+#: .\homepage\views.py:119
 msgid "Location"
 msgstr "Location"
 
-#: .\homepage\views.py:68
+#: .\homepage\views.py:120
 msgid ""
 "Situated 750 meters above sea level within the Borjomi-Kharagauli National "
 "Park, in the scenic gorge of the Nunisistskali River, lies the Nunisi Forest "

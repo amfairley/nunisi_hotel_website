@@ -7,35 +7,35 @@
     background-color: #FAF3DF;
 }
 
-#index-packages h2 {
-    font-family: Parisienne, 'Brush Script MT', 'Lucida Handwriting', cursive;
-    color: #FFD95B;
-    font-size: 3rem;
+.packages-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 2px solid #3A6B35;
+    border-radius: 0.5rem;
+    box-shadow:
+        inset 0 0 0 1px rgba(184, 140, 38, 0.3),
+        0 1px 6px rgba(0, 0, 0, 0.03);
+    letter-spacing: 0.02em;
+}
+
+.index-packages-title {
+    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
+    color: #333A3F;
+    font-size: 2.2rem;
     text-align: center;
     width: 100%;
-    text-shadow: 
-        2px 2px 0px #333A3F,
-        -1px -1px 0px #333A3F,
-        -1px 1px 0px #333A3F,
-        1px 1px 0px #333A3F;
+    margin: 1rem auto;
 }
 
 .index-package-card {
-    width: 75%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 1rem auto;
     padding: 0.5rem;
     display: flex;
     justify-content: space-between;
     color: #333A3F;
-    border: 2px solid #3A6B35;
-    border-radius: 0.5rem;
-    box-shadow:
-        inset 0 0 0 1px rgba(184, 140, 38, 0.3), /* subtler inner gold trim */
-        0 1px 6px rgba(0, 0, 0, 0.03); /* softer outer shadow */
-    letter-spacing: 0.02em;
-    background-image: linear-gradient(145deg, rgba(255,255,255,0.05) 25%, transparent 25%, 
-                      transparent 50%, rgba(255,255,255,0.05) 50%, 
-                      rgba(255,255,255,0.05) 75%, transparent 75%, transparent);
+    border-bottom: 1px dashed black;
 }
 
 .package-title {
@@ -53,4 +53,21 @@
     display: inline-block;
     width: 1.2rem;
     text-align: left;
+}
+
+.index-packages-cost {
+    text-align: right;
+}
+
+.index-last-package-card {
+    border: none;
+}
+
+.index-package-comment {
+    width: 80%;
+    margin: 1rem auto 0 auto;
+    text-align: right;
+    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
+    color: #333A3F;
+    font-size: 1.5rem;
 }
