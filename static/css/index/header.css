@@ -3,6 +3,7 @@
     position: sticky !important;
     top: 0;
     z-index: 1000;
+    border-top: 1px solid #b88c26;
 }
 
 /* Burger Navigation */
@@ -26,7 +27,7 @@
     font-size: 1rem;
 }
 
-.nav-link{
+.index-nav-item .nav-link{
     color: #3A6B35 !important;
     position: relative;
     display: inline-block;
@@ -34,7 +35,7 @@
     padding-bottom: 0;
 }
 
-.nav-link::after {
+.index-nav-item .nav-link::after {
     content: ''; 
     position: absolute;
     bottom: 0;
@@ -45,7 +46,7 @@
     height: 2px;
 }
 
-.nav-link:hover::after {
+.index-nav-item .nav-link:hover::after {
     width: 80%; 
 }
 
@@ -62,7 +63,7 @@ html {
     }
 
     /*Navigation link underline effect*/
-    .nav-link::after {
+    .index-nav-item .nav-link::after {
         content: ''; 
         position: absolute;
         bottom: 0;
@@ -70,14 +71,14 @@ html {
         width: 0;
         background-color: #3A6B35;
         transition: width 0.3s ease;
-        height: 2px;
+        height: 1px;
     }
-    .nav-link:hover::after {
+    .index-nav-item .nav-link:hover::after {
         width: 100%; 
     }
 
     /* Scroll offset for index header: mobile */
     html {
-        scroll-padding-top:10rem !important;
+        scroll-padding-top:12.5rem !important;
     }
 }
