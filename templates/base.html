@@ -1,7 +1,8 @@
 {% load static %}
 {% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
 <!doctype html>
-<html lang="en">
+<html lang="{{ LANGUAGE_CODE }}">
     <head>
         <!--Block for meta information that can be expanded upon-->
         {% block meta %}

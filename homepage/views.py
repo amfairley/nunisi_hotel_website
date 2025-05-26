@@ -10,8 +10,20 @@ def index(request):
     context = {
         'MEDIA_URL': settings.MEDIA_URL,
         'DEBUG': settings.DEBUG,
+        # Translations
+        # Site Header/Footer
+        'site_header_home': trans['site_header_home'],
+        'site_header_water': trans['site_header_water'],
+        'site_header_rooms': trans['site_header_rooms'],
+        'site_header_photo': trans['site_header_photo'],
+        'call_us': trans['call_us'],
+        # Rest of the page
+        # Header
         'header_link_about_us': trans['header_link_about_us'],
         'header_link_nunisi_water': trans['header_link_nunisi_water'],
+        'header_link_services': trans['header_link_services'],
+        'header_link_location': trans['header_link_location'],
+        'header_link_reviews': trans['header_link_reviews'],
         'hotel_name': trans['hotel_name'],
         'welcome_message': trans['welcome_message'],
         'booking_title': trans['booking_title'],
@@ -73,8 +85,20 @@ def translate(language):
         activate(language)
         # Select and define translations
         translations = {
+            # Site header and footer
+            'site_header_home': _('Home'),
+            'site_header_water': _('Nunisi Water'),
+            'site_header_rooms': _('Build Your Stay'),
+            'site_header_photo': _('Photo Gallery'),
+            'call_us': _('Call us today on'),
+            # Rest of the page
+            # Header
             'header_link_about_us': _('About Us'),
             'header_link_nunisi_water': _('Nunisi Water'),
+            'header_link_services': _('Services'),
+            'header_link_location': _('Location'),
+            'header_link_reviews': _('Reviews'),
+            # Hero image
             'hotel_name': _('Nunisi Forest Hotel and Spa'),
             'welcome_message': _('Where luxury is natural!'),
             'booking_title': _('Book now via'),

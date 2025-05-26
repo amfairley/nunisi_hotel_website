@@ -9,10 +9,32 @@
         </div>
         <div class="d-none d-lg-block col-6 about-us-empty-space">
         </div>
-        <div class="col-12 col-md-6 about-us-text">
-            <h3>{{ about_us_title }}</h3>
-            <p>{{ about_us_paragraph_1 }}</p>
-            <p>{{ about_us_paragraph_2 }}</p>
+        <div id="aboutUsCarousel" class="carousel carousel-fade slide col-12 col-md-6 about-us-text" data-bs-ride="false">
+            <!--Navigation buttons-->
+            <div class="carousel-nav-buttons d-flex justify-content-between px-3 pt-2 position-absolute top-0 start-0 w-100 z-3">
+                <button id="prevBtn" class="btn btn-outline-dark rounded-pill py-1 px-3 d-none" type="button"
+                data-bs-target="#aboutUsCarousel" data-bs-slide="prev">
+                ← about us
+                </button>
+                <button id="nextBtn" class="btn btn-outline-dark rounded-pill py-1 px-3" type="button"
+                data-bs-target="#aboutUsCarousel" data-bs-slide="next">
+                The Legend of Nunisi →
+                </button>
+            </div>
+            
+            <div class="carousel-inner pt-5">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                <h3>{{ about_us_title }}</h3>
+                <p>{{ about_us_paragraph_1 }}</p>
+                <p>{{ about_us_paragraph_2 }}</p>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                <h3>The Legend of Nunisi</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolor illo mollitia quam sed, temporibus ducimus ab similique! Odit deleniti doloribus ab aperiam at nulla itaque rerum ducimus inventore blanditiis!</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="col-12 about-us-bottom-text">

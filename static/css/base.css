@@ -42,12 +42,6 @@ main {
     border: 1px solid #b88c26;
 }
 
-/* Site background */
-.content {
-    min-height: calc(100vh - 336px);
-    background-color: #FAF3DF;
-}
-
 /* Site buttons */
 .nunisi-button {
 }

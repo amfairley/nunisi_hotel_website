@@ -1,9 +1,10 @@
 #index-about-us{
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: 100%;
     position: relative;
+    max-width: 2200px;
 }
 
 .about-us-background-image {
@@ -112,4 +113,28 @@
         align-items: flex-end;
         flex-direction: column;
     }
+}
+
+
+.carousel.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-nav-buttons button {
+  font-family: 'Georgia', serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.carousel-nav-buttons button:hover {
+  background-color: #f8f8f8;
+  border-color: #aaa;
 }
