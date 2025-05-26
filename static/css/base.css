@@ -44,7 +44,7 @@ main {
 
 /* Site buttons */
 .nunisi-button {
-    font-family: 'Tenor sans';
+    font-family: 'Tenor sans','Gill Sans', 'Trebuchet MS', sans-serif;
     letter-spacing: -0.5px;
     background-color: #FFF9ED;
     padding: 1rem;

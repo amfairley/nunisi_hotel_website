@@ -2,23 +2,23 @@
     <div class="row g-0">
         <div class="col-12 about-us-background-image">
             <img
-                src="{% if DEBUG %}{{ MEDIA_URL }}resort-information-image-1.webp{% else %}{{ MEDIA_URL }}v1742992504/resort-information-image-1_usa9x2.webp{% endif %}"
+                src="{% if DEBUG %}{{ MEDIA_URL }}resort-information-image-1.webp{% else %}https://i.imgur.com/Whvu0GU.png{% endif %}"
                 alt="An arial view of Nunisi forest"
                 loading="lazy"
             >
         </div>
         <div class="d-none d-lg-block col-6 about-us-empty-space">
         </div>
-        <div id="aboutUsCarousel" class="carousel carousel-fade slide col-12 col-md-6 about-us-text" data-bs-ride="false">
+        <div id="aboutUsCarousel" class="carousel slide col-12 col-lg-6 about-us-text" data-bs-ride="false">
             <!--Navigation buttons-->
-            <div class="carousel-nav-buttons d-flex justify-content-between px-3 pt-2 position-absolute top-0 start-0 w-100 z-3">
+            <div class="carousel-nav-buttons d-flex justify-content-end px-3 pt-2 position-absolute top-0 start-0 w-100 z-3">
                 <button id="prevBtn" class="btn btn-outline-dark rounded-pill py-1 px-3 d-none" type="button"
                 data-bs-target="#aboutUsCarousel" data-bs-slide="prev">
-                ← about us
+                ← {{ about_us_carousel_prev }}
                 </button>
                 <button id="nextBtn" class="btn btn-outline-dark rounded-pill py-1 px-3" type="button"
                 data-bs-target="#aboutUsCarousel" data-bs-slide="next">
-                The Legend of Nunisi →
+                {{ about_us_carousel_next }} →
                 </button>
             </div>
             
@@ -26,20 +26,23 @@
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
                 <h3>{{ about_us_title }}</h3>
-                <p>{{ about_us_paragraph_1 }}</p>
-                <p>{{ about_us_paragraph_2 }}</p>
+                <p>{{ about_us_paragraph }}</p>
                 </div>
                 <!-- Slide 2 -->
                 <div class="carousel-item">
-                <h3>The Legend of Nunisi</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolor illo mollitia quam sed, temporibus ducimus ab similique! Odit deleniti doloribus ab aperiam at nulla itaque rerum ducimus inventore blanditiis!</p>
+                <h3>{{ about_us_legend }}</h3>
+                <p>{{ about_us_legend_text_1 }}</p>
+                <p>{{ about_us_legend_text_2 }}</p>
                 </div>
             </div>
         </div>
     </div>
+    
     <div class="col-12 about-us-bottom-text">
         <h3>{{ about_us_title }}</h3>
-        <p>{{ about_us_paragraph_1 }}</p>
-        <p>{{ about_us_paragraph_2 }}</p>
+        <p>{{ about_us_paragraph }}</p>
+        <h3>{{ about_us_legend }}</h3>
+        <p>{{ about_us_legend_text_1 }}</p>
+        <p>{{ about_us_legend_text_2 }}</p>
     </div>
 </div>
