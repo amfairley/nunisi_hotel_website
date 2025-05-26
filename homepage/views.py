@@ -24,13 +24,18 @@ def index(request):
         'header_link_services': trans['header_link_services'],
         'header_link_location': trans['header_link_location'],
         'header_link_reviews': trans['header_link_reviews'],
+        # Hero Image
         'hotel_name': trans['hotel_name'],
         'welcome_message': trans['welcome_message'],
+        # Booking
         'booking_title': trans['booking_title'],
         'booking_email': trans['booking_email'],
         'booking_phone': trans['booking_phone'],
         'booking_or': trans['booking_or'],
+        'booking_through': trans['booking_through'],
         'booking_booking_com': trans['booking_booking_com'],
+        'booking_rooms_button': trans['booking_rooms_button'],
+        # About Us
         'about_us_title': trans['about_us_title'],
         'about_us_paragraph_1': trans['about_us_paragraph_1'],
         'about_us_paragraph_2': trans['about_us_paragraph_2'],
@@ -98,14 +103,18 @@ def translate(language):
             'header_link_services': _('Services'),
             'header_link_location': _('Location'),
             'header_link_reviews': _('Reviews'),
-            # Hero image
+            # Hero Image
             'hotel_name': _('Nunisi Forest Hotel and Spa'),
             'welcome_message': _('Where luxury is natural!'),
+            # Booking
             'booking_title': _('Book now via'),
-            'booking_email': _(' Email: nunisi2002@gmail.com'),
+            'booking_email': _(' Email: '),
             'booking_phone': _(' Phone: (+995) 599 22 55 80'),
+            'booking_through': _('Through '),
             'booking_or': _('or'),
             'booking_booking_com': _('Book through booking.com'),
+            'booking_rooms_button': _('Take a look at our rooms & packages'),
+            # About Us
             'about_us_title': _('One of the most popular resorts in Georgia'),
             'about_us_paragraph_1': _("Home to one of the world's finest naturally warm, healing sulfur waters, Nunisi has been renowned in the Borjomi-Kharagauli region since the 17th century. Since 1856, Nunisi Balneological Resort has been treating skin conditions and remains open today for those seeking relaxation in the heart of nature."),
             'about_us_paragraph_2': _("Nunisi Forest Hotel and Spa welcomes everyone to spend their days at one of Georgia's most beautiful resorts. With lush greenery, fresh air, healing waters, and natural nutrition, it offers the perfect setting for an ideal vacation."),

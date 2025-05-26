@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 12:07+0100\n"
+"POT-Creation-Date: 2025-05-26 14:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,75 +18,83 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: .\homepage\views.py:89
+#: .\homepage\views.py:94
 msgid "Home"
 msgstr "მთავარი"
 
-#: .\homepage\views.py:90 .\homepage\views.py:97
+#: .\homepage\views.py:95 .\homepage\views.py:102
 msgid "Nunisi Water"
 msgstr "ნუნისის წყალი"
 
-#: .\homepage\views.py:91
+#: .\homepage\views.py:96
 msgid "Build Your Stay"
 msgstr "ოთახები"
 
-#: .\homepage\views.py:92
+#: .\homepage\views.py:97
 msgid "Photo Gallery"
 msgstr "ფოტო გალერეა"
 
-#: .\homepage\views.py:93
+#: .\homepage\views.py:98
 msgid "Call us today on"
 msgstr "დაგვირეკეთ დღეს"
 
-#: .\homepage\views.py:96
+#: .\homepage\views.py:101
 msgid "About Us"
 msgstr "ჩვენს შესახებ"
 
-#: .\homepage\views.py:98 .\homepage\views.py:114
+#: .\homepage\views.py:103 .\homepage\views.py:123
 msgid "Services"
 msgstr "სერვისი"
 
-#: .\homepage\views.py:99 .\homepage\views.py:143
+#: .\homepage\views.py:104 .\homepage\views.py:152
 msgid "Location"
 msgstr "ლოკაცია"
 
-#: .\homepage\views.py:100
+#: .\homepage\views.py:105
 msgid "Reviews"
 msgstr "მიმოხილვები"
 
-#: .\homepage\views.py:102
+#: .\homepage\views.py:107
 msgid "Nunisi Forest Hotel and Spa"
 msgstr "ნუნისი ფორესტ რეზორტ & სპა"
 
-#: .\homepage\views.py:103
+#: .\homepage\views.py:108
 msgid "Where luxury is natural!"
 msgstr "მკურნალი წყალი და ულამაზესი ბუნება"
 
-#: .\homepage\views.py:104
+#: .\homepage\views.py:110
 msgid "Book now via"
 msgstr "დაჯავშნეთ ახლავე"
 
-#: .\homepage\views.py:105
-msgid " Email: nunisi2002@gmail.com"
-msgstr " ელექტრონული ფოსტა: nunisi2002@gmail.com"
+#: .\homepage\views.py:111
+msgid " Email: "
+msgstr " ელექტრონული ფოსტა: "
 
-#: .\homepage\views.py:106
+#: .\homepage\views.py:112
 msgid " Phone: (+995) 599 22 55 80"
 msgstr " ტელეფონი: (+995) 599 22 55 80"
 
-#: .\homepage\views.py:107 .\venv\Lib\site-packages\django\utils\text.py:286
+#: .\homepage\views.py:113
+msgid "Through "
+msgstr "მეშვეობით "
+
+#: .\homepage\views.py:114 .\venv\Lib\site-packages\django\utils\text.py:286
 msgid "or"
 msgstr "ან"
 
-#: .\homepage\views.py:108
+#: .\homepage\views.py:115
 msgid "Book through booking.com"
 msgstr "დაჯავშნეთ ახლავე booking.com"
 
-#: .\homepage\views.py:109
+#: .\homepage\views.py:116
+msgid "Take a look at our rooms & packages"
+msgstr "გადახედეთ ჩვენს ოთახებს და პაკეტებს"
+
+#: .\homepage\views.py:118
 msgid "One of the most popular resorts in Georgia"
 msgstr "საუკეთესო კურორტი საქართველოში"
 
-#: .\homepage\views.py:110
+#: .\homepage\views.py:119
 msgid ""
 "Home to one of the world's finest naturally warm, healing sulfur waters, "
 "Nunisi has been renowned in the Borjomi-Kharagauli region since the 17th "
@@ -100,7 +108,7 @@ msgstr ""
 "კანის დაავადებებს და სწორედ ამ დღიდან მასპინძლობს მათ ვისაც სურს საოცარ, "
 "ველურ და თვალწარმტაც ბუნებაში დაისვენოს."
 
-#: .\homepage\views.py:111
+#: .\homepage\views.py:120
 msgid ""
 "Nunisi Forest Hotel and Spa welcomes everyone to spend their days at one of "
 "Georgia's most beautiful resorts. With lush greenery, fresh air, healing "
@@ -111,11 +119,11 @@ msgstr ""
 "ულამაზეს კურორტზე: ულამაზესი, მწვანე გარემო, სუფთა ჰაერი, სამკურნალო წყალი, "
 "ნატურალური პროდუქტები - ეს ყველაფერი თქვენი იდეალური დასვენების გარანტიაა."
 
-#: .\homepage\views.py:112
+#: .\homepage\views.py:121
 msgid "The Unique Waters of Nunisi Forest Hotel and Spa"
 msgstr "ნუნისის უნიკალური წყალი"
 
-#: .\homepage\views.py:113
+#: .\homepage\views.py:122
 msgid ""
 "The secret behind Nunisi's healing power lies in its water. Rich in silicic "
 "acid, Nunisi's mineral waters are renowned for their therapeutic benefits. "
@@ -131,7 +139,7 @@ msgstr ""
 "ნერვული სისტემის დაავადებებს. მკურნალობის ძირითადი მეთოდი მინერალური წყლის "
 "აბაზანებია."
 
-#: .\homepage\views.py:115
+#: .\homepage\views.py:124
 msgid ""
 "Since many guests visit Nunisi for health and wellness treatments, we offer "
 "a range of additional services to complement our mineral bath therapy. These "
@@ -144,7 +152,7 @@ msgstr ""
 "გამაჯანსაღებელ სერვისებს - კერძო ექიმის კონსულტაცია, მასაჟის კაბინეტი, იოგა "
 "და სხვა გამაჯანსაღებელი მომსახურება."
 
-#: .\homepage\views.py:116
+#: .\homepage\views.py:125
 msgid ""
 "Doctor Consultations: Guests have the opportunity to receive personalized "
 "advice from a qualified doctor. Each consultation is tailored to the "
@@ -155,114 +163,114 @@ msgstr ""
 "მაღალ კვალიფიციურ ექიმთან. ექიმი თითოეულ სტუმარს მიუდგება ინდივიდუალურად და "
 "შეურჩევს მისთვის სასურველ პროცედურების კურსს."
 
-#: .\homepage\views.py:117
+#: .\homepage\views.py:126
 msgid "Choose from one of our tailored experience packages"
 msgstr "აირჩიეთ ჩვენი ერთ-ერთი მორგებული გამოცდილების პაკეტიდან*"
 
-#: .\homepage\views.py:118
+#: .\homepage\views.py:127
 msgid "Or contact us to arrange a bespoke holiday."
 msgstr "*ან დაგვიკავშირდით შეკვეთილი დღესასწაულის მოსაწყობად."
 
-#: .\homepage\views.py:119
+#: .\homepage\views.py:128
 msgid "Medical Package"
 msgstr "სამკურნალო პაკეტი"
 
-#: .\homepage\views.py:120
+#: .\homepage\views.py:129
 msgid "Wellness Recreational Package"
 msgstr "გამაჯანსაღებელი - რეკრეაციული პაკეტი"
 
-#: .\homepage\views.py:121
+#: .\homepage\views.py:130
 msgid "Esthetic Retreat Package"
 msgstr "ესთეტიკის - რითრით პაკეტი"
 
-#: .\homepage\views.py:122
+#: .\homepage\views.py:131
 msgid "Beauty Restoration Package"
 msgstr "აღმდგენი სილამაზის პაკეტი"
 
-#: .\homepage\views.py:123
+#: .\homepage\views.py:132
 msgid "Family Package"
 msgstr "საოჯახო პაკეტი (2 ზრდასრული 2 ბავშვი)"
 
-#: .\homepage\views.py:124
+#: .\homepage\views.py:133
 msgid "One week of hotel accommodation"
 msgstr "ერთი კვირიანი განთავსება სასტუმროში"
 
-#: .\homepage\views.py:125
+#: .\homepage\views.py:134
 msgid "Five days of hotel accommodation"
 msgstr "5 დღიანი განთავსება სასტუმროში"
 
-#: .\homepage\views.py:126
+#: .\homepage\views.py:135
 msgid "Three meals a day"
 msgstr "სამჯერადი კვება"
 
-#: .\homepage\views.py:127
+#: .\homepage\views.py:136
 msgid "Three healthy meals a day"
 msgstr "სამჯერადი კვება, დიეტოლოგის ჩართულობით"
 
-#: .\homepage\views.py:128
+#: .\homepage\views.py:137
 msgid "Three meals a day including a child menu"
 msgstr "სამჯერადი კვება - საბავშვო მენიუ"
 
-#: .\homepage\views.py:129
+#: .\homepage\views.py:138
 msgid "Dermatologist consultation"
 msgstr "ექიმის კონსულტაცია"
 
-#: .\homepage\views.py:130
+#: .\homepage\views.py:139
 msgid "Wellness procedure of 2 showers and 10 baths"
 msgstr "2 შხაპისა და 10 აბაზანის პროცედურა"
 
-#: .\homepage\views.py:131
+#: .\homepage\views.py:140
 msgid "10 procedures in a mineral water pool"
 msgstr "10 პროცედურა მინერალური წყლის ბასეინში"
 
-#: .\homepage\views.py:132
+#: .\homepage\views.py:141
 msgid "Access to the mineral pool"
 msgstr "მინერალური წყლის ბასეინი"
 
-#: .\homepage\views.py:133
+#: .\homepage\views.py:142
 msgid "Nunisi water procedures for skin rejuvenation and anti-aging"
 msgstr ""
 "წყლის პროცედურები: პროცედურები მიიღება კანის გაახალგაზრდავების მიზნით, "
 "უზრუნველყოფენ კანის გაჯანსაღებას, ელასტიურობის აღდგენას, ეს პროცედურები "
 "თქვენს კანს დაუბრუნებს ბუნებრივ სილამაზეს "
 
-#: .\homepage\views.py:134
+#: .\homepage\views.py:143
 msgid "Massage"
 msgstr "მასაჟი"
 
-#: .\homepage\views.py:135
+#: .\homepage\views.py:144
 msgid "Facial massage"
 msgstr "სახის მასაჟი"
 
-#: .\homepage\views.py:136
+#: .\homepage\views.py:145
 msgid "Morning exercise with instructor"
 msgstr "დილის გამამხნევებელი ვარჯიში ინსტრუქტორთან ერთად"
 
-#: .\homepage\views.py:137
+#: .\homepage\views.py:146
 msgid "Morning and evening exercises with instructor"
 msgstr "დილის და საღამოს გამამხნევებელი ვარჯიში ინსტრუქტორთამ ერთად"
 
-#: .\homepage\views.py:138
+#: .\homepage\views.py:147
 msgid "Evening yoga and meditation"
 msgstr "საღამოს იოგა/მედიტაცია"
 
-#: .\homepage\views.py:139
+#: .\homepage\views.py:148
 msgid "Guided sight-seeing hike"
 msgstr "საფეხმავლო ტური გიდის თანხლებით ბერების გამოქვაბულებში"
 
-#: .\homepage\views.py:140
+#: .\homepage\views.py:149
 msgid "Horse riding"
 msgstr "საცხენოსნო ტური"
 
-#: .\homepage\views.py:141
+#: .\homepage\views.py:150
 msgid "Fishing"
 msgstr "თევზაობა ტბაზე"
 
-#: .\homepage\views.py:142
+#: .\homepage\views.py:151
 msgid "Educational and entertainment activities"
 msgstr "შემეცნებითი და გასართობი აქტივობები"
 
-#: .\homepage\views.py:144
+#: .\homepage\views.py:153
 msgid ""
 "Situated 750 meters above sea level within the Borjomi-Kharagauli National "
 "Park, in the scenic gorge of the Nunisistskali River, lies the Nunisi Forest "
@@ -1507,6 +1515,9 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:236
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid " Email: nunisi2002@gmail.com"
+#~ msgstr " ელექტრონული ფოსტა: nunisi2002@gmail.com"
 
 #~ msgid "Spa Procedures"
 #~ msgstr "სპა პროცედურები"

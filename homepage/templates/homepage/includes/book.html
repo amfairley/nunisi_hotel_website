@@ -1,15 +1,16 @@
-<div id="booking-container">
-    <h2>
-        <span class="booking-title">{{ booking_title }}</span>
+<div class="booking-container">
+    <div class="booking-card">
+        <h2 class="booking-title">{{ booking_title }}</h2>
         <ul class="booking-info-list">
             <li>
                 <i class="fa-solid fa-envelope"></i>{{ booking_email }}
+                <a href="mailto:nunisi2002@gmail.com" aria-label="Contact us via Email">nunisi2002@gmail.com</a>
             </li>
             <li>
                 <i class="fa-solid fa-phone"></i>{{ booking_phone }}
             </li>
             <li>
-                Through 
+                {{ booking_through }} 
                 <a 
                     href="https://www.facebook.com/NunisiResort"
                     target="_blank"
@@ -31,5 +32,13 @@
                 </a>
             </li>
         </ul>
-    </h2>
+        <a
+            class="nunisi-button link-to-packages"
+            href="#"
+            aria-label="Go to the rooms and packages page"
+        >
+            {{ booking_rooms_button }}
+        </a>
+    </div>
+
 </div>
