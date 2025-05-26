@@ -109,11 +109,6 @@
     border: 1px solid #333A3F;
 }
 
-.carousel.carousel-fade .carousel-item {
-  opacity: 0;
-  transition: opacity 0.8s ease-in-out;
-}
-
 .carousel-nav-buttons button {
     opacity: 1;
     visibility: visible;
