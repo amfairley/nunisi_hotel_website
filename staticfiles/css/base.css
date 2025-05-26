@@ -44,9 +44,20 @@ main {
 
 /* Site buttons */
 .nunisi-button {
+    font-family: 'Tenor sans','Gill Sans', 'Trebuchet MS', sans-serif;
+    letter-spacing: -0.5px;
+    background-color: #FFF9ED;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #333A3F;
+    margin: 1rem;
+    font-size: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
 .nunisi-button:hover {
+    box-shadow: none;
+    background-color: #FAF3DF;
 }
 
 /* ---------- Media-queries ---------- */

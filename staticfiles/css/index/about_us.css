@@ -1,3 +1,4 @@
+/* About Us Section */
 #index-about-us{
     box-sizing: border-box;
     margin: 0 auto;
@@ -7,6 +8,7 @@
     max-width: 2200px;
 }
 
+/* Background Image */
 .about-us-background-image {
     position: relative;
 }
@@ -14,10 +16,10 @@
 .about-us-background-image img {
     width: 100%;
     height: auto;
-    max-height: 600px;
     object-fit: cover;
 }
 
+/* Empty space and Text */
 .about-us-empty-space,
 .about-us-text {
     position: absolute;
@@ -83,6 +85,41 @@
     font-size: 1rem;
 }
 
+/* Carousel */
+#aboutUsCarousel .carousel-nav-buttons {
+    margin-top: 1rem;
+}
+
+#aboutUsCarousel .carousel-nav-buttons button {
+    font-family: 'Tenor sans', 'Gill Sans', 'Trebuchet MS', sans-serif;
+    color: #333A3F;
+    letter-spacing: -0.5px;
+    background-color: #FAF3DF;
+    border-radius: 1rem;
+    border: 1px solid #333A3F;
+    font-size: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+#aboutUsCarousel .carousel-nav-buttons button:hover {
+    color: #3A6B35;
+    box-shadow: none;
+    background-color: #FFD95B;
+    border: 1px solid #333A3F;
+}
+
+.carousel.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.carousel-nav-buttons button {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
 @media (max-width: 1100px) {
     /*Update text size*/
     .about-us-text p {
@@ -96,6 +133,12 @@
     }
 }
 
+@media (max-width: 990px) {
+    /* Update image size */
+    .about-us-background-image img {
+        height: 500px;
+    }
+}
 
 @media (max-width: 600px) {
     /*Remove text div */
@@ -113,28 +156,4 @@
         align-items: flex-end;
         flex-direction: column;
     }
-}
-
-
-.carousel.carousel-fade .carousel-item {
-  opacity: 0;
-  transition: opacity 0.8s ease-in-out;
-}
-.carousel.carousel-fade .carousel-item.active {
-  opacity: 1;
-}
-
-.carousel-nav-buttons button {
-  font-family: 'Georgia', serif;
-  font-weight: 500;
-  font-size: 1rem;
-  background-color: white;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-  transition: all 0.3s ease;
-}
-
-.carousel-nav-buttons button:hover {
-  background-color: #f8f8f8;
-  border-color: #aaa;
 }

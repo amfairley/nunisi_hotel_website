@@ -1,5 +1,5 @@
 /* Container for the section */
-#booking-container {
+.booking-container {
     min-height: 10rem;
     display: flex;
     justify-content: center;
@@ -9,9 +9,7 @@
 }
 
 /* Container for the information in the section */
-#booking-container h2 {
-    font-family: Jost, Arial, Helvetica, sans-serif;
-    color: #333A3F;
+.booking-card {
     text-align: center;
     font-size: 2rem;
     line-height: 3rem;
@@ -19,6 +17,7 @@
     border: 2px solid #3A6B35;
     border-radius: 0.5rem;
     padding: 1rem 6rem;
+    margin: 0 auto;
     margin: 0 auto;
     position: relative;
     box-shadow:
@@ -40,11 +39,13 @@
 
 /* List */
 .booking-info-list {
+    font-family: Jost, Arial, Helvetica, sans-serif;
     list-style-type: none;
     font-size: 1rem;
     padding: 0;
     margin: 0 auto;
     color: #3c3c3c;
+    margin-bottom: 1rem;
 }
 
 /* Links */
@@ -82,7 +83,7 @@
 /* Media queries */
 @media (max-width: 650px) {
     /* Reduce side padding */
-    #booking-container h2 {
+    .booking-card {
         padding: 1rem;
     }
     /* Reduce title size */
@@ -94,7 +95,7 @@
 
 @media (max-width: 430px) {
     /* Reduce container padding */
-    #booking-container {
+    .booking-container {
         padding: 1rem;
     }
 
@@ -114,5 +115,10 @@
 
     .booking-com-link {
         margin-left: 0.3rem;
+    }
+
+    /* Reduce link button size */
+    .link-to-packages {
+        font-size: 0.7rem;
     }
 }
