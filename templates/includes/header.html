@@ -1,80 +1,122 @@
 {% load i18n %}
-<nav class="navbar bg-nunisi-green" id="top-nav">
-    <!--Site Logo-->
-    <div class="site-logo-container">
-        <a
-            href="{% url 'homepage' %}"
-            aria-label="Go to the Nunisi Forest Hotel and Spa Homepage"
+<nav class="navbar navbar-expand-lg bg-nunisi-green" id="top-nav">
+    <div class="container-fluid">
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#headerNavBarBurgerMenu"
+            aria-controls="headerNavBarBurgerMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            id = "header-burger-nav"
         >
-            <img 
-                src="{% if DEBUG %}{{ MEDIA_URL }}nunisi-site-logo.png{% else %}{{ MEDIA_URL }}v1742992503/nunisi-site-logo_y0xeta.png{% endif %}"
-                alt="Nunisi Forest Hotel and Spa Logo"
-                id="site-logo-nav"
-                loading="lazy"
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="site-logo-container">
+            <a
+                href="{% url 'homepage' %}"
+                aria-label="Go to the Nunisi Forest Hotel and Spa Homepage"
             >
-        </a>
-    </div>
-    <!-- Language dropdown selector -->
-    <div class="site-language-container">
-        {% get_current_language as LANGUAGE_CODE %}
-        {% get_available_languages as LANGUAGES %}
-        {% get_language_info_list for LANGUAGES as languages %}
-        <div class="dropdown">
-            <button class="btn dropdown-toggle" type="button"
-                    id="languageDropDownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                <!--Set current language-->
-                {% if LANGUAGE_CODE == 'ka' %}
-                    ქა
-                {% elif LANGUAGE_CODE == 'en' %}
-                    EN
-                {% endif %}
-            </button>
-
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropDownMenuButton" id="languageDropDownMenuOptions">
-                {% for lang in languages %}
-                    <li>
-                        <a class="dropdown-item d-flex align-items-center" href="/{{ lang.code }}/">
-                            {% if DEBUG %}
-                                <img 
-                                    src="{{ MEDIA_URL }}flags/{{ lang.code }}.gif"
-                                    alt="{{ lang.name_local }} flag"
-                                    class="language-dropdown-flag me-2"
-                                    loading="lazy"
-                                >
-                            {% else %}
-                                <img 
-                                    src="{% if lang.code == 'ka' %}
-                                            {{ MEDIA_URL }}v1743355877/ka_rcciif.gif
-                                        {% elif lang.code == 'en' %}
-                                            {{ MEDIA_URL }}v1743355877/gb_cakgee.gif
-                                        {% endif %}"
-                                    alt="{{ lang.name_local }} flag"
-                                    class="language-dropdown-flag me-2"
-                                    loading="lazy"
-                                >
-                            {% endif %}
-                            {{ lang.name_local }}
-                        </a>
-                    </li>
-                {% endfor %}
+                <img 
+                    src="{% if DEBUG %}{{ MEDIA_URL }}nunisi-site-logo.png{% else %}https://i.imgur.com/xGLu4VF.png{% endif %}"
+                    alt="Nunisi Forest Hotel and Spa Logo"
+                    id="site-logo-nav"
+                    loading="lazy"
+                >
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="headerNavBarBurgerMenu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item-header">
+                    <a class="nav-link active" aria-current="page" href="#">{{ site_header_home }}</a>
+                </li>
+                <li class="nav-item-header">
+                    <a class="nav-link" href="#">{{ site_header_water }}</a>
+                </li>
+                <li class="nav-item-header">
+                    <a class="nav-link" href="#">{{ site_header_rooms }}</a>
+                </li>
+                <li class="nav-item-header">
+                    <a class="nav-link" href="#">{{ site_header_photo }}</a>
+                </li>
             </ul>
         </div>
+        <div class="site-language-container">
+            {% get_current_language as LANGUAGE_CODE %}
+            {% get_available_languages as LANGUAGES %}
+            {% get_language_info_list for LANGUAGES as languages %}
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button"
+                        id="languageDropDownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!--Set current language-->
+                    {% if LANGUAGE_CODE == 'ka' %}
+                        {% if DEBUG %}
+                            <img 
+                                src="{{ MEDIA_URL }}flags/{{ LANGUAGE_CODE }}.gif"
+                                alt="{{ lang.name_local }} flag"
+                                class="language-dropdown-flag me-2"
+                                loading="lazy"
+                            >
+                        {% else %}
+                            <img 
+                                src="https://i.imgur.com/Ob2rdzL.gif"
+                                alt="{{ lang.name_local }} flag"
+                                class="language-dropdown-flag me-2"
+                                loading="lazy"
+                            >
+                        {% endif %} ქა
+                    {% elif LANGUAGE_CODE == 'en' %}
+                        {% if DEBUG %}
+                            <img 
+                                src="{{ MEDIA_URL }}flags/{{ LANGUAGE_CODE }}.gif"
+                                alt="{{ lang.name_local }} flag"
+                                class="language-dropdown-flag me-2"
+                                loading="lazy"
+                            >
+                        {% else %}
+                            <img 
+                                src="https://i.imgur.com/ZImM11i.gif"
+                                alt="{{ lang.name_local }} flag"
+                                class="language-dropdown-flag me-2"
+                                loading="lazy"
+                            >
+                        {% endif %} EN
+                    {% endif %}
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropDownMenuButton" id="languageDropDownMenuOptions">
+                    {% for lang in languages %}
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="/{{ lang.code }}/">
+                                {% if DEBUG %}
+                                    <img 
+                                        src="{{ MEDIA_URL }}flags/{{ lang.code }}.gif"
+                                        alt="{{ lang.name_local }} flag"
+                                        class="language-dropdown-flag me-2"
+                                        loading="lazy"
+                                    >
+                                {% else %}
+                                    <img 
+                                        src="{% if lang.code == 'ka' %}
+                                                https://i.imgur.com/Ob2rdzL.gif
+                                            {% elif lang.code == 'en' %}
+                                                https://i.imgur.com/ZImM11i.gif
+                                            {% endif %}"
+                                        alt="{{ lang.name_local }} flag"
+                                        class="language-dropdown-flag me-2"
+                                        loading="lazy"
+                                    >
+                                {% endif %}
+                                {{ lang.name_local }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
     </div>
-    <!--Language select-->
-    <!-- <div class="site-language-container">
-        <a href="/ka/" class="language-flag {% if LANGUAGE_CODE == 'ka' %}active-language{% endif %}">
-            <img 
-                src="{% if DEBUG %}{{ MEDIA_URL }}flags/ka.gif{% else %}{{ MEDIA_URL }}v1743355877/ka_rcciif.gif{% endif %}"
-                alt="Georgian Flag"
-                loading="lazy"
-            >
-        </a>
-        <a href="/en/" class="language-flag {% if LANGUAGE_CODE == 'en' %}active-language{% endif %}">
-            <img 
-                src="{% if DEBUG %}{{ MEDIA_URL }}flags/gb.gif{% else %}{{ MEDIA_URL }}v1743355877/gb_cakgee.gif{% endif %}"
-                alt="British Flag"
-                loading="lazy"
-            >
-        </a>
-    </div> -->
 </nav>
+<div class="phone-now">
+    <p>{{ call_us}} <br id="call-us-br"> 599 22 55 80!</p>
+</div>

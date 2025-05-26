@@ -9,11 +9,49 @@
 #site-logo-nav {
     height: 100px;
     width: 122px;
+}
+
+/* Navbar items */
+#headerNavBarBurgerMenu {
+    margin-right: 4rem;
+}
+
+#headerNavBarBurgerMenu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item-header .nav-link{
+    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
+    transform: scaleY(2.5);
+    font-size: 1.5rem;
+    color: #FFD95B;
+    position: relative;
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-item-header .nav-link.active{
+    color: #FFD95B;
+    text-shadow: 0 0 4px #FFD95B;
+}
+
+.nav-item-header .nav-link::after {
+    content: ''; 
     position: absolute;
-    top: 0;
-    margin: 0;
-    /* Centres the image - half of image width */
-    left: calc(50% - 61px);
+    bottom: 0.45rem;
+    left: 8px;
+    width: 0;
+    background-color: #FFD95B;
+    transition: width 0.3s ease;
+    height: 1px;
+}
+
+.nav-item-header .nav-link:hover::after {
+    width: 85%; 
 }
 
 /* Language Select
@@ -22,6 +60,10 @@
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
+}
+
+#languageDropDownMenuButton img {
+    padding-bottom: 2px;
 }
 
 /* Style for flag links */
@@ -74,4 +116,110 @@
 
 #languageDropDownMenuOptions a img{
     padding-top: 2px;
+}
+
+/* Call us */
+.phone-now {
+    width: 100%;
+    background-color: #FAF3DF;
+    padding: 0;
+    text-align: center;
+    height: fit-content
+}
+
+.phone-now p {
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color:#333A3F;
+    margin: 0;
+}
+
+#call-us-br {
+    display: none;
+}
+
+
+@media (max-width: 991px) {
+    /*Move the site logo to the centre*/
+    #site-logo-nav {
+        height: 100px;
+        width: 122px;
+        position: absolute;
+        top: 0;
+        margin: 0;
+        /* Centres the image - half of image width */
+        left: calc(50% - 61px);
+    }
+    /*Give enough space for the burger menu */
+    #top-nav {
+        height: auto;
+        min-height: 100px;
+        position: relative; 
+    }
+    /* Burger link menu styles */
+    #header-burger-nav {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        color: #FFD95B;
+        border: solid 2px #FFD95B;
+        height: auto;
+        background-color: rgba(128, 128, 128, 0.5);
+    }
+    /* Burger menu link styles */
+    #headerNavBarBurgerMenu {
+        margin-right: 0;
+        position: absolute; /* ADD THIS */
+        top: 100%;           /* ADD THIS: Places the dropdown right under the navbar */
+        left: 0;
+        width: 100%;
+        z-index: 20000;
+        background-color: #3A6B35;
+    }
+
+    #headerNavBarBurgerMenu ul {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .nav-item-header .nav-link{
+        padding-left: 0.5rem;
+        font-family: Karla, Arial, Helvetica, sans-serif;
+        transform: scaleY(1);
+        font-size: 1rem;
+        color: #FFD95B;
+    }
+
+    .nav-item-header .nav-link.active{
+        color: #FFD95B;
+    }
+
+    .nav-item-header .nav-link::after {
+        content: ''; 
+        position: absolute;
+        bottom: 0.2rem;
+        left: 0.52rem;
+        width: 0;
+        background-color: #FFD95B;
+        transition: width 0.3s ease;
+        height: 0.5px;
+    }
+
+    .nav-item-header .nav-link:hover::after {
+        width: 95%; 
+    }
+
+    .nav-item-header .nav-link.active{
+        border-left: 4px solid #FFD95B;
+        padding-left: 0.75rem;
+        text-shadow: none;
+        background-color: rgba(255, 217, 91, 0.1);
+        width: 100%;
+    }
+}
+
+@media (max-width: 520px) {
+    /* Put phone number on new line */
+    #call-us-br {
+        display: inline-block;
+    }
 }
