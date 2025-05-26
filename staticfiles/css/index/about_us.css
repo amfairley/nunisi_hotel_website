@@ -103,10 +103,8 @@
 }
 
 #aboutUsCarousel .carousel-nav-buttons button:hover {
-    color: #3A6B35;
-    box-shadow: none;
-    background-color: #FFD95B;
-    border: 1px solid #333A3F;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
 }
 
 .carousel-nav-buttons button {

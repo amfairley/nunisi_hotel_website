@@ -44,22 +44,27 @@ main {
 
 /* Site buttons */
 .nunisi-button {
-    font-family: 'Tenor sans','Gill Sans', 'Trebuchet MS', sans-serif;
-    letter-spacing: -0.5px;
+    font-family: 'Tenor Sans', 'Gill Sans', 'Trebuchet MS', sans-serif;
+    color: #333A3F;
     background-color: #FFF9ED;
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
     border: 1px solid #333A3F;
-    margin: 1rem;
     font-size: 1rem;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .nunisi-button:hover {
-    box-shadow: none;
-    background-color: #FAF3DF;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
 }
-
 /* ---------- Media-queries ---------- */
 
 @media (max-width: 992px) {

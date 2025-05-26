@@ -9,13 +9,22 @@
         </div>
         <div class="col-12 col-md-6 water-text">
             <h3>{{ water_title }}</h3>
-            <p>{{ water_paragraph }}</p>
+            <p>{{ water_paragraph_1|linebreaksbr }}</p>
+            <p>{{ water_paragraph_2 }}</p>
+            <a
+                href="#"
+                class="nunisi-button water-button"
+                aria-label="Go to our page about Nunisi Water"
+            >
+                {{ water_button }}
+            </a>
         </div>
         <div class="d-none d-lg-block col-6 water-empty-space">
         </div>
     </div>
     <div class="col-12 water-bottom-text">
         <h3>{{ water_title }}</h3>
-        <p>{{ water_paragraph }}</p>
+        <p>{{ water_paragraph_1 }}</p>
+        <p>{{ water_paragraph_2 }}</p>
     </div>
 </div>

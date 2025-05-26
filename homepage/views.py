@@ -43,8 +43,11 @@ def index(request):
         'about_us_legend': trans['about_us_legend'],
         'about_us_legend_text_1': trans['about_us_legend_text_1'],
         'about_us_legend_text_2': trans['about_us_legend_text_2'],
+        # Water
         'water_title': trans['water_title'],
-        'water_paragraph': trans['water_paragraph'],
+        'water_paragraph_1': trans['water_paragraph_1'],
+        'water_paragraph_2': trans['water_paragraph_2'],
+        'water_button': trans['water_button'],
         'spa_title': trans['spa_title'],
         'spa_paragraph_1': trans['spa_paragraph_1'],
         'spa_paragraph_2': trans['spa_paragraph_1'],
@@ -126,8 +129,24 @@ def translate(language):
             'about_us_legend': _('The Legend of Nunisi'),
             'about_us_legend_text_1': _('There is a legend about the discovery of Nunisi water, which is associated with the great Georgian king, David the Builder. The legend tells us that King David was returning from a battle. His horses, tired from walking, whose skin was peeling and sores were forming, they lay down in the Nunisi water and soon recovered. The overjoyed king made a large donation to the temple in the village. The Nunisi Monastery of the Nativity of the Virgin Mary, built in the 9th-10th centuries, is still in operation today.'),
             'about_us_legend_text_2': _('The healing use of Nunisi water has been known since the 9th century. The population noticed that their pets were being cured of malaise with the help of the mineral water, tried using it themselves and got results. Over time, the whole of Georgia learned about the healing properties of the springs. The water of Nunisi was called “a garment and a blessing” by the 18th-century Georgian geographer Vakhushti Batonishvili and is actively mentioned in his works.'),
-            'water_title': _('The Unique Waters of Nunisi Forest Hotel and Spa'),
-            'water_paragraph': _("The secret behind Nunisi's healing power lies in its water. Rich in silicic acid, Nunisi's mineral waters are renowned for their therapeutic benefits. They aid in treating various skin conditions such as psoriasis, eczema, neurodermatitis, and impetigo, as well as bone, joint, and peripheral nervous system disorders. The primary treatment method involves mineral water baths, offering a natural path to wellness and relaxation."),
+            # Water
+            'water_title': _('Indication of Nunisi healing water'),
+            'water_paragraph_1': _(
+                """Legends associated with Nunisi healing water are confirmed by modern scientific research and medical practice.
+                Rehabilitation with healing water in Nunisi has become a symbol of a healthy lifestyle.
+                Nunisi is a place where you can receive healing and wellness procedures using only natural means - spring water, in beautiful nature, in the middle of the forest, in a peaceful and ecologically clean environment.
+                For this purpose, mineral water baths and showers are used, which are prescribed individually by the resort's dermatologist, depending on the patient's condition.
+
+                Typical diseases of the resort:
+                - Psoriasis
+                - Atopic dermatitis (eczema)
+                - Lichen planus
+                - Prurigo
+                - Seborrheic dermatitis
+                - And others.
+                """),
+            'water_paragraph_2': _('You will also receive aesthetic therapy, with a noticeable skin rejuvenation effect in our hotel.'),
+            'water_button': _("Learn more about Nunisi's water"),
             'spa_title': _('Services'),
             'spa_paragraph_1': _('Since many guests visit Nunisi for health and wellness treatments, we offer a range of additional services to complement our mineral bath therapy. These include private doctor consultations, massage therapy, and other medical services designed to enhance relaxation and healing.'),
             'spa_paragraph_2': _('Doctor Consultations: Guests have the opportunity to receive personalized advice from a qualified doctor. Each consultation is tailored to the individual, ensuring the most appropriate treatment plan for their specific needs.'),
