@@ -2,12 +2,12 @@
     <div class="row g-0">
         <div class="col-12 water-background-image">
             <img 
-                src="{% if DEBUG %}{{ MEDIA_URL }}water_2.webp{% else %}{{ MEDIA_URL }}v1742991170/services-water_eaoooj.webp{% endif %}"
+                src="{% if DEBUG %}{{ MEDIA_URL }}water_2.webp{% else %}https://i.imgur.com/q0caXCj.png{% endif %}"
                 alt="An image of a relaxing forest river"
                 loading="lazy"
             >
         </div>
-        <div class="col-12 col-md-6 water-text">
+        <div class="col-12 col-lg-6 water-text">
             <h3>{{ water_title }}</h3>
             <p>{{ water_paragraph_1|linebreaksbr }}</p>
             <p>{{ water_paragraph_2 }}</p>
@@ -24,7 +24,14 @@
     </div>
     <div class="col-12 water-bottom-text">
         <h3>{{ water_title }}</h3>
-        <p>{{ water_paragraph_1 }}</p>
+        <p>{{ water_paragraph_1|linebreaksbr }}</p>
         <p>{{ water_paragraph_2 }}</p>
+        <a
+            href="#"
+            class="nunisi-button water-button"
+            aria-label="Go to our page about Nunisi Water"
+        >
+            {{ water_button }}
+        </a>
     </div>
 </div>
