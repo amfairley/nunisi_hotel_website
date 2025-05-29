@@ -147,15 +147,18 @@
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: column;
-        height: fit-content;
+        height: auto !important;
     }
 
     /* Carousel */
-    #aboutUsCarouselMobile .carousel-nav-buttons {
+    .carousel-inner {
+        height: fit-content;
     }
 
     .carousel-item-mobile {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
+        height: auto !important;
+        min-height: auto;
     }
 
     #aboutUsCarouselMobile .carousel-nav-buttons button {
@@ -179,5 +182,11 @@
         opacity: 1;
         visibility: visible;
         transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+
+    /* Resize the title */
+    .about-us-bottom-text h3 {
+        font-family: Karla, Arial, Helvetica, sans-serif;
+        font-size: 2rem;
     }
 }

@@ -10,7 +10,7 @@
     padding: 1rem;
     width: 100%;
     position: relative;
-    background-color: #FAF3DF;
+    background: none;
 }
 
 .location-info {
@@ -25,16 +25,12 @@
 }
 
 .location-info h3 {
-    font-family: Parisienne, 'Brush Script MT', 'Lucida Handwriting', cursive;
-    color: #FFD95B;
+    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
+    color: #333a3f;
     font-size: 3rem;
     text-align: center;
     width: 100%;
-    text-shadow: 
-        2px 2px 0px #333A3F,
-        -1px -1px 0px #333A3F,
-        -1px 1px 0px #333A3F,
-        1px 1px 0px #333A3F;
+    z-index: 1;
 }
 
 .location-info p {
@@ -43,6 +39,7 @@
     font-weight: 300;
     font-size: 1rem;
     align-items: baseline;
+    z-index: 1;
 }
 
 .location-background {
@@ -76,5 +73,17 @@
     /* Centre map image */
     .location-background {
         background-size: contain;
+    }
+
+    .location-info h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Resize the title */
+    .spa-bottom-text h3 {
+        font-family: Karla, Arial, Helvetica, sans-serif;
+        font-size: 2rem;
     }
 }

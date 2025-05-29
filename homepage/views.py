@@ -51,6 +51,7 @@ def index(request):
         # Services
         'spa_title': trans['spa_title'],
         'services_paragraph': trans['services_paragraph'],
+        # Packages
         'packages_title': trans['packages_title'],
         'packages_comment': trans['packages_comment'],
         'packages_medical_title': trans['packages_medical_title'],
@@ -77,8 +78,11 @@ def index(request):
         'packages_horse': trans['packages_horse'],
         'packages_fishing': trans['packages_fishing'],
         'packages_activities': trans['packages_activities'],
+        # Location
         'location_title': trans['location_title'],
-        'location_paragraph': trans['location_paragraph'],
+        'location_paragraph_1': trans['location_paragraph_1'],
+        'location_paragraph_2': trans['location_paragraph_2'],
+        'location_paragraph_3': trans['location_paragraph_3'],
     }
     return render(
         request,
@@ -158,6 +162,7 @@ def translate(language):
                 The hotel has a 24-hour guarded parking lot. Guests are transported to the territory by their own cable car.
                 The hotel has a laundry service. Pets are allowed by prior arrangement with the administration.
                 """),
+            # Packages
             'packages_title': _('Choose from one of our tailored experience packages'),
             'packages_comment': _('Or contact us to arrange a bespoke holiday.'),
             'packages_medical_title': _('Medical Package'),
@@ -184,8 +189,11 @@ def translate(language):
             'packages_horse': _('Horse riding'),
             'packages_fishing': _('Fishing'),
             'packages_activities': _('Educational and entertainment activities'),
+            # Location
             'location_title': _('Location'),
-            'location_paragraph': _('Situated 750 meters above sea level within the Borjomi-Kharagauli National Park, in the scenic gorge of the Nunisistskali River, lies the Nunisi Forest Hotel and Spa. With its unique combination of a mild climate and high-alkalinity mineral water, Nunisi is especially beneficial for individuals suffering from skin conditions.'),
+            'location_paragraph_1': _('The resort Nunisi is 22 km away from the center of Kharagauli. It is 6 km from the railway station in the village of Moliti to Nunisi. The nearest settlement, the village of the same name, is located 1.5 km from the resort.'),
+            'location_paragraph_2': _('Nunisi Resort is adjacent to the Borjomi-Kharagauli National Park. It is 155 km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from Moliti Railway Station.'),
+            'location_paragraph_3': _('A hotel minibus meets vacationers at Moliti Railway Station.'),
         }
 
     finally:

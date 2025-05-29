@@ -134,4 +134,10 @@
     .water-button {
         font-size: 0.7rem;
     }
+
+    /* Resize the title */
+    .water-bottom-text h3 {
+        font-family: Karla, Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
 }
