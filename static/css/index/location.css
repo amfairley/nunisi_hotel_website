@@ -2,6 +2,8 @@
 /* Index location section */
 #index-location-container {
     padding:0;
+    max-width: 2200px;
+    margin: 0 auto;
 }
 
 #index-location {
