@@ -2,24 +2,22 @@
     <div class="row g-0">
         <div class="col-12 spa-background-image">
             <img 
-                src="{% if DEBUG %}{{ MEDIA_URL }}services-massage.webp{% else %}{{ MEDIA_URL }}v1742991169/services-massage_s99nuy.webp{% endif %}"
-                alt="An image of a relaxing massage"
+                src="{% if DEBUG %}{{ MEDIA_URL }}forest_trees_2.webp{% else %}{{ MEDIA_URL }}v1748526899/forest_trees_2_qjrxnj.webp{% endif %}"
+                alt="An view of Nunisi through the trees"
                 loading="lazy"
             >
         </div>
         <div class="d-none d-lg-block col-6 spa-empty-space">
         </div>
-        <div class="col-12 col-md-6 spa-text">
+        <div class="col-12 col-lg-6 spa-text">
             <h3>{{ spa_title }}</h3>
-            <p>{{ spa_paragraph_1 }}</p>
-            <p>{{ spa_paragraph_2 }}</p>
+            <p>{{ services_paragraph|linebreaksbr }}</p>
         </div>
 
     </div>
     <div class="col-12 spa-bottom-text">
         <h3>{{ spa_title }}</h3>
-        <p>{{ spa_paragraph_1 }}</p>
-        <p>{{ spa_paragraph_2 }}</p>
+        <p>{{ services_paragraph|linebreaksbr }}</p>
     </div>
 </div>
 

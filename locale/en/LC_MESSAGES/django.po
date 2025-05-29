@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 16:52+0100\n"
+"POT-Creation-Date: 2025-05-29 14:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,11 +42,11 @@ msgstr "Call us today on"
 msgid "About Us"
 msgstr "About Us"
 
-#: .\homepage\views.py:110 .\homepage\views.py:150
+#: .\homepage\views.py:110 .\homepage\views.py:151
 msgid "Services"
 msgstr "Services"
 
-#: .\homepage\views.py:111 .\homepage\views.py:179
+#: .\homepage\views.py:111 .\homepage\views.py:187
 msgid "Location"
 msgstr "Location"
 
@@ -233,135 +233,139 @@ msgstr ""
 msgid "Learn more about Nunisi's water"
 msgstr "Learn more about Nunisi's water"
 
-#: .\homepage\views.py:151
-msgid ""
-"Since many guests visit Nunisi for health and wellness treatments, we offer "
-"a range of additional services to complement our mineral bath therapy. These "
-"include private doctor consultations, massage therapy, and other medical "
-"services designed to enhance relaxation and healing."
-msgstr ""
-"Since many guests visit Nunisi for health and wellness treatments, we offer "
-"a range of additional services to complement our mineral bath therapy. These "
-"include private doctor consultations, massage therapy, and other medical "
-"services designed to enhance relaxation and healing."
-
-#: .\homepage\views.py:152
-msgid ""
-"Doctor Consultations: Guests have the opportunity to receive personalized "
-"advice from a qualified doctor. Each consultation is tailored to the "
-"individual, ensuring the most appropriate treatment plan for their specific "
-"needs."
-msgstr ""
-"Doctor Consultations: Guests have the opportunity to receive personalized "
-"advice from a qualified doctor. Each consultation is tailored to the "
-"individual, ensuring the most appropriate treatment plan for their specific "
-"needs."
-
 #: .\homepage\views.py:153
+msgid ""
+"- Three meals a day are included in the room rate\n"
+"                - The restaurant accepts individual orders\n"
+"                - Doctor consultation \n"
+"                - Bath and Massage therapy \n"
+"                The hotel has an open bar (with billiards, film screenings). "
+"Excursions are organized to the monks' cave (so-called Noah's Ark), the "
+"Fathers' Monastery and the waterfall.\n"
+"                The hotel has a 24-hour guarded parking lot. Guests are "
+"transported to the territory by their own cable car.\n"
+"                The hotel has a laundry service. Pets are allowed by prior "
+"arrangement with the administration.\n"
+"                "
+msgstr ""
+"- Three meals a day are included in the room rate\n"
+"                - The restaurant accepts individual orders\n"
+"                - Doctor consultation \n"
+"                - Bath and Massage therapy \n"
+"                The hotel has an open bar (with billiards, film screenings). "
+"Excursions are organized to the monks' cave (so-called Noah's Ark), the "
+"Fathers' Monastery and the waterfall.\n"
+"                The hotel has a 24-hour guarded parking lot. Guests are "
+"transported to the territory by their own cable car.\n"
+"                The hotel has a laundry service. Pets are allowed by prior "
+"arrangement with the administration.\n"
+"                "
+
+#: .\homepage\views.py:161
 msgid "Choose from one of our tailored experience packages"
 msgstr "Choose from one of our tailored experience packages*"
 
-#: .\homepage\views.py:154
+#: .\homepage\views.py:162
 msgid "Or contact us to arrange a bespoke holiday."
 msgstr "*Or contact us to arrange a bespoke holiday."
 
-#: .\homepage\views.py:155
+#: .\homepage\views.py:163
 msgid "Medical Package"
 msgstr "Medical Package"
 
-#: .\homepage\views.py:156
+#: .\homepage\views.py:164
 msgid "Wellness Recreational Package"
 msgstr "Wellness Recreational Package"
 
-#: .\homepage\views.py:157
+#: .\homepage\views.py:165
 msgid "Esthetic Retreat Package"
 msgstr "Esthetic Retreat Package"
 
-#: .\homepage\views.py:158
+#: .\homepage\views.py:166
 msgid "Beauty Restoration Package"
 msgstr "Beauty Restoration Package"
 
-#: .\homepage\views.py:159
+#: .\homepage\views.py:167
 msgid "Family Package"
 msgstr "Family Package (2 adults, 2 children)"
 
-#: .\homepage\views.py:160
+#: .\homepage\views.py:168
 msgid "One week of hotel accommodation"
 msgstr "One week of hotel accommodation"
 
-#: .\homepage\views.py:161
+#: .\homepage\views.py:169
 msgid "Five days of hotel accommodation"
 msgstr "Five days of hotel accommodation"
 
-#: .\homepage\views.py:162
+#: .\homepage\views.py:170
 msgid "Three meals a day"
 msgstr "Three meals a day"
 
-#: .\homepage\views.py:163
+#: .\homepage\views.py:171
 msgid "Three healthy meals a day"
 msgstr "Three healthy meals a day"
 
-#: .\homepage\views.py:164
+#: .\homepage\views.py:172
 msgid "Three meals a day including a child menu"
 msgstr "Three meals a day including a child menu"
 
-#: .\homepage\views.py:165
+#: .\homepage\views.py:173
 msgid "Dermatologist consultation"
 msgstr "Dermatologist consultation"
 
-#: .\homepage\views.py:166
+#: .\homepage\views.py:174
 msgid "Wellness procedure of 2 showers and 10 baths"
 msgstr "Wellness procedure of 2 showers and 10 baths"
 
-#: .\homepage\views.py:167
+#: .\homepage\views.py:175
 msgid "10 procedures in a mineral water pool"
 msgstr "10 procedures in a mineral water pool"
 
-#: .\homepage\views.py:168
+#: .\homepage\views.py:176
 msgid "Access to the mineral pool"
 msgstr "Access to the mineral pool"
 
-#: .\homepage\views.py:169
+#: .\homepage\views.py:177
 msgid "Nunisi water procedures for skin rejuvenation and anti-aging"
 msgstr "Nunisi water procedures for skin rejuvenation and anti-aging"
 
-#: .\homepage\views.py:170
+#: .\homepage\views.py:178
 msgid "Massage"
 msgstr "Massage"
 
-#: .\homepage\views.py:171
+#: .\homepage\views.py:179
 msgid "Facial massage"
 msgstr "Facial massage"
 
-#: .\homepage\views.py:172
+#: .\homepage\views.py:180
 msgid "Morning exercise with instructor"
 msgstr "Morning exercise with instructor"
 
-#: .\homepage\views.py:173
+#: .\homepage\views.py:181
 msgid "Morning and evening exercises with instructor"
 msgstr "Morning and evening exercises with instructor"
 
-#: .\homepage\views.py:174
+#: .\homepage\views.py:182
 msgid "Evening yoga and meditation"
 msgstr "Evening yoga and meditation"
 
-#: .\homepage\views.py:175
+#: .\homepage\views.py:183
 msgid "Guided sight-seeing hike"
 msgstr "Guided sight-seeing hike"
 
-#: .\homepage\views.py:176
+#: .\homepage\views.py:184
 msgid "Horse riding"
 msgstr "Horse riding"
 
-#: .\homepage\views.py:177
+#: .\homepage\views.py:185
 msgid "Fishing"
 msgstr "Fishing"
 
-#: .\homepage\views.py:178
+#: .\homepage\views.py:186
 msgid "Educational and entertainment activities"
 msgstr "Educational and entertainment activities"
 
-#: .\homepage\views.py:180
+#: .\homepage\views.py:188
 msgid ""
 "Situated 750 meters above sea level within the Borjomi-Kharagauli National "
 "Park, in the scenic gorge of the Nunisistskali River, lies the Nunisi Forest "
@@ -1607,6 +1611,28 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:236
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid ""
+#~ "Since many guests visit Nunisi for health and wellness treatments, we "
+#~ "offer a range of additional services to complement our mineral bath "
+#~ "therapy. These include private doctor consultations, massage therapy, and "
+#~ "other medical services designed to enhance relaxation and healing."
+#~ msgstr ""
+#~ "Since many guests visit Nunisi for health and wellness treatments, we "
+#~ "offer a range of additional services to complement our mineral bath "
+#~ "therapy. These include private doctor consultations, massage therapy, and "
+#~ "other medical services designed to enhance relaxation and healing."
+
+#~ msgid ""
+#~ "Doctor Consultations: Guests have the opportunity to receive personalized "
+#~ "advice from a qualified doctor. Each consultation is tailored to the "
+#~ "individual, ensuring the most appropriate treatment plan for their "
+#~ "specific needs."
+#~ msgstr ""
+#~ "Doctor Consultations: Guests have the opportunity to receive personalized "
+#~ "advice from a qualified doctor. Each consultation is tailored to the "
+#~ "individual, ensuring the most appropriate treatment plan for their "
+#~ "specific needs."
 
 #~ msgid "The Unique Waters of Nunisi Forest Hotel and Spa"
 #~ msgstr "The Unique Waters of Nunisi Forest Hotel and Spa"

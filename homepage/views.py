@@ -48,9 +48,9 @@ def index(request):
         'water_paragraph_1': trans['water_paragraph_1'],
         'water_paragraph_2': trans['water_paragraph_2'],
         'water_button': trans['water_button'],
+        # Services
         'spa_title': trans['spa_title'],
-        'spa_paragraph_1': trans['spa_paragraph_1'],
-        'spa_paragraph_2': trans['spa_paragraph_1'],
+        'services_paragraph': trans['services_paragraph'],
         'packages_title': trans['packages_title'],
         'packages_comment': trans['packages_comment'],
         'packages_medical_title': trans['packages_medical_title'],
@@ -147,9 +147,17 @@ def translate(language):
                 """),
             'water_paragraph_2': _('You will also receive aesthetic therapy, with a noticeable skin rejuvenation effect in our hotel.'),
             'water_button': _("Learn more about Nunisi's water"),
+            # Services
             'spa_title': _('Services'),
-            'spa_paragraph_1': _('Since many guests visit Nunisi for health and wellness treatments, we offer a range of additional services to complement our mineral bath therapy. These include private doctor consultations, massage therapy, and other medical services designed to enhance relaxation and healing.'),
-            'spa_paragraph_2': _('Doctor Consultations: Guests have the opportunity to receive personalized advice from a qualified doctor. Each consultation is tailored to the individual, ensuring the most appropriate treatment plan for their specific needs.'),
+            'services_paragraph': _(
+                """- Three meals a day are included in the room rate
+                - The restaurant accepts individual orders
+                - Doctor consultation 
+                - Bath and Massage therapy 
+                The hotel has an open bar (with billiards, film screenings). Excursions are organized to the monks' cave (so-called Noah's Ark), the Fathers' Monastery and the waterfall.
+                The hotel has a 24-hour guarded parking lot. Guests are transported to the territory by their own cable car.
+                The hotel has a laundry service. Pets are allowed by prior arrangement with the administration.
+                """),
             'packages_title': _('Choose from one of our tailored experience packages'),
             'packages_comment': _('Or contact us to arrange a bespoke holiday.'),
             'packages_medical_title': _('Medical Package'),
