@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const nextBtn = document.getElementById('nextBtn');
 
     const toggleButtons = () => {
-        const activeIndex = Array.from(carousel.querySelectorAll('.carousel-item')).findIndex(item =>
+        const activeIndex = Array.from(carousel.querySelectorAll('.carousel-item-desktop')).findIndex(item =>
         item.classList.contains('active')
         );
         prevBtn.classList.toggle('d-none', activeIndex === 0);
@@ -14,6 +14,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
     carousel.addEventListener('slid.bs.carousel', toggleButtons);
     toggleButtons();
+
+    // About us Mobile Carousel Logic //
+    const carouselMobile = document.getElementById('aboutUsCarouselMobile');
+    const prevBtnMobile = document.getElementById('prevBtnMobile');
+    const nextBtnMobile = document.getElementById('nextBtnMobile');
+
+    const toggleButtonsMobile = () => {
+        const activeIndex = Array.from(carouselMobile.querySelectorAll('.carousel-item-mobile')).findIndex(item =>
+        item.classList.contains('active')
+        );
+        prevBtnMobile.classList.toggle('d-none', activeIndex === 0);
+        nextBtnMobile.classList.toggle('d-none', activeIndex === 1);
+    };
+
+    carouselMobile.addEventListener('slid.bs.carousel', toggleButtonsMobile);
+    toggleButtonsMobile();
 
     // Navbar burger menu hiding functionality
     const navLinks = document.querySelectorAll('.navbar .nav-link');

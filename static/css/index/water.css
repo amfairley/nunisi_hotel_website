@@ -4,6 +4,7 @@
     padding: 0;
     width: 100%;
     position: relative;
+    height: auto;
 }
 
 .water-background-image {
@@ -15,6 +16,7 @@
     height: auto;
     max-height: 600px;
     object-fit: cover;
+    object-position: bottom;
 }
 
 .water-empty-space,

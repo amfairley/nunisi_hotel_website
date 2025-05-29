@@ -34,6 +34,10 @@
     padding-bottom: 0;
 }
 
+:lang(ka) .nav-item-header .nav-link{
+    transform: scaleY(2);
+}
+
 .nav-item-header .nav-link.active{
     color: #FFD95B;
     text-decoration: underline 1px solid;

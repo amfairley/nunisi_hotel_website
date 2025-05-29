@@ -24,12 +24,12 @@
             
             <div class="carousel-inner pt-5">
                 <!-- Slide 1 -->
-                <div class="carousel-item active">
+                <div class="carousel-item carousel-item-desktop active">
                 <h3>{{ about_us_title }}</h3>
                 <p>{{ about_us_paragraph }}</p>
                 </div>
                 <!-- Slide 2 -->
-                <div class="carousel-item">
+                <div class="carousel-item carousel-item-desktop">
                 <h3>{{ about_us_legend }}</h3>
                 <p>{{ about_us_legend_text_1 }}</p>
                 <p>{{ about_us_legend_text_2 }}</p>
@@ -39,10 +39,32 @@
     </div>
     
     <div class="col-12 about-us-bottom-text">
-        <h3>{{ about_us_title }}</h3>
-        <p>{{ about_us_paragraph }}</p>
-        <h3>{{ about_us_legend }}</h3>
-        <p>{{ about_us_legend_text_1 }}</p>
-        <p>{{ about_us_legend_text_2 }}</p>
+        <div id="aboutUsCarouselMobile" class="carousel slide col-12" data-bs-ride="false">
+            <!--Navigation buttons-->
+            <div class="carousel-nav-buttons d-flex justify-content-center position-absolute bottom-0 start-50 translate-middle-x z-3">
+                <button id="prevBtnMobile" class="btn btn-outline-dark rounded-pill py-1 px-3 d-none" type="button"
+                data-bs-target="#aboutUsCarouselMobile" data-bs-slide="prev">
+                ← {{ about_us_carousel_prev }}
+                </button>
+                <button id="nextBtnMobile" class="btn btn-outline-dark rounded-pill py-1 px-3" type="button"
+                data-bs-target="#aboutUsCarouselMobile" data-bs-slide="next">
+                {{ about_us_carousel_next }} →
+                </button>
+            </div>
+            
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item carousel-item-mobile active">
+                <h3>{{ about_us_title }}</h3>
+                <p>{{ about_us_paragraph }}</p>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item carousel-item-mobile">
+                <h3>{{ about_us_legend }}</h3>
+                <p>{{ about_us_legend_text_1 }}</p>
+                <p>{{ about_us_legend_text_2 }}</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
