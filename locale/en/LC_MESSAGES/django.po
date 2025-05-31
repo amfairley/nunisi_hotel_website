@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-29 15:06+0100\n"
+"POT-Creation-Date: 2025-05-29 20:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,87 +18,87 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\homepage\views.py:105
+#: .\homepage\views.py:116
 msgid "Home"
 msgstr "Home"
 
-#: .\homepage\views.py:106 .\homepage\views.py:113
+#: .\homepage\views.py:117 .\homepage\views.py:124
 msgid "Nunisi Water"
 msgstr "Nunisi Water"
 
-#: .\homepage\views.py:107
+#: .\homepage\views.py:118
 msgid "Build Your Stay"
 msgstr "Build Your Stay"
 
-#: .\homepage\views.py:108
+#: .\homepage\views.py:119
 msgid "Photo Gallery"
 msgstr "Photo Gallery"
 
-#: .\homepage\views.py:109
+#: .\homepage\views.py:120
 msgid "Call us today on"
 msgstr "Call us today on"
 
-#: .\homepage\views.py:112 .\homepage\views.py:129
+#: .\homepage\views.py:123 .\homepage\views.py:140
 msgid "About Us"
 msgstr "About Us"
 
-#: .\homepage\views.py:114 .\homepage\views.py:155
+#: .\homepage\views.py:125 .\homepage\views.py:166
 msgid "Services"
 msgstr "Services"
 
-#: .\homepage\views.py:115 .\homepage\views.py:193
+#: .\homepage\views.py:126 .\homepage\views.py:204
 msgid "Location"
 msgstr "Location"
 
-#: .\homepage\views.py:116
+#: .\homepage\views.py:127
 msgid "Reviews"
 msgstr "Reviews"
 
-#: .\homepage\views.py:118
+#: .\homepage\views.py:129
 msgid "Nunisi Forest Hotel and Spa"
 msgstr "Nunisi Forest Hotel and Spa"
 
-#: .\homepage\views.py:119
+#: .\homepage\views.py:130
 msgid "Where luxury is natural!"
 msgstr "Where luxury is natural!"
 
-#: .\homepage\views.py:121
+#: .\homepage\views.py:132
 msgid "Book now via"
 msgstr "Book now via"
 
-#: .\homepage\views.py:122
+#: .\homepage\views.py:133
 msgid " Email: "
 msgstr " Email: "
 
-#: .\homepage\views.py:123
+#: .\homepage\views.py:134
 msgid " Phone: (+995) 599 22 55 80"
 msgstr " Phone: (+995) 599 22 55 80"
 
-#: .\homepage\views.py:124
+#: .\homepage\views.py:135
 msgid "Through "
 msgstr "Through"
 
-#: .\homepage\views.py:125 .\venv\Lib\site-packages\django\utils\text.py:286
+#: .\homepage\views.py:136 .\venv\Lib\site-packages\django\utils\text.py:286
 msgid "or"
 msgstr "or"
 
-#: .\homepage\views.py:126
+#: .\homepage\views.py:137
 msgid "Book through booking.com"
 msgstr "Book through booking.com"
 
-#: .\homepage\views.py:127
+#: .\homepage\views.py:138
 msgid "Take a look at our rooms & packages"
 msgstr "Take a look at our rooms & packages"
 
-#: .\homepage\views.py:130 .\homepage\views.py:133
+#: .\homepage\views.py:141 .\homepage\views.py:144
 msgid "The Legend of Nunisi"
 msgstr "The Legend of Nunisi"
 
-#: .\homepage\views.py:131
+#: .\homepage\views.py:142
 msgid "A unique resort of world importance"
 msgstr "A unique resort of world importance"
 
-#: .\homepage\views.py:132
+#: .\homepage\views.py:143
 msgid ""
 "Nunisi mineral water was known as early as the 17th century. The "
 "balneological resort has been hosting those who want to relax in picturesque "
@@ -118,7 +118,7 @@ msgstr ""
 "and natural products are the best for deep relaxation and restoration of "
 "strength."
 
-#: .\homepage\views.py:134
+#: .\homepage\views.py:145
 msgid ""
 "There is a legend about the discovery of Nunisi water, which is associated "
 "with the great Georgian king, David the Builder. The legend tells us that "
@@ -136,7 +136,7 @@ msgstr ""
 "temple in the village. The Nunisi Monastery of the Nativity of the Virgin "
 "Mary, built in the 9th-10th centuries, is still in operation today."
 
-#: .\homepage\views.py:135
+#: .\homepage\views.py:146
 msgid ""
 "The healing use of Nunisi water has been known since the 9th century. The "
 "population noticed that their pets were being cured of malaise with the help "
@@ -154,11 +154,11 @@ msgstr ""
 "century Georgian geographer Vakhushti Batonishvili and is actively mentioned "
 "in his works."
 
-#: .\homepage\views.py:137
+#: .\homepage\views.py:148
 msgid "Indication of Nunisi healing water"
 msgstr "Indication of Nunisi healing water"
 
-#: .\homepage\views.py:139
+#: .\homepage\views.py:150
 #, fuzzy
 #| msgid ""
 #| "Legends associated with Nunisi healing water are confirmed by modern "
@@ -221,7 +221,7 @@ msgstr ""
 "                - And others.\n"
 "                "
 
-#: .\homepage\views.py:152
+#: .\homepage\views.py:163
 msgid ""
 "You will also receive aesthetic therapy, with a noticeable skin rejuvenation "
 "effect in our hotel."
@@ -229,11 +229,11 @@ msgstr ""
 "You will also receive aesthetic therapy, with a noticeable skin rejuvenation "
 "effect in our hotel."
 
-#: .\homepage\views.py:153
+#: .\homepage\views.py:164
 msgid "Learn more about Nunisi's water"
 msgstr "Learn more about Nunisi's water"
 
-#: .\homepage\views.py:157
+#: .\homepage\views.py:168
 msgid ""
 "- Three meals a day are included in the room rate\n"
 "                - The restaurant accepts individual orders\n"
@@ -261,111 +261,111 @@ msgstr ""
 "arrangement with the administration.\n"
 "                "
 
-#: .\homepage\views.py:166
+#: .\homepage\views.py:177
 msgid "Choose from one of our tailored experience packages"
 msgstr "Choose from one of our tailored experience packages*"
 
-#: .\homepage\views.py:167
+#: .\homepage\views.py:178
 msgid "Or contact us to arrange a bespoke holiday."
 msgstr "*Or contact us to arrange a bespoke holiday."
 
-#: .\homepage\views.py:168
+#: .\homepage\views.py:179
 msgid "Medical Package"
 msgstr "Medical Package"
 
-#: .\homepage\views.py:169
+#: .\homepage\views.py:180
 msgid "Wellness Recreational Package"
 msgstr "Wellness Recreational Package"
 
-#: .\homepage\views.py:170
+#: .\homepage\views.py:181
 msgid "Esthetic Retreat Package"
 msgstr "Esthetic Retreat Package"
 
-#: .\homepage\views.py:171
+#: .\homepage\views.py:182
 msgid "Beauty Restoration Package"
 msgstr "Beauty Restoration Package"
 
-#: .\homepage\views.py:172
+#: .\homepage\views.py:183
 msgid "Family Package"
 msgstr "Family Package (2 adults, 2 children)"
 
-#: .\homepage\views.py:173
+#: .\homepage\views.py:184
 msgid "One week of hotel accommodation"
 msgstr "One week of hotel accommodation"
 
-#: .\homepage\views.py:174
+#: .\homepage\views.py:185
 msgid "Five days of hotel accommodation"
 msgstr "Five days of hotel accommodation"
 
-#: .\homepage\views.py:175
+#: .\homepage\views.py:186
 msgid "Three meals a day"
 msgstr "Three meals a day"
 
-#: .\homepage\views.py:176
+#: .\homepage\views.py:187
 msgid "Three healthy meals a day"
 msgstr "Three healthy meals a day"
 
-#: .\homepage\views.py:177
+#: .\homepage\views.py:188
 msgid "Three meals a day including a child menu"
 msgstr "Three meals a day including a child menu"
 
-#: .\homepage\views.py:178
+#: .\homepage\views.py:189
 msgid "Dermatologist consultation"
 msgstr "Dermatologist consultation"
 
-#: .\homepage\views.py:179
+#: .\homepage\views.py:190
 msgid "Wellness procedure of 2 showers and 10 baths"
 msgstr "Wellness procedure of 2 showers and 10 baths"
 
-#: .\homepage\views.py:180
+#: .\homepage\views.py:191
 msgid "10 procedures in a mineral water pool"
 msgstr "10 procedures in a mineral water pool"
 
-#: .\homepage\views.py:181
+#: .\homepage\views.py:192
 msgid "Access to the mineral pool"
 msgstr "Access to the mineral pool"
 
-#: .\homepage\views.py:182
+#: .\homepage\views.py:193
 msgid "Nunisi water procedures for skin rejuvenation and anti-aging"
 msgstr "Nunisi water procedures for skin rejuvenation and anti-aging"
 
-#: .\homepage\views.py:183
+#: .\homepage\views.py:194
 msgid "Massage"
 msgstr "Massage"
 
-#: .\homepage\views.py:184
+#: .\homepage\views.py:195
 msgid "Facial massage"
 msgstr "Facial massage"
 
-#: .\homepage\views.py:185
+#: .\homepage\views.py:196
 msgid "Morning exercise with instructor"
 msgstr "Morning exercise with instructor"
 
-#: .\homepage\views.py:186
+#: .\homepage\views.py:197
 msgid "Morning and evening exercises with instructor"
 msgstr "Morning and evening exercises with instructor"
 
-#: .\homepage\views.py:187
+#: .\homepage\views.py:198
 msgid "Evening yoga and meditation"
 msgstr "Evening yoga and meditation"
 
-#: .\homepage\views.py:188
+#: .\homepage\views.py:199
 msgid "Guided sight-seeing hike"
 msgstr "Guided sight-seeing hike"
 
-#: .\homepage\views.py:189
+#: .\homepage\views.py:200
 msgid "Horse riding"
 msgstr "Horse riding"
 
-#: .\homepage\views.py:190
+#: .\homepage\views.py:201
 msgid "Fishing"
 msgstr "Fishing"
 
-#: .\homepage\views.py:191
+#: .\homepage\views.py:202
 msgid "Educational and entertainment activities"
 msgstr "Educational and entertainment activities"
 
-#: .\homepage\views.py:194
+#: .\homepage\views.py:205
 msgid ""
 "The resort Nunisi is 22 km away from the center of Kharagauli. It is 6 km "
 "from the railway station in the village of Moliti to Nunisi. The nearest "
@@ -375,7 +375,7 @@ msgstr ""
 "from the railway station in the village of Moliti to Nunisi. The nearest "
 "settlement, the village of the same name, is located 1.5 km from the resort."
 
-#: .\homepage\views.py:195
+#: .\homepage\views.py:206
 msgid ""
 "Nunisi Resort is adjacent to the Borjomi-Kharagauli National Park. It is 155 "
 "km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from "
@@ -385,9 +385,121 @@ msgstr ""
 "km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from "
 "Moliti Railway Station."
 
-#: .\homepage\views.py:196
+#: .\homepage\views.py:207
 msgid "A hotel minibus meets vacationers at Moliti Railway Station."
 msgstr "A hotel minibus meets vacationers at Moliti Railway Station."
+
+#: .\homepage\views.py:210
+msgid ""
+"The city of Tskheli remained in the dust far away, \n"
+"                Nunisi - my marina, \n"
+"                Soft water and tall trees, \n"
+"                Unforgettable Nunisi days.\n"
+"                "
+msgstr ""
+"The city of Tskheli remained in the dust far away, \n"
+"                Nunisi - my marina, \n"
+"                Soft water and tall trees, \n"
+"                Unforgettable Nunisi days.\n"
+"                "
+
+#: .\homepage\views.py:216
+msgid "Dato, 9 years old"
+msgstr "Dato, 9 years old"
+
+#: .\homepage\views.py:218
+msgid ""
+"I have been receiving treatment at the Nunisi resort for two years now. I "
+"first visited the resort at the end of August last year, and the second time "
+"this year. I suffer from rheumatic disease, severe radiculitis. I was "
+"receiving treatment in our district (Lagodekhi) since March 1970, and in "
+"1974 in Gurjaani, Akhtala, but my condition gradually became more and more "
+"difficult. For months I was chained to a bed with severe attacks and "
+"indescribable pain. Last year's treatment exceeded my expectations. If "
+"someone else had told me this, I honestly would not have believed it. I was "
+"completely cured.\n"
+"                The Nunisi resort is very pleasant and convenient with its "
+"natural relief location, beauty, clean air and water. But I cannot help but "
+"express my heartfelt gratitude to the entire staff of the resort, from the "
+"director and the doctor to the cleaners. I would like to reiterate my "
+"gratitude.\n"
+"                "
+msgstr ""
+"I have been receiving treatment at the Nunisi resort for two years now. I "
+"first visited the resort at the end of August last year, and the second time "
+"this year. I suffer from rheumatic disease, severe radiculitis. I was "
+"receiving treatment in our district (Lagodekhi) since March 1970, and in "
+"1974 in Gurjaani, Akhtala, but my condition gradually became more and more "
+"difficult. For months I was chained to a bed with severe attacks and "
+"indescribable pain. Last year's treatment exceeded my expectations. If "
+"someone else had told me this, I honestly would not have believed it. I was "
+"completely cured.\n"
+"                The Nunisi resort is very pleasant and convenient with its "
+"natural relief location, beauty, clean air and water. But I cannot help but "
+"express my heartfelt gratitude to the entire staff of the resort, from the "
+"director and the doctor to the cleaners. I would like to reiterate my "
+"gratitude.\n"
+"                "
+
+#: .\homepage\views.py:222
+msgid "Silver Lomidze"
+msgstr "Silver Lomidze"
+
+#: .\homepage\views.py:223
+msgid ""
+"I was at the Nunisi balneological and medical resort from August 7 to 20. "
+"There was peace and friendliness. At the same time, the resort's management "
+"was eager to improve comfort. Many thanks to the entire staff. I believe "
+"that Nunisi will become one of the best resorts in Georgia in the near "
+"future. My heart breaks as I have to leave this place tomorrow."
+msgstr ""
+"I was at the Nunisi balneological and medical resort from August 7 to 20. "
+"There was peace and friendliness. At the same time, the resort's management "
+"was eager to improve comfort. Many thanks to the entire staff. I believe "
+"that Nunisi will become one of the best resorts in Georgia in the near "
+"future. My heart breaks as I have to leave this place tomorrow."
+
+#: .\homepage\views.py:224
+msgid "L.Gogoladze"
+msgstr "L.Gogoladze"
+
+#: .\homepage\views.py:225
+msgid ""
+"I was at the Nunisi Sanatorium from 25.07.02 to 8.08.02. We were amazed by "
+"the results of the healing waters, they have such a beneficial effect on "
+"skin diseases. In addition, we were amazed by the service, conditions and "
+"warm welcome of the staff."
+msgstr ""
+"I was at the Nunisi Sanatorium from 25.07.02 to 8.08.02. We were amazed by "
+"the results of the healing waters, they have such a beneficial effect on "
+"skin diseases. In addition, we were amazed by the service, conditions and "
+"warm welcome of the staff."
+
+#: .\homepage\views.py:226
+msgid "Leila Munjishvili"
+msgstr "Leila Munjishvili"
+
+#: .\homepage\views.py:227
+msgid ""
+"I had heard about the Nunisi Baths since I was a child, but how did I know "
+"then that my little daughter would need treatment here?! When my 5-year-old "
+"daughter was diagnosed with psoriasis, I started asking people who had this "
+"incurable disease. Everyone unanimously advised me to take her  to Nunisi "
+"and get her treated. And here we are, arriving in this paradise. When I got "
+"out of the car, I couldn't hide my admiration. I liked the environment here "
+"so much. Thank you all for such warmth and attention!"
+msgstr ""
+"I had heard about the Nunisi Baths since I was a child, but how did I know "
+"then that my little daughter would need treatment here?! When my 5-year-old "
+"daughter was diagnosed with psoriasis, I started asking people who had this "
+"incurable disease. Everyone unanimously advised me to take her  to Nunisi "
+"and get her treated. And here we are, arriving in this paradise. When I got "
+"out of the car, I couldn't hide my admiration. I liked the environment here "
+"so much. Thank you all for such warmth and attention!"
+
+#: .\homepage\views.py:228
+msgid "Marine Laradze"
+msgstr "Marine Laradze"
 
 #: .\nunisi_hotel_website\settings.py:145
 msgid "English"

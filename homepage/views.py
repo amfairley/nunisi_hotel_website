@@ -83,6 +83,17 @@ def index(request):
         'location_paragraph_1': trans['location_paragraph_1'],
         'location_paragraph_2': trans['location_paragraph_2'],
         'location_paragraph_3': trans['location_paragraph_3'],
+        # Reviews
+        'review_1_content': trans['review_1_content'],
+        'review_1_name': trans['review_1_name'],
+        'review_2_content': trans['review_2_content'],
+        'review_2_name': trans['review_2_name'],
+        'review_3_content': trans['review_3_content'],
+        'review_3_name': trans['review_3_name'],
+        'review_4_content': trans['review_4_content'],
+        'review_4_name': trans['review_4_name'],
+        'review_5_content': trans['review_5_content'],
+        'review_5_name': trans['review_5_name'],
     }
     return render(
         request,
@@ -194,6 +205,27 @@ def translate(language):
             'location_paragraph_1': _('The resort Nunisi is 22 km away from the center of Kharagauli. It is 6 km from the railway station in the village of Moliti to Nunisi. The nearest settlement, the village of the same name, is located 1.5 km from the resort.'),
             'location_paragraph_2': _('Nunisi Resort is adjacent to the Borjomi-Kharagauli National Park. It is 155 km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from Moliti Railway Station.'),
             'location_paragraph_3': _('A hotel minibus meets vacationers at Moliti Railway Station.'),
+            # Reviews
+            'review_1_content': _(
+                """The city of Tskheli remained in the dust far away, 
+                Nunisi - my marina, 
+                Soft water and tall trees, 
+                Unforgettable Nunisi days.
+                """
+            ),
+            'review_1_name': _('Dato, 9 years old'),
+            'review_2_content': _(
+                """I have been receiving treatment at the Nunisi resort for two years now. I first visited the resort at the end of August last year, and the second time this year. I suffer from rheumatic disease, severe radiculitis. I was receiving treatment in our district (Lagodekhi) since March 1970, and in 1974 in Gurjaani, Akhtala, but my condition gradually became more and more difficult. For months I was chained to a bed with severe attacks and indescribable pain. Last year's treatment exceeded my expectations. If someone else had told me this, I honestly would not have believed it. I was completely cured.
+                The Nunisi resort is very pleasant and convenient with its natural relief location, beauty, clean air and water. But I cannot help but express my heartfelt gratitude to the entire staff of the resort, from the director and the doctor to the cleaners. I would like to reiterate my gratitude.
+                """
+            ),
+            'review_2_name': _('Silver Lomidze'),
+            'review_3_content': _("I was at the Nunisi balneological and medical resort from August 7 to 20. There was peace and friendliness. At the same time, the resort's management was eager to improve comfort. Many thanks to the entire staff. I believe that Nunisi will become one of the best resorts in Georgia in the near future. My heart breaks as I have to leave this place tomorrow."),
+            'review_3_name': _('L.Gogoladze'),
+            'review_4_content': _('I was at the Nunisi Sanatorium from 25.07.02 to 8.08.02. We were amazed by the results of the healing waters, they have such a beneficial effect on skin diseases. In addition, we were amazed by the service, conditions and warm welcome of the staff.'),
+            'review_4_name': _('Leila Munjishvili'),
+            'review_5_content': _("I had heard about the Nunisi Baths since I was a child, but how did I know then that my little daughter would need treatment here?! When my 5-year-old daughter was diagnosed with psoriasis, I started asking people who had this incurable disease. Everyone unanimously advised me to take her  to Nunisi and get her treated. And here we are, arriving in this paradise. When I got out of the car, I couldn't hide my admiration. I liked the environment here so much. Thank you all for such warmth and attention!"),
+            'review_5_name': _('Marine Laradze'),
         }
 
     finally:
