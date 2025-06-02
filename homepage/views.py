@@ -94,6 +94,11 @@ def index(request):
         'review_4_name': trans['review_4_name'],
         'review_5_content': trans['review_5_content'],
         'review_5_name': trans['review_5_name'],
+        # Footer
+        'contact_us': trans['contact_us'],
+        'copywrite': trans['copywrite'],
+        'developer': trans['developer'],
+        'follow_us': trans['follow_us'],
     }
     return render(
         request,
@@ -226,6 +231,11 @@ def translate(language):
             'review_4_name': _('Leila Munjishvili'),
             'review_5_content': _("I had heard about the Nunisi Baths since I was a child, but how did I know then that my little daughter would need treatment here?! When my 5-year-old daughter was diagnosed with psoriasis, I started asking people who had this incurable disease. Everyone unanimously advised me to take her  to Nunisi and get her treated. And here we are, arriving in this paradise. When I got out of the car, I couldn't hide my admiration. I liked the environment here so much. Thank you all for such warmth and attention!"),
             'review_5_name': _('Marine Laradze'),
+            # Footer
+            'contact_us': _('Contact us'),
+            'copywrite': _('Nunisi Hotel and Spa. All rights reserved'),
+            'developer': _('Developed by'),
+            'follow_us': _('Follow us on social media'),
         }
 
     finally:
