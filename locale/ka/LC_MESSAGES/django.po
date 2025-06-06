@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-02 19:56+0100\n"
+"POT-Creation-Date: 2025-06-06 15:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,87 +18,103 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: .\homepage\views.py:121
+#: .\homepage\views.py:160
 msgid "Home"
 msgstr "მთავარი"
 
-#: .\homepage\views.py:122 .\homepage\views.py:129
+#: .\homepage\views.py:161 .\homepage\views.py:172
 msgid "Nunisi Water"
 msgstr "ნუნისის წყალი"
 
-#: .\homepage\views.py:123
+#: .\homepage\views.py:162
 msgid "Build Your Stay"
 msgstr "ოთახები"
 
-#: .\homepage\views.py:124
+#: .\homepage\views.py:163
 msgid "Photo Gallery"
 msgstr "ფოტო გალერეა"
 
-#: .\homepage\views.py:125
+#: .\homepage\views.py:164
 msgid "Call us today on"
 msgstr "დაგვირეკეთ დღეს"
 
-#: .\homepage\views.py:128 .\homepage\views.py:145
+#: .\homepage\views.py:166
+msgid "Contact us"
+msgstr "დაგვიკავშირდით"
+
+#: .\homepage\views.py:167
+msgid "Nunisi Hotel and Spa. All rights reserved"
+msgstr "ნუნისი სასტუმრო და სპა. ყველა უფლება დაცულია"
+
+#: .\homepage\views.py:168
+msgid "Developed by"
+msgstr "შემუშავებული მიერ"
+
+#: .\homepage\views.py:169
+msgid "Follow us on social media"
+msgstr "გამოგვყევით სოციალურ მედიაში"
+
+#: .\homepage\views.py:171 .\homepage\views.py:188
 msgid "About Us"
 msgstr "ჩვენს შესახებ"
 
-#: .\homepage\views.py:130 .\homepage\views.py:171
+#: .\homepage\views.py:173 .\homepage\views.py:214
 msgid "Services"
 msgstr "სერვისი"
 
-#: .\homepage\views.py:131 .\homepage\views.py:209
+#: .\homepage\views.py:174 .\homepage\views.py:252
 msgid "Location"
 msgstr "ლოკაცია"
 
-#: .\homepage\views.py:132
+#: .\homepage\views.py:175
 msgid "Reviews"
 msgstr "მიმოხილვები"
 
-#: .\homepage\views.py:134
+#: .\homepage\views.py:177
 msgid "Nunisi Forest Hotel and Spa"
 msgstr "ნუნისი ფორესტ რეზორტ & სპა"
 
-#: .\homepage\views.py:135
+#: .\homepage\views.py:178
 msgid "Where luxury is natural!"
 msgstr "მკურნალი წყალი და ულამაზესი ბუნება"
 
-#: .\homepage\views.py:137
+#: .\homepage\views.py:180
 msgid "Book now via"
 msgstr "დაჯავშნეთ ახლავე"
 
-#: .\homepage\views.py:138
+#: .\homepage\views.py:181
 msgid " Email: "
 msgstr " ელექტრონული ფოსტა: "
 
-#: .\homepage\views.py:139
+#: .\homepage\views.py:182
 msgid " Phone: (+995) 599 22 55 80"
 msgstr " ტელეფონი: (+995) 599 22 55 80"
 
-#: .\homepage\views.py:140
+#: .\homepage\views.py:183
 msgid "Through "
 msgstr "მეშვეობით "
 
-#: .\homepage\views.py:141 .\venv\Lib\site-packages\django\utils\text.py:286
+#: .\homepage\views.py:184 .\venv\Lib\site-packages\django\utils\text.py:286
 msgid "or"
 msgstr "ან"
 
-#: .\homepage\views.py:142
+#: .\homepage\views.py:185
 msgid "Book through booking.com"
 msgstr "დაჯავშნეთ ახლავე booking.com"
 
-#: .\homepage\views.py:143
+#: .\homepage\views.py:186
 msgid "Take a look at our rooms & packages"
 msgstr "გადახედეთ ჩვენს ოთახებს და პაკეტებს"
 
-#: .\homepage\views.py:146 .\homepage\views.py:149
+#: .\homepage\views.py:189 .\homepage\views.py:192
 msgid "The Legend of Nunisi"
 msgstr "ისტორია-ლეგენდა"
 
-#: .\homepage\views.py:147
+#: .\homepage\views.py:190
 msgid "A unique resort of world importance"
 msgstr "მსოფლიო მნიშვნელობის უნიკალური კურორტი"
 
-#: .\homepage\views.py:148
+#: .\homepage\views.py:191
 msgid ""
 "Nunisi mineral water was known as early as the 17th century. The "
 "balneological resort has been hosting those who want to relax in picturesque "
@@ -118,7 +134,7 @@ msgstr ""
 "გარემო, სამკურნალო ჰაერი, აბაზანები, და ნატურალური პროდუქტები საუკეთესოა "
 "ღრმა დასვენებისა და ძალების აღდგენისთვის."
 
-#: .\homepage\views.py:150
+#: .\homepage\views.py:193
 msgid ""
 "There is a legend about the discovery of Nunisi water, which is associated "
 "with the great Georgian king, David the Builder. The legend tells us that "
@@ -136,7 +152,7 @@ msgstr ""
 "შესაწირი გაუღია. IX-X საუკუნეებში აგებული ნუნისის ღვთისმშობლის შობის "
 "სახელობის მამათა მონასტერი დღესაც მოქმედია."
 
-#: .\homepage\views.py:151
+#: .\homepage\views.py:194
 msgid ""
 "The healing use of Nunisi water has been known since the 9th century. The "
 "population noticed that their pets were being cured of malaise with the help "
@@ -153,11 +169,11 @@ msgstr ""
 "შეიტყო. ნუნისის წყალს “საამოსა და მარგებელს” უწოდებს XVIII საუკუნის ქართველი "
 "გეოგრაფი ვახუშტი ბატონიშვილი და აქტიურადაა მოხსენებული მის შრომებში."
 
-#: .\homepage\views.py:153
+#: .\homepage\views.py:196
 msgid "Indication of Nunisi healing water"
 msgstr "ნუნისის სამკურნალო წყალი"
 
-#: .\homepage\views.py:155
+#: .\homepage\views.py:198
 msgid ""
 "Legends associated with Nunisi healing water are confirmed by modern "
 "scientific research and medical practice.\n"
@@ -188,6 +204,7 @@ msgstr ""
 "შეგიძლიათ მიიღოთ სამკურნალო და გამაჯანსაღებელი პროცედურები. ამისთვის "
 "გამოიყენება მინერალური წყლის აბაზანები და შხაპები, რომელთაც ინდივიდუალურად, "
 "პაციენტის მდგომარეობიდან გამომდინარე ნიშნავს კურორტის ექიმი -დერმატოლოგი. \n"
+"\n"
 "                კურორტის პროფილური დაავადებები: \n"
 "                - ფსორიაზი\n"
 "                - ატოპიური დერმატიტი (ეგზემა) \n"
@@ -196,7 +213,7 @@ msgstr ""
 "                - სებორეული დერმატიტი და სხვა \n"
 "                "
 
-#: .\homepage\views.py:168
+#: .\homepage\views.py:211
 msgid ""
 "You will also receive aesthetic therapy, with a noticeable skin rejuvenation "
 "effect in our hotel."
@@ -204,11 +221,11 @@ msgstr ""
 "ნუნისში მიიღებთ ესთეტიკურ თერაპიასაც, კანის შესამჩნევ გაახალგაზრდავების "
 "ეფექტს."
 
-#: .\homepage\views.py:169
+#: .\homepage\views.py:212
 msgid "Learn more about Nunisi's water"
 msgstr "შეიტყვეთ მეტი ნუნისის წყლის შესახებ"
 
-#: .\homepage\views.py:173
+#: .\homepage\views.py:216
 msgid ""
 "- Three meals a day are included in the room rate\n"
 "                - The restaurant accepts individual orders\n"
@@ -236,114 +253,114 @@ msgstr ""
 "მიღება შესაძლებელია ადმინისტრაციასთან წინასწარი შეთანხმებით.\n"
 "                "
 
-#: .\homepage\views.py:182
+#: .\homepage\views.py:225
 msgid "Choose from one of our tailored experience packages"
 msgstr "აირჩიეთ ჩვენი ერთ-ერთი მორგებული გამოცდილების პაკეტიდან*"
 
-#: .\homepage\views.py:183
+#: .\homepage\views.py:226
 msgid "Or contact us to arrange a bespoke holiday."
 msgstr "*ან დაგვიკავშირდით შეკვეთილი დღესასწაულის მოსაწყობად."
 
-#: .\homepage\views.py:184
+#: .\homepage\views.py:227
 msgid "Medical Package"
 msgstr "სამკურნალო პაკეტი"
 
-#: .\homepage\views.py:185
+#: .\homepage\views.py:228
 msgid "Wellness Recreational Package"
 msgstr "გამაჯანსაღებელი - რეკრეაციული პაკეტი"
 
-#: .\homepage\views.py:186
+#: .\homepage\views.py:229
 msgid "Esthetic Retreat Package"
 msgstr "ესთეტიკის - რითრით პაკეტი"
 
-#: .\homepage\views.py:187
+#: .\homepage\views.py:230
 msgid "Beauty Restoration Package"
 msgstr "აღმდგენი სილამაზის პაკეტი"
 
-#: .\homepage\views.py:188
+#: .\homepage\views.py:231
 msgid "Family Package"
 msgstr "საოჯახო პაკეტი (2 ზრდასრული 2 ბავშვი)"
 
-#: .\homepage\views.py:189
+#: .\homepage\views.py:232
 msgid "One week of hotel accommodation"
 msgstr "ერთი კვირიანი განთავსება სასტუმროში"
 
-#: .\homepage\views.py:190
+#: .\homepage\views.py:233
 msgid "Five days of hotel accommodation"
 msgstr "5 დღიანი განთავსება სასტუმროში"
 
-#: .\homepage\views.py:191
+#: .\homepage\views.py:234
 msgid "Three meals a day"
 msgstr "სამჯერადი კვება"
 
-#: .\homepage\views.py:192
+#: .\homepage\views.py:235
 msgid "Three healthy meals a day"
 msgstr "სამჯერადი კვება, დიეტოლოგის ჩართულობით"
 
-#: .\homepage\views.py:193
+#: .\homepage\views.py:236
 msgid "Three meals a day including a child menu"
 msgstr "სამჯერადი კვება - საბავშვო მენიუ"
 
-#: .\homepage\views.py:194
+#: .\homepage\views.py:237
 msgid "Dermatologist consultation"
 msgstr "ექიმის კონსულტაცია"
 
-#: .\homepage\views.py:195
+#: .\homepage\views.py:238
 msgid "Wellness procedure of 2 showers and 10 baths"
 msgstr "2 შხაპისა და 10 აბაზანის პროცედურა"
 
-#: .\homepage\views.py:196
+#: .\homepage\views.py:239
 msgid "10 procedures in a mineral water pool"
 msgstr "10 პროცედურა მინერალური წყლის ბასეინში"
 
-#: .\homepage\views.py:197
+#: .\homepage\views.py:240
 msgid "Access to the mineral pool"
 msgstr "მინერალური წყლის ბასეინი"
 
-#: .\homepage\views.py:198
+#: .\homepage\views.py:241
 msgid "Nunisi water procedures for skin rejuvenation and anti-aging"
 msgstr ""
 "წყლის პროცედურები: პროცედურები მიიღება კანის გაახალგაზრდავების მიზნით, "
 "უზრუნველყოფენ კანის გაჯანსაღებას, ელასტიურობის აღდგენას, ეს პროცედურები "
 "თქვენს კანს დაუბრუნებს ბუნებრივ სილამაზეს "
 
-#: .\homepage\views.py:199
+#: .\homepage\views.py:242
 msgid "Massage"
 msgstr "მასაჟი"
 
-#: .\homepage\views.py:200
+#: .\homepage\views.py:243
 msgid "Facial massage"
 msgstr "სახის მასაჟი"
 
-#: .\homepage\views.py:201
+#: .\homepage\views.py:244
 msgid "Morning exercise with instructor"
 msgstr "დილის გამამხნევებელი ვარჯიში ინსტრუქტორთან ერთად"
 
-#: .\homepage\views.py:202
+#: .\homepage\views.py:245
 msgid "Morning and evening exercises with instructor"
 msgstr "დილის და საღამოს გამამხნევებელი ვარჯიში ინსტრუქტორთამ ერთად"
 
-#: .\homepage\views.py:203
+#: .\homepage\views.py:246
 msgid "Evening yoga and meditation"
 msgstr "საღამოს იოგა/მედიტაცია"
 
-#: .\homepage\views.py:204
+#: .\homepage\views.py:247
 msgid "Guided sight-seeing hike"
 msgstr "საფეხმავლო ტური გიდის თანხლებით ბერების გამოქვაბულებში"
 
-#: .\homepage\views.py:205
+#: .\homepage\views.py:248
 msgid "Horse riding"
 msgstr "საცხენოსნო ტური"
 
-#: .\homepage\views.py:206
+#: .\homepage\views.py:249
 msgid "Fishing"
 msgstr "თევზაობა ტბაზე"
 
-#: .\homepage\views.py:207
+#: .\homepage\views.py:250
 msgid "Educational and entertainment activities"
 msgstr "შემეცნებითი და გასართობი აქტივობები"
 
-#: .\homepage\views.py:210
+#: .\homepage\views.py:253
 msgid ""
 "The resort Nunisi is 22 km away from the center of Kharagauli. It is 6 km "
 "from the railway station in the village of Moliti to Nunisi. The nearest "
@@ -353,7 +370,7 @@ msgstr ""
 "მოლითის რკინიგზის სადგურიდან ნუნისამდე 6 კმ.-ია. კურორტიდან 1,5 კმ. მანძილზე "
 "უახლოესი დასახლებული პუნქტი, ამავესახელწოდების სოფელი მდებარეობს."
 
-#: .\homepage\views.py:211
+#: .\homepage\views.py:254
 msgid ""
 "Nunisi Resort is adjacent to the Borjomi-Kharagauli National Park. It is 155 "
 "km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from "
@@ -363,12 +380,12 @@ msgstr ""
 "კმ-ით, ქუთაისიდან 84 კმ-ით, ხარაგაულიდან 22 კმ-ით და მოლითის რკინიგზის "
 "სადგურიდან 6 კმ-ით არის დაშორებული."
 
-#: .\homepage\views.py:212
+#: .\homepage\views.py:255
 msgid "A hotel minibus meets vacationers at Moliti Railway Station."
 msgstr ""
 "მოლითის რკინიგზის სადგურზე დამსვენებლებს ხვდებათ სასტუმროს მიკროავტობუსი."
 
-#: .\homepage\views.py:215
+#: .\homepage\views.py:258
 msgid ""
 "The city of Tskheli remained in the dust far away, \n"
 "                Nunisi - my marina, \n"
@@ -382,11 +399,11 @@ msgstr ""
 "                დაუვიწყარი ნუნისის დღეები.\n"
 "                "
 
-#: .\homepage\views.py:221
+#: .\homepage\views.py:264
 msgid "Dato, 9 years old"
 msgstr "დათო, 9 წლის"
 
-#: .\homepage\views.py:223
+#: .\homepage\views.py:266
 msgid ""
 "I have been receiving treatment at the Nunisi resort for two years now. I "
 "first visited the resort at the end of August last year, and the second time "
@@ -419,11 +436,11 @@ msgstr ""
 "დირექტორითა და ექიმით, დამთავრებული დამლაგებლით. კიდევ დაკიდევ მინდა "
 "გავიმეორო დიდი მადლობა."
 
-#: .\homepage\views.py:227
+#: .\homepage\views.py:270
 msgid "Silver Lomidze"
 msgstr "სილვერ ლომიძე"
 
-#: .\homepage\views.py:228
+#: .\homepage\views.py:271
 msgid ""
 "I was at the Nunisi balneological and medical resort from August 7 to 20. "
 "There was peace and friendliness. At the same time, the resort's management "
@@ -437,11 +454,11 @@ msgstr ""
 "ახლო მომავალში ნუნისი გახდება საქართველოს ერთ-ერთი საუკეთესოკურორტი. გული "
 "მწყდება ხვალ რომ უნდა დავტოვო ეს სავანე."
 
-#: .\homepage\views.py:229
+#: .\homepage\views.py:272
 msgid "L.Gogoladze"
 msgstr "ლ. გოგოლაძე"
 
-#: .\homepage\views.py:230
+#: .\homepage\views.py:273
 msgid ""
 "I was at the Nunisi Sanatorium from 25.07.02 to 8.08.02. We were amazed by "
 "the results of the healing waters, they have such a beneficial effect on "
@@ -453,11 +470,11 @@ msgstr ""
 "კანისდაავადებებზე. გარდა ამისა, გაოცებულები ვართ მომსახურებით, პირობებით "
 "დამომსახურე პერსონალის თბილი მიღებით."
 
-#: .\homepage\views.py:231
+#: .\homepage\views.py:274
 msgid "Leila Munjishvili"
 msgstr "ლეილა მუნჯიშვილი"
 
-#: .\homepage\views.py:232
+#: .\homepage\views.py:275
 msgid ""
 "I had heard about the Nunisi Baths since I was a child, but how did I know "
 "then that my little daughter would need treatment here?! When my 5-year-old "
@@ -475,25 +492,124 @@ msgstr ""
 "აღტაცება ვერდავმალე ისე მომეწონა აქაური გარემო. მადლობა ყველას ასეთი სითბოსა "
 "დაყურადღებისათვის!"
 
-#: .\homepage\views.py:233
+#: .\homepage\views.py:276
 msgid "Marine Laradze"
 msgstr "მარინე ლარაძე"
 
-#: .\homepage\views.py:235
-msgid "Contact us"
-msgstr "დაგვიკავშირდით"
+#: .\homepage\views.py:279
+msgid ""
+"Treatment and remission with medication is often a problem. A dermatologist "
+"diagnoses and prescribes treatment with natural remedies. The course of "
+"treatment is often long and complex. In some cases, chronic skin diseases "
+"are accompanied by such annoying symptoms as: itching, dry skin, burning, "
+"pain, discomfort...Which, of course, is associated with skin rashes and "
+"therefore is often the basis for the patient's psychological problems: self-"
+"esteem and quality of life decrease, stress, anxiety, depression, feelings "
+"of hopelessness increase. This is where the Nunisi Baths come as a savior "
+"and helper, thanks to which many hopeless patients have regained hope and "
+"joy of life, forgetting about skin problems and accompanying annoying "
+"symptoms. Of these skin diseases, psoriasis is a fairly common nosology. It "
+"is a chronic disease characterized by psoriatic papules and plaques covered "
+"with scales and crusts. It is mainly localized on the limbs, the hairy area "
+"of the head, and not infrequently on the body. It is often accompanied by "
+"itching, and damage to small and large joints may be observed - psoriatic "
+"arthritis, damage to nails (hourglass nails). Genetic predisposition and "
+"family history are very important in psoriasis. Psoriasis is a progressive "
+"disease with flare-ups and remissions (periods without a rash). The cause of "
+"exacerbation can be stress, emotional factors, skin trauma (Koebner "
+"phenomenon), surgery, wounds, burns, taking certain medications, infectious "
+"diseases, various underlying diseases, etc.\n"
+"                    For such patients, it is very important to bring the "
+"disease into remission and prolong it, and balneotherapy procedures with "
+"Nunisi water will make an irreplaceable contribution and help you in all "
+"this. Nunis water also has an extraordinary effect in the case of atopic "
+"dermatitis. The latter is one of the most common chronic allergic diseases "
+"in childhood. However, it can also be found in other age groups, developing "
+"in individuals genetically predisposed to atopy. During this time, the "
+"skin's sensitivity to specific and nonspecific irritants increases. It is "
+"characterized primarily by dry skin, peeling, exudative or lichenoid rashes, "
+"and cracks. It is often accompanied by bothersome itching, burning, pain, "
+"discomfort, disturbed sleep, increased emotional background, and a high risk "
+"of developing secondary infections.\n"
+"                "
+msgstr ""
+"ამ ქრონიკული კანის დაავადებების მკურნალობა და რემისიაში გადაყვანა მედიკამენტური მკურნალობით ხშირად პრობლემას წარმოადგენს.\n\n"
+"ექიმ დერმატოლოგი სვამს დიაგნოზს და ნიშნავს მკურნალობას ბუნებრივი საშუალებებით."
+"მკურნალობის კურსი, ხშირად ხანგრძლივი და კომპლექსურია. რიგ შემთხვევებში კანის ქრონიკულ დაავადებებს თან ახლავს ისეთი შემაწუხებელი სიმპტომები, როგორებიცაა: ქავილი, კანის სიმშრალე, წვა,ტკივილი, დისკომფორტი… რაც, რა თქმა უნდა ასოცირებულია კანის გამონაყართან და აქედან გამომდინარე ხშირად არის საფუძველი პაციენტის ფსიქოლოგიური პრობლემების: იკლებს თვითშეფასება, ცხოვრების ხარისხი, იმატებს სტრესი, შფოთვა, დეპრესია, უიმედობის განცდა…სწორედ აქ გვევლინება მხსნელად და მშველელად ნუნისის აბაზანები, რომლის წყალობითაც არაერთმა უიმედო პაციენტმა დაიბრუნა იმედი და ცხოვრების ხალისი, დავიწყებას მისცა კანის პრობლემები და თანამდევი შემაწუხებელი სიმპტომები.\n\n"
+"აღნიშნული კანის დაავადებებიდან საკმაოდ გავრცელებული ნოზოლოგიაა ფსორიაზი, იგი  ქრონიკული დაავადებაა, რომელიც ხასიათდება ქერცლით და ქერქით დაფარული ფსორიაზული პაპულებით და ბალთებით. უპირატესად ლოკალიზებულია კიდურებზე, თავის თმიან არეზე, არაიშვიათად სხეულზეც. ხშირად თან ახლავს ქავილი, შეიძლება აღინიშნებოდეს წვრილი და მსხვილი სახსრების დაზიანება- ფსორიაზული ართრიტი, ფრჩხილების დაზიანება (სათითისებრი ფრჩხილები). ფსორიაზის დროს ძალიან მნიშვნელოვანია გენეტიკური წინასწარგანწყობა, ოჯახური ანამნეზი. ფსორიაზი გამწვავებებით და რემისიებით (გამონაყარის გარეშე პერიოდი) მიმდინარე დაავადებაა. გამწვავების მიზეზი შეიძლება გახდეს სტრესი, ემოციური ფაქტორი, კანის ტრავმა (კებნერის ფენომენი),  ქირურგიული ჩარევა, ჭრილობა, დამწვრობა, გარკვეული მედიკამენტების მიღება, ინფექციური დაავადებები, სხვადასხვა ფონური დაავადება და ა.შ.  ასეთი პაციენტებისთვის, ძალიან მნიშვნელოვანია დაავადების რემისიის სტადიაში გადაყვანა და ამ უკანასკნელის გახანგრძლივება, ამ ყველაფერში კი ნუნისის წყალით ჩატარებული ბალნეოპროცედურებს თავის შეუცვლელ წვლილს შეიტანს და დაგეხმარებათ.\n\n"
+"ასევე, არაჩვეულებრივი ეფექტი აქვს ნუნისის წყალს ატოპიური დერმატიტის შემთხვევაშიც. ეს უკანასკნელი, ბავშვთა ასაკში ერთ-ერთი ყველაზე გავრცელებული, ქრონიკული ალერგიული დაავადებაა, თუმცა შეიძლება შეგვხვდეს სხვა ასაკობრივ ჯგუფებშიც, რომელიც უვითარდებათ ატოპიისადმი გენეტიკურად წინასწარგანწყობილ პირებს. ამ დროს იმატებს კანის მგრძნობელობა სპეციფიურ და არასპეციფიურ  გამღიზიანებლებზე. ხასიათდება უპირატესად კანის სიმშრალით, აქერცვლით, ექსუდაციური ან ლიქენოიდური გამონაყარით, ნახეთქებით. ხშირად თან ახლავს შემაწუხებელი ქავილი, წვა, ტკივილი, დისკომფორტი, მოუწესრიგებელი ძილი, გაზრდილი ემოციური ფონი, მეორადი ინფექციების განვითარების მაღალი რისკი."
+""
 
-#: .\homepage\views.py:236
-msgid "Nunisi Hotel and Spa. All rights reserved"
-msgstr "ნუნისი სასტუმრო და სპა. ყველა უფლება დაცულია"
+#: .\homepage\views.py:283
+msgid ""
+"The solution is the unique Nunisi baths, which have no analogues in the "
+"world."
+msgstr "გამოსავალი ნუნისის უნიკალური აბაზანებია,  რომელსაც მსოფლიოში ანალოგი არ გააჩნია."
 
-#: .\homepage\views.py:237
-msgid "Developed by"
-msgstr "შემუშავებული მიერ"
+#: .\homepage\views.py:284
+msgid "Composition of our mineral water"
+msgstr "მინერალური წყლის შემადგენლობა და თვისებები"
 
-#: .\homepage\views.py:238
-msgid "Follow us on social media"
-msgstr "გამოგვყევით სოციალურ მედიაში"
+#: .\homepage\views.py:285
+msgid ""
+"Nunisi water is distinguished by its low mineralization and high alkalinity "
+"(- PH 8.3 – 10.4). It is a weakly sulfide, chloride, hydrocarbonate, sodium, "
+"subthermal water with an average temperature of 27 degrees. It is rich in "
+"silicic acid, biologically active substances and antioxidants, as well as "
+"such microelements and ions as: potassium, calcium, iron, bromine, chlorine, "
+"iodine, etc."
+msgstr "ნუნისის წყალი გამოირჩევა დაბალი მინერალიზაციით  და  მაღალი ტუტიანობით (- PH 8,3 – 10,4). ეს არის სუსტად სულფიდურ, ქლორიდულ, ჰიდროკარბონატული, ნატრიუმიანი, სუბთერმული წყალი, რომლის საშუალო ტემპერატურა 27 გრადუსია.  უხვად შეიცავს სილიციუმის მჟავას, ბიოლოგიუად აქტიური ნივთიერებებს და ანტიოქსიდანტებს, აგრეთვე, ისეთ მიკროელემენტებს და იონებს როგორიცაა: კალიუმი,კალციუმი, რკინა, ბრომი, ქლორი, იოდი და ა.შ"
+
+#: .\homepage\views.py:287
+msgid ""
+"Water contains dissolved gas in the range of 20-28 mg. Nitrogen predominates "
+"by mass and smaller amounts of methane and hydrogen sulfide. Its composition "
+"ensures good penetration into the skin and the ability to affect the deeper "
+"layers of the skin, which in turn has a positive therapeutic effect in "
+"chronic dermatoses. It has anti-inflammatory, exfoliating, and soothing "
+"effects. More specifically, thanks to its high alkalinity, it removes and "
+"removes the upper rough layers of the skin, penetrates deep into the lower "
+"layers, and delivers all the necessary healing minerals and substances that "
+"are contained in it. It happens so quickly, the skin absorbs water so well, "
+"that after getting out of the water, patients note that the traces of water "
+"on the skin disappear within a few seconds, as if they were dried with a "
+"towel. This is also called the injection effect.\n"
+"                    As a result of balneotherapy procedures performed with "
+"Nunis water, the patient achieves a long-term remission of chronic "
+"dermatoses, which may last from several months to several years, or a "
+"complete cure.\n"
+"                "
+msgstr ""
+"წყალი სეიცავს გახსნილ გაზს 20-28 მგ ფარგლებში. მასსი ჭარბობს აზოტი და ნაკლები ოდენობით მეტანი და გოგირდწყალბადი.\n\n"
+"მისი ასეთი შემადგენლობა განაპირობებს კანში კარგ პენეტრაციას და კანის შედარებით ღრმა შრეებზე ზემოქმედების უნარს შესაბამისად,  დადებით სამკურნალო ეფექტს ქრონიკული დერმატოზების დროს. მას აქვს ანტიანთებითი, ამქერცლავი, დამამშვიდებელი ეფექტი."
+
+#: .\homepage\views.py:291
+msgid ""
+"The annoying itching and discomfort are eliminated, the rash is reduced or "
+"completely disappears, sleepless nights and low self-esteem are forgotten. "
+"But, of course, this result cannot be achieved in one day. It is necessary "
+"to follow the doctor's recommendations precisely and consistently, conduct "
+"one or more courses of procedures, and gradually increase or adjust the "
+"duration of the procedures. It should be noted that Nunisi water has a "
+"positive effect not only on the skin, but also on a number of diseases of "
+"the peripheral nervous system and musculoskeletal system."
+msgstr "უფრო კონკრეტულად რომ ვთქვათ, მაღალი ტუტიანობის წყალობით შლის და აცილებს კანს ზედა გაუხეშებულ ფენებს, ჩადის ღრმად ქვედა ფენებში და ჩააქვს ყველა საჭირო სამკურნალო მინერალები და ნივთიერებები რომლებიც მის შემადგენლობაშია. ეს ისე სწრაფად ხდება, კანი იმდენად კარგად იწოვს წყალს, რომ წყლიდან ამოსვლის შემდეგ პაციენტები აღნიშნავენ რომ კანზე წყლის კვალი რამდენიმე წამში ქრება, თითქოს პირსახოცით შეამშრალესო. ამას ინექციის ეფექტსაც ეძახიან."
+
+#: .\homepage\views.py:292
+msgid ""
+"Before starting the Nunis balneotherapy course, you will undergo a "
+"consultation with a dermatologist or, if necessary, a therapist. You will "
+"receive comprehensive information about your illness and a balneotherapy "
+"course will be planned."
+msgstr ""
+"ნუნისის წყლით ჩატარებული ბალნეოპროცედურების შედეგად,  პაციენტი იღებს ქრონიკული დერმატოზების ხანგრძლივ რემისიას, რომელიც შესაძლოა რამდენიმე თვიდან რამდენიმე წლამდე გაგრძელდეს, ან სრულ განკურნებას. იხსნება შემაწუხებელი ქავილი, დისკომფორტი, მცირდება ან სრულიად ქრება გამონაყარი, დავიწყებას მიეცემა უძილო ღამეები, დაბალი თვითშეფასება. მაგრამ, რათქმა უნდა, ამ შედეგის მიღწევა ერთ დღეში ვერ მოხდება. საჭიროა ექიმის რეკომენდაციების ზუსტი და თანმიმდევრული შესრულება, პროცედურების ერთი ან რამდენიმე კურსის ჩატარება, პროცედურების ხანგრძლივობის თანდათანობითი მომატება ან დარეგულირება.\n\n"
+"უნდა აღინიშნოს, რომ ნუნისის წყალი დადებითად მოქმედებს, არა მხოლოდ კანის, არამედ პერიფერიული ნერვული სისტემის და ძვალ-კუნთოვანი სისტემის მთელ რიგ დაავადებებზე."
+
+#: .\homepage\views.py:293
+msgid ""
+"For many grateful patients, results have already been achieved with the help "
+"of the excellent baths and environment of the Nunisi Resort."
+msgstr "ნუნისის სამკურნალო ბალნეოთერაპიული კურსის დაწყებამდე, თქვენ გადიხართ კონსულტაციას ექიმ დერმატოლოგთან, ან საჭიროებისამებრ თერაპევტთან. იღებთ ამომწურავ ინფორმაციას თქვენს დაავადებაზე და იგეგმება ბალნეოთერაპიის კურსი. პროცედურების რაოდენობა და ხანგრძლივობა ყოველ ცალკეულ შემთხვევაში ინდივიდუალურია და ინიშნება პაციენტის ასაკის, დაავადების კლინიკური სურათის შეფასების საფუძველზე. უამრავი მადლიერი პაციენტისათვის შედეგი უკვე მიღწეულია კურორტ ნუნისის უკილაური აბაზანებით და გარემოს დახმარებით."
 
 #: .\nunisi_hotel_website\settings.py:145
 msgid "English"

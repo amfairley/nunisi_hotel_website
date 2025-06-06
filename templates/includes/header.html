@@ -29,10 +29,10 @@
         <div class="collapse navbar-collapse" id="headerNavBarBurgerMenu">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item-header">
-                    <a class="nav-link active" aria-current="page" href="#">{{ site_header_home }}</a>
+                    <a class="nav-link {% if request.resolver_match.url_name == 'homepage' %}active{% endif %}" aria-current="page" href="{% url 'homepage' %}">{{ site_header_home }}</a>
                 </li>
                 <li class="nav-item-header">
-                    <a class="nav-link" href="#">{{ site_header_water }}</a>
+                    <a class="nav-link {% if request.resolver_match.url_name == 'water' %}active{% endif %}" href="{% url 'water' %}">{{ site_header_water }}</a>
                 </li>
                 <li class="nav-item-header">
                     <a class="nav-link" href="#">{{ site_header_rooms }}</a>
@@ -88,7 +88,7 @@
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropDownMenuButton" id="languageDropDownMenuOptions">
                     {% for lang in languages %}
                         <li>
-                            <a class="dropdown-item d-flex align-items-center" href="/{{ lang.code }}/">
+                            <a class="dropdown-item d-flex align-items-center" href="/{{ lang.code }}{{ request.get_full_path|slice:'3:' }}">
                                 {% if DEBUG %}
                                     <img 
                                         src="{{ MEDIA_URL }}flags/{{ lang.code }}.gif"

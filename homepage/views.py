@@ -11,12 +11,17 @@ def index(request):
         'MEDIA_URL': settings.MEDIA_URL,
         'DEBUG': settings.DEBUG,
         # Translations
-        # Site Header/Footer
+        # Site Header
         'site_header_home': trans['site_header_home'],
         'site_header_water': trans['site_header_water'],
         'site_header_rooms': trans['site_header_rooms'],
         'site_header_photo': trans['site_header_photo'],
         'call_us': trans['call_us'],
+        # Site Footer
+        'contact_us': trans['contact_us'],
+        'copywrite': trans['copywrite'],
+        'developer': trans['developer'],
+        'follow_us': trans['follow_us'],
         # Rest of the page
         # Header
         'header_link_about_us': trans['header_link_about_us'],
@@ -94,15 +99,49 @@ def index(request):
         'review_4_name': trans['review_4_name'],
         'review_5_content': trans['review_5_content'],
         'review_5_name': trans['review_5_name'],
-        # Footer
-        'contact_us': trans['contact_us'],
-        'copywrite': trans['copywrite'],
-        'developer': trans['developer'],
-        'follow_us': trans['follow_us'],
     }
     return render(
         request,
         'homepage/index.html',
+        context,
+    )
+
+
+def water(request):
+    '''Return the water information page'''
+    trans = translate(language=get_language() or settings.LANGUAGE_CODE)
+    context = {
+        'MEDIA_URL': settings.MEDIA_URL,
+        'DEBUG': settings.DEBUG,
+        # Translations
+        # Site Header
+        'site_header_home': trans['site_header_home'],
+        'site_header_water': trans['site_header_water'],
+        'site_header_rooms': trans['site_header_rooms'],
+        'site_header_photo': trans['site_header_photo'],
+        'call_us': trans['call_us'],
+        # Site Footer
+        'contact_us': trans['contact_us'],
+        'copywrite': trans['copywrite'],
+        'developer': trans['developer'],
+        'follow_us': trans['follow_us'],
+        # Water copied from homepage
+        'water_title': trans['water_title'],
+        'water_paragraph_1': trans['water_paragraph_1'],
+        'water_paragraph_2': trans['water_paragraph_2'],
+        # Extra paragraphs
+        'water_paragraph_3': trans['water_paragraph_3'],
+        'water_paragraph_4': trans['water_paragraph_4'],
+        'water_composition_title': trans['water_composition_title'],
+        'water_composition_paragraph_1': trans['water_composition_paragraph_1'],
+        'water_composition_paragraph_2': trans['water_composition_paragraph_2'],
+        'water_composition_paragraph_3': trans['water_composition_paragraph_3'],
+        'water_composition_paragraph_4': trans['water_composition_paragraph_4'],
+        'water_composition_paragraph_5': trans['water_composition_paragraph_5'],
+    }
+    return render(
+        request,
+        'water/water.html',
         context,
     )
 
@@ -117,23 +156,27 @@ def translate(language):
         activate(language)
         # Select and define translations
         translations = {
-            # Site header and footer
+            # Site Header
             'site_header_home': _('Home'),
             'site_header_water': _('Nunisi Water'),
             'site_header_rooms': _('Build Your Stay'),
             'site_header_photo': _('Photo Gallery'),
             'call_us': _('Call us today on'),
-            # Rest of the page
-            # Header
+            # Site Footer
+            'contact_us': _('Contact us'),
+            'copywrite': _('Nunisi Hotel and Spa. All rights reserved'),
+            'developer': _('Developed by'),
+            'follow_us': _('Follow us on social media'),
+            # Index: Header
             'header_link_about_us': _('About Us'),
             'header_link_nunisi_water': _('Nunisi Water'),
             'header_link_services': _('Services'),
             'header_link_location': _('Location'),
             'header_link_reviews': _('Reviews'),
-            # Hero Image
+            # Index: Hero Image
             'hotel_name': _('Nunisi Forest Hotel and Spa'),
             'welcome_message': _('Where luxury is natural!'),
-            # Booking
+            # Index: Booking
             'booking_title': _('Book now via'),
             'booking_email': _(' Email: '),
             'booking_phone': _(' Phone: (+995) 599 22 55 80'),
@@ -141,7 +184,7 @@ def translate(language):
             'booking_or': _('or'),
             'booking_booking_com': _('Book through booking.com'),
             'booking_rooms_button': _('Take a look at our rooms & packages'),
-            # About Us
+            # Index: About Us
             'about_us_carousel_prev': _('About Us'),
             'about_us_carousel_next': _('The Legend of Nunisi'),
             'about_us_title': _('A unique resort of world importance'),
@@ -149,7 +192,7 @@ def translate(language):
             'about_us_legend': _('The Legend of Nunisi'),
             'about_us_legend_text_1': _('There is a legend about the discovery of Nunisi water, which is associated with the great Georgian king, David the Builder. The legend tells us that King David was returning from a battle. His horses, tired from walking, whose skin was peeling and sores were forming, they lay down in the Nunisi water and soon recovered. The overjoyed king made a large donation to the temple in the village. The Nunisi Monastery of the Nativity of the Virgin Mary, built in the 9th-10th centuries, is still in operation today.'),
             'about_us_legend_text_2': _('The healing use of Nunisi water has been known since the 9th century. The population noticed that their pets were being cured of malaise with the help of the mineral water, tried using it themselves and got results. Over time, the whole of Georgia learned about the healing properties of the springs. The water of Nunisi was called “a garment and a blessing” by the 18th-century Georgian geographer Vakhushti Batonishvili and is actively mentioned in his works.'),
-            # Water
+            # Index: Water
             'water_title': _('Indication of Nunisi healing water'),
             'water_paragraph_1': _(
                 """Legends associated with Nunisi healing water are confirmed by modern scientific research and medical practice.
@@ -167,7 +210,7 @@ def translate(language):
                 """),
             'water_paragraph_2': _('You will also receive aesthetic therapy, with a noticeable skin rejuvenation effect in our hotel.'),
             'water_button': _("Learn more about Nunisi's water"),
-            # Services
+            # Index: Services
             'spa_title': _('Services'),
             'services_paragraph': _(
                 """- Three meals a day are included in the room rate
@@ -178,7 +221,7 @@ def translate(language):
                 The hotel has a 24-hour guarded parking lot. Guests are transported to the territory by their own cable car.
                 The hotel has a laundry service. Pets are allowed by prior arrangement with the administration.
                 """),
-            # Packages
+            # Index: Packages
             'packages_title': _('Choose from one of our tailored experience packages'),
             'packages_comment': _('Or contact us to arrange a bespoke holiday.'),
             'packages_medical_title': _('Medical Package'),
@@ -205,12 +248,12 @@ def translate(language):
             'packages_horse': _('Horse riding'),
             'packages_fishing': _('Fishing'),
             'packages_activities': _('Educational and entertainment activities'),
-            # Location
+            # Index: Location
             'location_title': _('Location'),
             'location_paragraph_1': _('The resort Nunisi is 22 km away from the center of Kharagauli. It is 6 km from the railway station in the village of Moliti to Nunisi. The nearest settlement, the village of the same name, is located 1.5 km from the resort.'),
             'location_paragraph_2': _('Nunisi Resort is adjacent to the Borjomi-Kharagauli National Park. It is 155 km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from Moliti Railway Station.'),
             'location_paragraph_3': _('A hotel minibus meets vacationers at Moliti Railway Station.'),
-            # Reviews
+            # Index: Reviews
             'review_1_content': _(
                 """The city of Tskheli remained in the dust far away, 
                 Nunisi - my marina, 
@@ -231,11 +274,23 @@ def translate(language):
             'review_4_name': _('Leila Munjishvili'),
             'review_5_content': _("I had heard about the Nunisi Baths since I was a child, but how did I know then that my little daughter would need treatment here?! When my 5-year-old daughter was diagnosed with psoriasis, I started asking people who had this incurable disease. Everyone unanimously advised me to take her  to Nunisi and get her treated. And here we are, arriving in this paradise. When I got out of the car, I couldn't hide my admiration. I liked the environment here so much. Thank you all for such warmth and attention!"),
             'review_5_name': _('Marine Laradze'),
-            # Footer
-            'contact_us': _('Contact us'),
-            'copywrite': _('Nunisi Hotel and Spa. All rights reserved'),
-            'developer': _('Developed by'),
-            'follow_us': _('Follow us on social media'),
+            # Water page: Water paragraphs
+            'water_paragraph_3': _(
+                """Treatment and remission with medication is often a problem. A dermatologist diagnoses and prescribes treatment with natural remedies. The course of treatment is often long and complex. In some cases, chronic skin diseases are accompanied by such annoying symptoms as: itching, dry skin, burning, pain, discomfort...Which, of course, is associated with skin rashes and therefore is often the basis for the patient's psychological problems: self-esteem and quality of life decrease, stress, anxiety, depression, feelings of hopelessness increase. This is where the Nunisi Baths come as a savior and helper, thanks to which many hopeless patients have regained hope and joy of life, forgetting about skin problems and accompanying annoying symptoms. Of these skin diseases, psoriasis is a fairly common nosology. It is a chronic disease characterized by psoriatic papules and plaques covered with scales and crusts. It is mainly localized on the limbs, the hairy area of the head, and not infrequently on the body. It is often accompanied by itching, and damage to small and large joints may be observed - psoriatic arthritis, damage to nails (hourglass nails). Genetic predisposition and family history are very important in psoriasis. Psoriasis is a progressive disease with flare-ups and remissions (periods without a rash). The cause of exacerbation can be stress, emotional factors, skin trauma (Koebner phenomenon), surgery, wounds, burns, taking certain medications, infectious diseases, various underlying diseases, etc.
+                    For such patients, it is very important to bring the disease into remission and prolong it, and balneotherapy procedures with Nunisi water will make an irreplaceable contribution and help you in all this. Nunis water also has an extraordinary effect in the case of atopic dermatitis. The latter is one of the most common chronic allergic diseases in childhood. However, it can also be found in other age groups, developing in individuals genetically predisposed to atopy. During this time, the skin's sensitivity to specific and nonspecific irritants increases. It is characterized primarily by dry skin, peeling, exudative or lichenoid rashes, and cracks. It is often accompanied by bothersome itching, burning, pain, discomfort, disturbed sleep, increased emotional background, and a high risk of developing secondary infections.
+                """
+            ),
+            'water_paragraph_4': _("The solution is the unique Nunisi baths, which have no analogues in the world."),
+            'water_composition_title': _('Composition of our mineral water'),
+            'water_composition_paragraph_1': _("Nunisi water is distinguished by its low mineralization and high alkalinity (- PH 8.3 – 10.4). It is a weakly sulfide, chloride, hydrocarbonate, sodium, subthermal water with an average temperature of 27 degrees. It is rich in silicic acid, biologically active substances and antioxidants, as well as such microelements and ions as: potassium, calcium, iron, bromine, chlorine, iodine, etc."),
+            'water_composition_paragraph_2': _(
+                """Water contains dissolved gas in the range of 20-28 mg. Nitrogen predominates by mass and smaller amounts of methane and hydrogen sulfide. Its composition ensures good penetration into the skin and the ability to affect the deeper layers of the skin, which in turn has a positive therapeutic effect in chronic dermatoses. It has anti-inflammatory, exfoliating, and soothing effects. More specifically, thanks to its high alkalinity, it removes and removes the upper rough layers of the skin, penetrates deep into the lower layers, and delivers all the necessary healing minerals and substances that are contained in it. It happens so quickly, the skin absorbs water so well, that after getting out of the water, patients note that the traces of water on the skin disappear within a few seconds, as if they were dried with a towel. This is also called the injection effect.
+                    As a result of balneotherapy procedures performed with Nunis water, the patient achieves a long-term remission of chronic dermatoses, which may last from several months to several years, or a complete cure.
+                """
+            ),
+            'water_composition_paragraph_3': _("The annoying itching and discomfort are eliminated, the rash is reduced or completely disappears, sleepless nights and low self-esteem are forgotten. But, of course, this result cannot be achieved in one day. It is necessary to follow the doctor's recommendations precisely and consistently, conduct one or more courses of procedures, and gradually increase or adjust the duration of the procedures. It should be noted that Nunisi water has a positive effect not only on the skin, but also on a number of diseases of the peripheral nervous system and musculoskeletal system."),
+            'water_composition_paragraph_4': _("Before starting the Nunis balneotherapy course, you will undergo a consultation with a dermatologist or, if necessary, a therapist. You will receive comprehensive information about your illness and a balneotherapy course will be planned."),
+            'water_composition_paragraph_5': _("For many grateful patients, results have already been achieved with the help of the excellent baths and environment of the Nunisi Resort."),
         }
 
     finally:
