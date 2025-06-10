@@ -35,7 +35,7 @@
                     <a class="nav-link {% if request.resolver_match.url_name == 'water' %}active{% endif %}" href="{% url 'water' %}">{{ site_header_water }}</a>
                 </li>
                 <li class="nav-item-header">
-                    <a class="nav-link" href="#">{{ site_header_rooms }}</a>
+                    <a class="nav-link {% if request.resolver_match.url_name == 'rooms' %}active{% endif %}" href="{% url 'rooms' %}">{{ site_header_rooms }}</a>
                 </li>
                 <li class="nav-item-header">
                     <a class="nav-link" href="#">{{ site_header_photo }}</a>

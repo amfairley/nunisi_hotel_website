@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block corecss %}
+    <!--Adds to the block-->
+    {{ block.super }}
+    <style>
+        .location-background {
+            background-image: 
+                url('{{ MEDIA_URL }}v1743431422/georgia-map_hm6ezv.webp'),
+                url('{{ MEDIA_URL }}georgia_map.webp'),
+                url('https://i.imgur.com/MaahJ5f.png');
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/rooms_page.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/header.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/packages.css' %}">
+
+{% endblock %}
+
+{% block header_content %}
+{% endblock %}
+
+{% block main_content %}
+    {% include 'rooms/includes/header.html' %}
+    <main class="content-rooms">
+        <h1>Rooms page</h1>
+        {% include 'rooms/includes/packages.html' %}
+        {% include 'rooms/includes/cottages.html' %}
+        {% include 'rooms/includes/rooms.html' %}
+    </main>
+{% endblock %}
+
+{% block postloadjs %}
+{% endblock %}

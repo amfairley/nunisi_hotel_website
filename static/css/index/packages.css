@@ -55,6 +55,14 @@
     text-align: left;
 }
 
+.package-people {
+    margin: 0;
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #333A3F;
+
+}
+
 .index-packages-cost {
     text-align: right;
 }
@@ -70,4 +78,25 @@
     font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
     color: #333A3F;
     font-size: 1.5rem;
+}
+
+@media (max-width: 770px) {
+    
+    /* Remove gap when left and right hand list are on top of eachother */
+    .package-list {
+        margin-bottom: 0;
+    }
+    
+    /* Put gap between number of people/cost and list of ammenities */
+    .package-people {
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 420px) {
+
+    /* Reduce the size of the number of people text */
+    .package-people {
+        font-size: 0.75rem;
+    }
 }

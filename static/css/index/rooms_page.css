@@ -1,0 +1,5 @@
+.content-rooms {
+    min-height: calc(100vh - 21.5rem);
+    background-color: #FAF3DF;
+    border-top: 1px  solid #B88C26;
+}
