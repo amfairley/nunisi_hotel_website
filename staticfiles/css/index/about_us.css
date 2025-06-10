@@ -17,6 +17,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    max-height: 900px;
 }
 
 /* Empty space and Text */
@@ -107,7 +108,7 @@
     transform: translateY(-2px);
 }
 
-.carousel-nav-buttons button {
+#aboutUsCarousel .carousel-nav-buttons button {
     opacity: 1;
     visibility: visible;
     transition: opacity 0.5s ease, visibility 0.5s ease;
@@ -141,12 +142,51 @@
 
     /*Show text below*/
     .about-us-bottom-text {
-        display: block;
-        height: fit-content;
         padding: 1rem;
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: column;
+        height: auto !important;
+    }
+
+    /* Carousel */
+    .carousel-inner {
+        height: fit-content;
+    }
+
+    .carousel-item-mobile {
+        margin-bottom: 3rem;
+        height: auto !important;
+        min-height: auto;
+    }
+
+    #aboutUsCarouselMobile .carousel-nav-buttons button {
+        font-family: 'Tenor sans', 'Gill Sans', 'Trebuchet MS', sans-serif;
+        color: #333A3F;
+        letter-spacing: -0.5px;
+        background-color: #FAF3DF;
+        border-radius: 1rem;
+        border: 1px solid #333A3F;
+        font-size: 1rem;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+    }
+
+    #aboutUsCarouselMobile .carousel-nav-buttons button:hover {
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
+    }
+
+    #aboutUsCarouselMobile .carousel-nav-buttons button {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+
+    /* Resize the title */
+    .about-us-bottom-text h3 {
+        font-family: Karla, Arial, Helvetica, sans-serif;
+        font-size: 2rem;
     }
 }

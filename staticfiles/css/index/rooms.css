@@ -1,4 +1,4 @@
-#rooms-packages {
+#rooms-rooms {
     box-sizing: border-box;
     margin: 0;
     padding: 1rem 0;
@@ -7,7 +7,7 @@
     background-color: #FAF3DF;
 }
 
-.packages-container {
+.rooms-container {
     width: 80%;
     max-width: 1500px;
     margin: 0 auto;
@@ -20,7 +20,7 @@
     letter-spacing: 0.02em;
 }
 
-.rooms-packages-title {
+.rooms-rooms-title {
     font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
     color: #333A3F;
     font-size: 2.2rem;
@@ -29,7 +29,7 @@
     margin: 1rem auto;
 }
 
-.rooms-package-card {
+.rooms-rooms-card {
     width: 90%;
     margin: 1rem auto;
     padding: 0.5rem;
@@ -39,60 +39,57 @@
     border-bottom: 1px dashed black;
 }
 
-.package-title {
+.rooms-title {
+    padding: 0;
     font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
     color: #333A3F;
+    text-align: center;
 }
 
-.package-list {
+.rooms-title p {
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.rooms-list {
     font-family: Karla, Arial, Helvetica, sans-serif;
     list-style: none;
     padding: 0;
 }
 
-.package-icon {
+.rooms-icon {
     display: inline-block;
     width: 1.2rem;
     text-align: left;
 }
 
-.package-people {
-    margin: 0;
-    font-family: Karla, Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: #333A3F;
+.rooms-image {
+    padding: 0.5rem;
 }
 
-.rooms-packages-cost {
-    text-align: right;
+.rooms-image img{
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    margin: auto;
 }
 
-.rooms-last-package-card {
+.rooms-last-rooms-card {
     border: none;
-}
-
-.rooms-packages-comment {
-    width: 80%;
-    max-width: 1500px;
-    margin: 1rem auto 0 auto;
-    text-align: right;
-    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
-    color: #333A3F;
-    font-size: 1.5rem;
 }
 
 @media (max-width: 800px) {
     /* Make the section title smaller */
-    .rooms-packages-title {
+    .rooms-rooms-title {
         font-size: 1.5rem;
     }
 
     /* Reduce white space either side of the container */
-    .packages-container {
+    .rooms-container {
         width: 95%;
     }
 
-    .rooms-package-card {
+    .rooms-rooms-card {
         width: 95%;
         padding: 0.5rem 0;
     }
@@ -101,25 +98,16 @@
 @media (max-width: 770px) {
     
     /* Remove gap when left and right hand list are on top of eachother */
-    .package-list {
+    .rooms-list {
         margin-bottom: 0;
     }
     
-    /* Put gap between number of people/cost and list of ammenities */
-    .package-people {
-        margin-top: 0.5rem;
-    }
-
-    /* Make the bottom comment smaller */
-    .rooms-packages-comment {
-    font-size: 1rem;
-}
 }
 
-@media (max-width: 420px) {
-
-    /* Reduce the size of the number of people text */
-    .package-people {
-        font-size: 0.75rem;
+@media (max-width: 500px) {
+    
+    /* Make occupancy text smaller */
+    .rooms-title p {
+        font-size: 0.7rem;
     }
 }

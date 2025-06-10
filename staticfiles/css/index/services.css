@@ -1,51 +1,50 @@
-#index-water{
+#index-spa{
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
     width: 100%;
     position: relative;
-    height: fit-content;
     max-width: 2200px;
 }
 
-.water-background-image {
+.spa-background-image {
     position: relative;
 }
 
-.water-background-image img {
+.spa-background-image img {
     width: 100%;
     height: auto;
-    object-fit: cover;
-    object-position: bottom;
     max-height: 900px;
-    min-height: 630px;
+    object-fit: cover;
+    object-position: center;
 }
 
-.water-empty-space,
-.water-text {
+.spa-empty-space,
+.spa-text {
     position: absolute;
     height: 100%;
 }
 
-.water-empty-space {
-    right: 0;
-}
-
-.water-text {
+.spa-empty-space {
     left: 0;
 }
 
-.water-text {
+.spa-text {
+    right: 0;
+}
+
+.spa-text {
     color: white;
     font-size: 2rem;
     background: rgba(0, 0, 0, 0.2);
     padding: 1rem;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     flex-direction: column;
 }
 
-.water-text h3 {
+.spa-text h3 {
     font-family: Parisienne, 'Brush Script MT', 'Lucida Handwriting', cursive;
     color: #FFD95B;
     font-size: 3rem;
@@ -58,7 +57,7 @@
         1px 1px 0px #333A3F;
 }
 
-.water-text p {
+.spa-text p {
     font-family: Karla, Arial, Helvetica, sans-serif;
     color: #f5f5f5;
     font-weight: 300;
@@ -66,12 +65,12 @@
     align-items: baseline;
 }
 
-.water-bottom-text {
+.spa-bottom-text {
     display: none;
     background-color: #FAF3DF;
 }
 
-.water-bottom-text h3 {
+.spa-bottom-text h3 {
     font-family: Parisienne, 'Brush Script MT', 'Lucida Handwriting', cursive;
     font-size: 1.5rem;
     text-align: center;
@@ -79,28 +78,19 @@
     width: 100%;
 }
 
-.water-bottom-text p {
+.spa-bottom-text p {
     font-family: Karla, Arial, Helvetica, sans-serif;
     color: #333A3F;
     font-size: 1rem;
 }
 
-.water-button {
-    width: fit-content;
-    align-self: flex-end;
-}
-
-.water-bottom-text > p:nth-of-type(2) {
-    margin-bottom: 4rem;
-}
-
 @media (max-width: 1100px) {
     /*Update text size*/
-    .water-text p {
+    .spa-text p {
         font-size: 1rem;
     }
 
-    .water-text h3 {
+    .spa-text h3 {
         width: 100%;
         font-size: 2rem;
         text-align: center;
@@ -110,17 +100,12 @@
 
 @media (max-width: 600px) {
     /*Remove text div */
-    .water-text {
+    .spa-text {
         display: none;
     }
 
-    /* Move button to the bottom */
-    .water-button {
-        position: absolute;
-    }
-
     /*Show text below*/
-    .water-bottom-text {
+    .spa-bottom-text {
         display: block;
         height: fit-content;
         padding: 1rem;
@@ -128,16 +113,5 @@
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: column;
-    }
-
-    /* Reduce link size */
-    .water-button {
-        font-size: 0.7rem;
-    }
-
-    /* Resize the title */
-    .water-bottom-text h3 {
-        font-family: Karla, Arial, Helvetica, sans-serif;
-        font-size: 2rem;
     }
 }
