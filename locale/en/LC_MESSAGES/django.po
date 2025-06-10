@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 11:18+0100\n"
+"POT-Creation-Date: 2025-06-10 14:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,103 +18,103 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\homepage\views.py:209
+#: .\homepage\views.py:216
 msgid "Home"
 msgstr "Home"
 
-#: .\homepage\views.py:210 .\homepage\views.py:221
+#: .\homepage\views.py:217 .\homepage\views.py:228
 msgid "Nunisi Water"
 msgstr "Nunisi Water"
 
-#: .\homepage\views.py:211
+#: .\homepage\views.py:218
 msgid "Build Your Stay"
 msgstr "Build Your Stay"
 
-#: .\homepage\views.py:212
+#: .\homepage\views.py:219
 msgid "Photo Gallery"
 msgstr "Photo Gallery"
 
-#: .\homepage\views.py:213
+#: .\homepage\views.py:220
 msgid "Call us today on"
 msgstr "Call us today on"
 
-#: .\homepage\views.py:215
+#: .\homepage\views.py:222
 msgid "Contact us"
 msgstr "Contact us"
 
-#: .\homepage\views.py:216
+#: .\homepage\views.py:223
 msgid "Nunisi Hotel and Spa. All rights reserved"
 msgstr "Nunisi Hotel and Spa. All rights reserved"
 
-#: .\homepage\views.py:217
+#: .\homepage\views.py:224
 msgid "Developed by"
 msgstr "Developed by"
 
-#: .\homepage\views.py:218
+#: .\homepage\views.py:225
 msgid "Follow us on social media"
 msgstr "Follow us on social media"
 
-#: .\homepage\views.py:220 .\homepage\views.py:237
+#: .\homepage\views.py:227 .\homepage\views.py:244
 msgid "About Us"
 msgstr "About Us"
 
-#: .\homepage\views.py:222 .\homepage\views.py:263
+#: .\homepage\views.py:229 .\homepage\views.py:270
 msgid "Services"
 msgstr "Services"
 
-#: .\homepage\views.py:223 .\homepage\views.py:274
+#: .\homepage\views.py:230 .\homepage\views.py:281
 msgid "Location"
 msgstr "Location"
 
-#: .\homepage\views.py:224
+#: .\homepage\views.py:231
 msgid "Reviews"
 msgstr "Reviews"
 
-#: .\homepage\views.py:226
+#: .\homepage\views.py:233
 msgid "Nunisi Forest Hotel and Spa"
 msgstr "Nunisi Forest Hotel and Spa"
 
-#: .\homepage\views.py:227
+#: .\homepage\views.py:234
 msgid "Where luxury is natural!"
 msgstr "Where luxury is natural!"
 
-#: .\homepage\views.py:229
+#: .\homepage\views.py:236
 msgid "Book now via"
 msgstr "Book now via"
 
-#: .\homepage\views.py:230
+#: .\homepage\views.py:237
 msgid " Email: "
 msgstr " Email: "
 
-#: .\homepage\views.py:231
+#: .\homepage\views.py:238
 msgid " Phone: (+995) 599 22 55 80"
 msgstr " Phone: (+995) 599 22 55 80"
 
-#: .\homepage\views.py:232
+#: .\homepage\views.py:239
 msgid "Through "
 msgstr "Through"
 
-#: .\homepage\views.py:233 .\venv\Lib\site-packages\django\utils\text.py:286
+#: .\homepage\views.py:240 .\venv\Lib\site-packages\django\utils\text.py:286
 msgid "or"
 msgstr "or"
 
-#: .\homepage\views.py:234
+#: .\homepage\views.py:241
 msgid "Book through booking.com"
 msgstr "Book through booking.com"
 
-#: .\homepage\views.py:235
+#: .\homepage\views.py:242
 msgid "Take a look at our rooms & packages"
 msgstr "Take a look at our rooms & packages"
 
-#: .\homepage\views.py:238 .\homepage\views.py:241
+#: .\homepage\views.py:245 .\homepage\views.py:248
 msgid "The Legend of Nunisi"
 msgstr "The Legend of Nunisi"
 
-#: .\homepage\views.py:239
+#: .\homepage\views.py:246
 msgid "A unique resort of world importance"
 msgstr "A unique resort of world importance"
 
-#: .\homepage\views.py:240
+#: .\homepage\views.py:247
 msgid ""
 "Nunisi mineral water was known as early as the 17th century. The "
 "balneological resort has been hosting those who want to relax in picturesque "
@@ -134,7 +134,7 @@ msgstr ""
 "and natural products are the best for deep relaxation and restoration of "
 "strength."
 
-#: .\homepage\views.py:242
+#: .\homepage\views.py:249
 msgid ""
 "There is a legend about the discovery of Nunisi water, which is associated "
 "with the great Georgian king, David the Builder. The legend tells us that "
@@ -152,7 +152,7 @@ msgstr ""
 "temple in the village. The Nunisi Monastery of the Nativity of the Virgin "
 "Mary, built in the 9th-10th centuries, is still in operation today."
 
-#: .\homepage\views.py:243
+#: .\homepage\views.py:250
 msgid ""
 "The healing use of Nunisi water has been known since the 9th century. The "
 "population noticed that their pets were being cured of malaise with the help "
@@ -170,11 +170,11 @@ msgstr ""
 "century Georgian geographer Vakhushti Batonishvili and is actively mentioned "
 "in his works."
 
-#: .\homepage\views.py:245
+#: .\homepage\views.py:252
 msgid "Indication of Nunisi healing water"
 msgstr "Indication of Nunisi healing water"
 
-#: .\homepage\views.py:247
+#: .\homepage\views.py:254
 #, fuzzy
 #| msgid ""
 #| "Legends associated with Nunisi healing water are confirmed by modern "
@@ -237,7 +237,7 @@ msgstr ""
 "                - And others.\n"
 "                "
 
-#: .\homepage\views.py:260
+#: .\homepage\views.py:267
 msgid ""
 "You will also receive aesthetic therapy, with a noticeable skin rejuvenation "
 "effect in our hotel."
@@ -245,11 +245,11 @@ msgstr ""
 "You will also receive aesthetic therapy, with a noticeable skin rejuvenation "
 "effect in our hotel."
 
-#: .\homepage\views.py:261
+#: .\homepage\views.py:268
 msgid "Learn more about Nunisi's water"
 msgstr "Learn more about Nunisi's water"
 
-#: .\homepage\views.py:265
+#: .\homepage\views.py:272
 msgid ""
 "- Three meals a day are included in the room rate\n"
 "                - The restaurant accepts individual orders\n"
@@ -277,7 +277,7 @@ msgstr ""
 "arrangement with the administration.\n"
 "                "
 
-#: .\homepage\views.py:275
+#: .\homepage\views.py:282
 msgid ""
 "The resort Nunisi is 22 km away from the center of Kharagauli. It is 6 km "
 "from the railway station in the village of Moliti to Nunisi. The nearest "
@@ -287,7 +287,7 @@ msgstr ""
 "from the railway station in the village of Moliti to Nunisi. The nearest "
 "settlement, the village of the same name, is located 1.5 km from the resort."
 
-#: .\homepage\views.py:276
+#: .\homepage\views.py:283
 msgid ""
 "Nunisi Resort is adjacent to the Borjomi-Kharagauli National Park. It is 155 "
 "km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from "
@@ -297,11 +297,11 @@ msgstr ""
 "km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from "
 "Moliti Railway Station."
 
-#: .\homepage\views.py:277
+#: .\homepage\views.py:284
 msgid "A hotel minibus meets vacationers at Moliti Railway Station."
 msgstr "A hotel minibus meets vacationers at Moliti Railway Station."
 
-#: .\homepage\views.py:280
+#: .\homepage\views.py:287
 msgid ""
 "The city of Tskheli remained in the dust far away, \n"
 "                Nunisi - my marina, \n"
@@ -315,11 +315,11 @@ msgstr ""
 "                Unforgettable Nunisi days.\n"
 "                "
 
-#: .\homepage\views.py:286
+#: .\homepage\views.py:293
 msgid "Dato, 9 years old"
 msgstr "Dato, 9 years old"
 
-#: .\homepage\views.py:288
+#: .\homepage\views.py:295
 msgid ""
 "I have been receiving treatment at the Nunisi resort for two years now. I "
 "first visited the resort at the end of August last year, and the second time "
@@ -353,11 +353,11 @@ msgstr ""
 "gratitude.\n"
 "                "
 
-#: .\homepage\views.py:292
+#: .\homepage\views.py:299
 msgid "Silver Lomidze"
 msgstr "Silver Lomidze"
 
-#: .\homepage\views.py:293
+#: .\homepage\views.py:300
 msgid ""
 "I was at the Nunisi balneological and medical resort from August 7 to 20. "
 "There was peace and friendliness. At the same time, the resort's management "
@@ -371,11 +371,11 @@ msgstr ""
 "that Nunisi will become one of the best resorts in Georgia in the near "
 "future. My heart breaks as I have to leave this place tomorrow."
 
-#: .\homepage\views.py:294
+#: .\homepage\views.py:301
 msgid "L.Gogoladze"
 msgstr "L.Gogoladze"
 
-#: .\homepage\views.py:295
+#: .\homepage\views.py:302
 msgid ""
 "I was at the Nunisi Sanatorium from 25.07.02 to 8.08.02. We were amazed by "
 "the results of the healing waters, they have such a beneficial effect on "
@@ -387,11 +387,11 @@ msgstr ""
 "skin diseases. In addition, we were amazed by the service, conditions and "
 "warm welcome of the staff."
 
-#: .\homepage\views.py:296
+#: .\homepage\views.py:303
 msgid "Leila Munjishvili"
 msgstr "Leila Munjishvili"
 
-#: .\homepage\views.py:297
+#: .\homepage\views.py:304
 msgid ""
 "I had heard about the Nunisi Baths since I was a child, but how did I know "
 "then that my little daughter would need treatment here?! When my 5-year-old "
@@ -409,11 +409,11 @@ msgstr ""
 "out of the car, I couldn't hide my admiration. I liked the environment here "
 "so much. Thank you all for such warmth and attention!"
 
-#: .\homepage\views.py:298
+#: .\homepage\views.py:305
 msgid "Marine Laradze"
 msgstr "Marine Laradze"
 
-#: .\homepage\views.py:301
+#: .\homepage\views.py:308
 msgid ""
 "Treatment and remission with medication is often a problem. A dermatologist "
 "diagnoses and prescribes treatment with natural remedies. The course of "
@@ -485,92 +485,92 @@ msgstr ""
 "of developing secondary infections.\n"
 "                "
 
-#: .\homepage\views.py:305
+#: .\homepage\views.py:312
 msgid ""
 "The solution is the unique Nunisi baths, which have no analogues in the "
 "world."
 msgstr ""
 
-#: .\homepage\views.py:306
+#: .\homepage\views.py:313
 msgid "Composition of our mineral water"
 msgstr "Composition of our mineral water"
 
-#: .\homepage\views.py:307
-msgid ""
-"Nunisi water is distinguished by its low mineralization and high alkalinity "
-"(- PH 8.3 – 10.4). It is a weakly sulfide, chloride, hydrocarbonate, sodium, "
-"subthermal water with an average temperature of 27 degrees. It is rich in "
-"silicic acid, biologically active substances and antioxidants, as well as "
-"such microelements and ions as: potassium, calcium, iron, bromine, chlorine, "
-"iodine, etc."
-msgstr ""
-"Nunisi water is distinguished by its low mineralization and high alkalinity "
-"(- PH 8.3 – 10.4). It is a weakly sulfide, chloride, hydrocarbonate, sodium, "
-"subthermal water with an average temperature of 27 degrees. It is rich in "
-"silicic acid, biologically active substances and antioxidants, as well as "
-"such microelements and ions as: potassium, calcium, iron, bromine, chlorine, "
-"iodine, etc."
-
-#: .\homepage\views.py:309
-msgid ""
-"Water contains dissolved gas in the range of 20-28 mg. Nitrogen predominates "
-"by mass and smaller amounts of methane and hydrogen sulfide. Its composition "
-"ensures good penetration into the skin and the ability to affect the deeper "
-"layers of the skin, which in turn has a positive therapeutic effect in "
-"chronic dermatoses. It has anti-inflammatory, exfoliating, and soothing "
-"effects. More specifically, thanks to its high alkalinity, it removes and "
-"removes the upper rough layers of the skin, penetrates deep into the lower "
-"layers, and delivers all the necessary healing minerals and substances that "
-"are contained in it. It happens so quickly, the skin absorbs water so well, "
-"that after getting out of the water, patients note that the traces of water "
-"on the skin disappear within a few seconds, as if they were dried with a "
-"towel. This is also called the injection effect.\n"
-"                    As a result of balneotherapy procedures performed with "
-"Nunis water, the patient achieves a long-term remission of chronic "
-"dermatoses, which may last from several months to several years, or a "
-"complete cure.\n"
-"                "
-msgstr ""
-"Water contains dissolved gas in the range of 20-28 mg. Nitrogen predominates "
-"by mass and smaller amounts of methane and hydrogen sulfide. Its composition "
-"ensures good penetration into the skin and the ability to affect the deeper "
-"layers of the skin, which in turn has a positive therapeutic effect in "
-"chronic dermatoses. It has anti-inflammatory, exfoliating, and soothing "
-"effects. More specifically, thanks to its high alkalinity, it removes and "
-"removes the upper rough layers of the skin, penetrates deep into the lower "
-"layers, and delivers all the necessary healing minerals and substances that "
-"are contained in it. It happens so quickly, the skin absorbs water so well, "
-"that after getting out of the water, patients note that the traces of water "
-"on the skin disappear within a few seconds, as if they were dried with a "
-"towel. This is also called the injection effect.\n"
-"                    As a result of balneotherapy procedures performed with "
-"Nunis water, the patient achieves a long-term remission of chronic "
-"dermatoses, which may last from several months to several years, or a "
-"complete cure.\n"
-"                "
-
-#: .\homepage\views.py:313
-msgid ""
-"The annoying itching and discomfort are eliminated, the rash is reduced or "
-"completely disappears, sleepless nights and low self-esteem are forgotten. "
-"But, of course, this result cannot be achieved in one day. It is necessary "
-"to follow the doctor's recommendations precisely and consistently, conduct "
-"one or more courses of procedures, and gradually increase or adjust the "
-"duration of the procedures. It should be noted that Nunisi water has a "
-"positive effect not only on the skin, but also on a number of diseases of "
-"the peripheral nervous system and musculoskeletal system."
-msgstr ""
-"The annoying itching and discomfort are eliminated, the rash is reduced or "
-"completely disappears, sleepless nights and low self-esteem are forgotten. "
-"But, of course, this result cannot be achieved in one day. It is necessary "
-"to follow the doctor's recommendations precisely and consistently, conduct "
-"one or more courses of procedures, and gradually increase or adjust the "
-"duration of the procedures. It should be noted that Nunisi water has a "
-"positive effect not only on the skin, but also on a number of diseases of "
-"the peripheral nervous system and musculoskeletal system."
-
 #: .\homepage\views.py:314
 msgid ""
+"Nunisi water is distinguished by its low mineralization and high alkalinity "
+"(- PH 8.3 – 10.4). It is a weakly sulfide, chloride, hydrocarbonate, sodium, "
+"subthermal water with an average temperature of 27 degrees. It is rich in "
+"silicic acid, biologically active substances and antioxidants, as well as "
+"such microelements and ions as: potassium, calcium, iron, bromine, chlorine, "
+"iodine, etc."
+msgstr ""
+"Nunisi water is distinguished by its low mineralization and high alkalinity "
+"(- PH 8.3 – 10.4). It is a weakly sulfide, chloride, hydrocarbonate, sodium, "
+"subthermal water with an average temperature of 27 degrees. It is rich in "
+"silicic acid, biologically active substances and antioxidants, as well as "
+"such microelements and ions as: potassium, calcium, iron, bromine, chlorine, "
+"iodine, etc."
+
+#: .\homepage\views.py:316
+msgid ""
+"Water contains dissolved gas in the range of 20-28 mg. Nitrogen predominates "
+"by mass and smaller amounts of methane and hydrogen sulfide. Its composition "
+"ensures good penetration into the skin and the ability to affect the deeper "
+"layers of the skin, which in turn has a positive therapeutic effect in "
+"chronic dermatoses. It has anti-inflammatory, exfoliating, and soothing "
+"effects. More specifically, thanks to its high alkalinity, it removes and "
+"removes the upper rough layers of the skin, penetrates deep into the lower "
+"layers, and delivers all the necessary healing minerals and substances that "
+"are contained in it. It happens so quickly, the skin absorbs water so well, "
+"that after getting out of the water, patients note that the traces of water "
+"on the skin disappear within a few seconds, as if they were dried with a "
+"towel. This is also called the injection effect.\n"
+"                    As a result of balneotherapy procedures performed with "
+"Nunis water, the patient achieves a long-term remission of chronic "
+"dermatoses, which may last from several months to several years, or a "
+"complete cure.\n"
+"                "
+msgstr ""
+"Water contains dissolved gas in the range of 20-28 mg. Nitrogen predominates "
+"by mass and smaller amounts of methane and hydrogen sulfide. Its composition "
+"ensures good penetration into the skin and the ability to affect the deeper "
+"layers of the skin, which in turn has a positive therapeutic effect in "
+"chronic dermatoses. It has anti-inflammatory, exfoliating, and soothing "
+"effects. More specifically, thanks to its high alkalinity, it removes and "
+"removes the upper rough layers of the skin, penetrates deep into the lower "
+"layers, and delivers all the necessary healing minerals and substances that "
+"are contained in it. It happens so quickly, the skin absorbs water so well, "
+"that after getting out of the water, patients note that the traces of water "
+"on the skin disappear within a few seconds, as if they were dried with a "
+"towel. This is also called the injection effect.\n"
+"                    As a result of balneotherapy procedures performed with "
+"Nunis water, the patient achieves a long-term remission of chronic "
+"dermatoses, which may last from several months to several years, or a "
+"complete cure.\n"
+"                "
+
+#: .\homepage\views.py:320
+msgid ""
+"The annoying itching and discomfort are eliminated, the rash is reduced or "
+"completely disappears, sleepless nights and low self-esteem are forgotten. "
+"But, of course, this result cannot be achieved in one day. It is necessary "
+"to follow the doctor's recommendations precisely and consistently, conduct "
+"one or more courses of procedures, and gradually increase or adjust the "
+"duration of the procedures. It should be noted that Nunisi water has a "
+"positive effect not only on the skin, but also on a number of diseases of "
+"the peripheral nervous system and musculoskeletal system."
+msgstr ""
+"The annoying itching and discomfort are eliminated, the rash is reduced or "
+"completely disappears, sleepless nights and low self-esteem are forgotten. "
+"But, of course, this result cannot be achieved in one day. It is necessary "
+"to follow the doctor's recommendations precisely and consistently, conduct "
+"one or more courses of procedures, and gradually increase or adjust the "
+"duration of the procedures. It should be noted that Nunisi water has a "
+"positive effect not only on the skin, but also on a number of diseases of "
+"the peripheral nervous system and musculoskeletal system."
+
+#: .\homepage\views.py:321
+msgid ""
 "Before starting the Nunis balneotherapy course, you will undergo a "
 "consultation with a dermatologist or, if necessary, a therapist. You will "
 "receive comprehensive information about your illness and a balneotherapy "
@@ -581,7 +581,7 @@ msgstr ""
 "receive comprehensive information about your illness and a balneotherapy "
 "course will be planned."
 
-#: .\homepage\views.py:315
+#: .\homepage\views.py:322
 msgid ""
 "For many grateful patients, results have already been achieved with the help "
 "of the excellent baths and environment of the Nunisi Resort."
@@ -589,155 +589,167 @@ msgstr ""
 "For many grateful patients, results have already been achieved with the help "
 "of the excellent baths and environment of the Nunisi Resort."
 
-#: .\homepage\views.py:317
+#: .\homepage\views.py:324
+msgid "Packages"
+msgstr "Packages"
+
+#: .\homepage\views.py:325
+msgid "Rooms"
+msgstr "Rooms"
+
+#: .\homepage\views.py:326
+msgid "Cottages"
+msgstr "Cottages"
+
+#: .\homepage\views.py:328
 msgid "Choose from one of our tailored experience packages"
 msgstr "Choose from one of our tailored experience packages*"
 
-#: .\homepage\views.py:318
+#: .\homepage\views.py:329
 msgid "Or contact us to arrange a bespoke holiday."
 msgstr "*Or contact us to arrange a bespoke holiday."
 
-#: .\homepage\views.py:319
+#: .\homepage\views.py:330
 msgid "Medical Package"
 msgstr "Medical Package"
 
-#: .\homepage\views.py:320
+#: .\homepage\views.py:331
 msgid "Wellness Recreational Package"
 msgstr "Wellness Recreational Package"
 
-#: .\homepage\views.py:321
+#: .\homepage\views.py:332
 msgid "Esthetic Retreat Package"
 msgstr "Esthetic Retreat Package"
 
-#: .\homepage\views.py:322
+#: .\homepage\views.py:333
 msgid "Beauty Restoration Package"
 msgstr "Beauty Restoration Package"
 
-#: .\homepage\views.py:323
+#: .\homepage\views.py:334
 msgid "Family Package"
 msgstr "Family Package (2 adults, 2 children)"
 
-#: .\homepage\views.py:324
+#: .\homepage\views.py:335
 msgid "One week of hotel accommodation"
 msgstr "One week of hotel accommodation"
 
-#: .\homepage\views.py:325
+#: .\homepage\views.py:336
 msgid "Five days of hotel accommodation"
 msgstr "Five days of hotel accommodation"
 
-#: .\homepage\views.py:326
+#: .\homepage\views.py:337
 msgid "Three meals a day"
 msgstr "Three meals a day"
 
-#: .\homepage\views.py:327
+#: .\homepage\views.py:338
 msgid "Three healthy meals a day"
 msgstr "Three healthy meals a day"
 
-#: .\homepage\views.py:328
+#: .\homepage\views.py:339
 msgid "Three meals a day including a child menu"
 msgstr "Three meals a day including a child menu"
 
-#: .\homepage\views.py:329
+#: .\homepage\views.py:340
 msgid "Dermatologist consultation"
 msgstr "Dermatologist consultation"
 
-#: .\homepage\views.py:330
+#: .\homepage\views.py:341
 msgid "Wellness procedure of 2 showers and 10 baths"
 msgstr "Wellness procedure of 2 showers and 10 baths"
 
-#: .\homepage\views.py:331
+#: .\homepage\views.py:342
 msgid "10 procedures in a mineral water pool"
 msgstr "10 procedures in a mineral water pool"
 
-#: .\homepage\views.py:332
+#: .\homepage\views.py:343
 msgid "Access to the mineral pool"
 msgstr "Access to the mineral pool"
 
-#: .\homepage\views.py:333
+#: .\homepage\views.py:344
 msgid "Nunisi water procedures for skin rejuvenation and anti-aging"
 msgstr "Nunisi water procedures for skin rejuvenation and anti-aging"
 
-#: .\homepage\views.py:334
+#: .\homepage\views.py:345
 msgid "Massage"
 msgstr "Massage"
 
-#: .\homepage\views.py:335
+#: .\homepage\views.py:346
 msgid "Facial massage"
 msgstr "Facial massage"
 
-#: .\homepage\views.py:336
+#: .\homepage\views.py:347
 msgid "Morning exercise with instructor"
 msgstr "Morning exercise with instructor"
 
-#: .\homepage\views.py:337
+#: .\homepage\views.py:348
 msgid "Morning and evening exercises with instructor"
 msgstr "Morning and evening exercises with instructor"
 
-#: .\homepage\views.py:338
+#: .\homepage\views.py:349
 msgid "Evening yoga and meditation"
 msgstr "Evening yoga and meditation"
 
-#: .\homepage\views.py:339
+#: .\homepage\views.py:350
 msgid "Guided sight-seeing hike"
 msgstr "Guided sight-seeing hike"
 
-#: .\homepage\views.py:340
+#: .\homepage\views.py:351
 msgid "Horse riding"
 msgstr "Horse riding"
 
-#: .\homepage\views.py:341
+#: .\homepage\views.py:352
 msgid "Fishing"
 msgstr "Fishing"
 
-#: .\homepage\views.py:342
+#: .\homepage\views.py:353
 msgid "Educational and entertainment activities"
 msgstr "Educational and entertainment activities"
 
-#: .\homepage\views.py:343
+#: .\homepage\views.py:354
 msgid "This package is for 2 people"
 msgstr "This package is for 2 people"
 
-#: .\homepage\views.py:344
+#: .\homepage\views.py:355
 msgid "This package is for 4 people"
 msgstr "This package is for 4 people"
 
-#: .\homepage\views.py:346
+#: .\homepage\views.py:357
 msgid "Where you'll stay"
 msgstr "Where you'll stay"
 
-#: .\homepage\views.py:347
+#: .\homepage\views.py:358
 msgid "Standard Room"
 msgstr "Standard Room"
 
-#: .\homepage\views.py:348
+#: .\homepage\views.py:359
 msgid "Standard Double Room"
 msgstr "Standard Double Room"
 
-#: .\homepage\views.py:349
+#: .\homepage\views.py:360
 msgid "Panarama Room"
 msgstr "Panarama Room"
 
-#: .\homepage\views.py:350
+#: .\homepage\views.py:361
 msgid "Suite"
 msgstr "Suite"
 
-#: .\homepage\views.py:351
+#: .\homepage\views.py:362
 msgid "Family Room"
 msgstr "Family Room"
 
-#: .\homepage\views.py:352
+#: .\homepage\views.py:363
 msgid "This room is suitable for a maximum of 2 people."
 msgstr "This room is suitable for a maximum of 2 people."
 
-#: .\homepage\views.py:353
+#: .\homepage\views.py:364
 msgid "This room is suitable for a maximum of 4 people."
 msgstr "This room is suitable for a maximum of 4 people."
 
-#: .\homepage\views.py:354
+#: .\homepage\views.py:365
 msgid "This room is suitable for a maximum of 5 people."
 msgstr "This room is suitable for a maximum of 5 people."
 
-#: .\homepage\views.py:355
+#: .\homepage\views.py:366
 msgid ""
 "A room with twin beds, desk, chair, complimentary tea/coffee maker, mini "
 "refrigerator, plasma TV, Wi-Fi. "
@@ -745,7 +757,7 @@ msgstr ""
 "A room with twin beds, desk, chair, complimentary tea/coffee maker, mini "
 "refrigerator, plasma TV, Wi-Fi."
 
-#: .\homepage\views.py:356
+#: .\homepage\views.py:367
 msgid ""
 "Modern design room with double bed, chairs, coffee table, mini refrigerator, "
 "Complimentary tea / coffee maker, TV, WiFi."
@@ -753,7 +765,7 @@ msgstr ""
 "Modern design room with double bed, chairs, coffee table, mini refrigerator, "
 "Complimentary tea / coffee maker, TV, WiFi."
 
-#: .\homepage\views.py:357
+#: .\homepage\views.py:368
 msgid ""
 "A modern room with queen bed, sofa, three chairs, coffee table mini "
 "refrigerator, complimentary tea/coffee maker, plasma TV set, Wi-Fi."
@@ -761,7 +773,7 @@ msgstr ""
 "A modern room with queen bed, sofa, three chairs, coffee table mini "
 "refrigerator, complimentary tea/coffee maker, plasma TV set, Wi-Fi."
 
-#: .\homepage\views.py:358
+#: .\homepage\views.py:369
 msgid ""
 "A modern room with several beds, sofa, chairs, coffee table, complimentary "
 "tea/coffee, mini refrigerator, plasma TV, Wi-Fi."
@@ -769,11 +781,11 @@ msgstr ""
 "A modern room with several beds, sofa, chairs, coffee table, complimentary "
 "tea/coffee, mini refrigerator, plasma TV, Wi-Fi."
 
-#: .\homepage\views.py:359
+#: .\homepage\views.py:370
 msgid "Bathroom equipped with all necessary hygiene amenities."
 msgstr "Bathroom equipped with all necessary hygiene amenities."
 
-#: .\homepage\views.py:360
+#: .\homepage\views.py:371
 msgid ""
 "Bathroom equipped with all necessary hygiene amenities, bathrobes and a "
 "hairdryer."
@@ -781,25 +793,45 @@ msgstr ""
 "Bathroom equipped with all necessary hygiene amenities, bathrobes and a "
 "hairdryer."
 
-#: .\homepage\views.py:361
+#: .\homepage\views.py:372
 msgid "Private bathroom"
 msgstr "Private bathroom"
 
-#: .\homepage\views.py:362
+#: .\homepage\views.py:373
 msgid "Mini refrigerator"
 msgstr "Mini refrigerator"
 
-#: .\homepage\views.py:363
+#: .\homepage\views.py:374
 msgid "Free WiFi"
 msgstr "Free WiFi"
 
-#: .\homepage\views.py:364
+#: .\homepage\views.py:375
 msgid "TV"
 msgstr "TV"
 
-#: .\homepage\views.py:365
+#: .\homepage\views.py:376
 msgid "Satellite and Cable Channels"
 msgstr "Satellite and Cable Channels"
+
+#: .\homepage\views.py:378
+msgid ""
+"There are five standard cottages at the resort. They are wooden Finnish-"
+"style cottages. Each of them is two-story and consists of three rooms. The "
+"rooms are equipped with their own bathrooms (washbasin, shower and toilet)."
+msgstr ""
+"There are five standard cottages at the resort. They are wooden Finnish-"
+"style cottages. Each of them is two-story and consists of three rooms. The "
+"rooms are equipped with their own bathrooms (washbasin, shower and toilet)."
+
+#: .\homepage\views.py:379
+msgid ""
+"On the first floor there is a lobby with a TV and one triple room. On the "
+"second floor there are two rooms with their own bathrooms, one with a double "
+"bed and one with a single bed."
+msgstr ""
+"On the first floor there is a lobby with a TV and one triple room. On the "
+"second floor there are two rooms with their own bathrooms, one with a double "
+"bed and one with a single bed."
 
 #: .\nunisi_hotel_website\settings.py:145
 msgid "English"

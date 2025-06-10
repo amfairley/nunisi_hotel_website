@@ -1,0 +1,179 @@
+#rooms-cottages {
+    width: 100%;
+    background-color: #FAF3DF;
+    max-width: 2200px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+/* Text */
+.cottages-text {
+    width: 90%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.cottages-text h3 {
+    padding: 0;
+    font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
+    color: #333A3F;
+    text-align: center;
+}
+
+.cottages-text p {
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+#cottages-carousel {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#cottages-carousel .carousel-inner {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+/* Carousel content */
+.cottages-carousel-container {
+    background-color: #d9ceb1;
+    border: 2px solid #3A6B35;
+    border-radius: 0.5rem;
+    height: fit-content;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow:
+        inset 0 0 0 2px #B88C26, /* inner gold trim */
+        0 2px 10px rgba(0, 0, 0, 0.05); /* soft outer shadow */
+    position: relative;
+    justify-content: center;
+}
+
+.cottages-carousel-item {   
+    min-height: 1px;
+    height: 70rem;
+    max-height: 70vh;
+}
+
+.cottages-carousel-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+/* Left and right buttons */
+#cottages-carousel .carousel-control-prev,
+#cottages-carousel .carousel-control-next {
+    background-color: rgba(58, 107, 53, 1);
+    opacity: 1 !important;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin: auto 0;
+    border: 3px solid #333A3F;
+    transition: background-color 0.5s ease;
+}
+
+#cottages-carousel .carousel-control-prev:hover,
+#cottages-carousel .carousel-control-next:hover {
+    background-color: #FFD95B;
+}
+
+/* Indicator */
+.carousel-indicators {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1rem;
+}
+
+#cottages-carousel .carousel-indicators button {
+    background-color: #3A6B35;
+    opacity: 1 !important;
+    position: relative;
+    bottom: -4rem;
+    height: 2rem !important;
+    width: 2rem !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+/* Style the active indicator */
+#cottages-carousel .carousel-indicators .active {
+    background-color: #3A6B35;
+    color: #FFD95B;
+    border: 1px solid;
+    box-shadow: 0 0 8px #FFD95B;
+}
+
+/* Mobile settings */
+@media (max-width: 991px) {
+    #cottages-carousel .carousel-control-prev-icon,
+    #cottages-carousel .carousel-control-next-icon{
+        height: 0.5rem;
+        width: 0.5rem;
+    }
+
+    #cottages-carousel {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .cottages-carousel-item {
+        max-height: 60vh;
+    }
+    .review-date {
+        font-size: 1rem;
+    }
+
+    .review-body {
+        padding: 1rem 0.5rem;
+        font-size: 0.75rem;
+        margin-bottom: 0;
+    }
+    
+    .review-name {
+        font-size: 1rem;
+        position: relative;
+    }
+}
+
+@media (max-width: 430px) {
+    /* Make less padding */
+    #cottages-carousel {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Make height of carousel smaller */
+    #cottages-carousel .carousel-inner {
+        height: 10rem;
+    }
+
+    /* Move buttons */
+    #cottages-carousel .carousel-control-prev {
+        transform: translateX(-1.2rem);
+    }
+    #cottages-carousel .carousel-control-next {
+        transform: translateX(1.2rem);
+    }
+}
+
+@media (max-width: 350px) {
+    /* Make carousel buttons smaller */
+    #cottages-carousel .carousel-indicators button {
+        height: 1.5rem !important;
+        width: 1.5rem !important;
+    }
+}

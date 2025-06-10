@@ -1,0 +1,79 @@
+<div id="rooms-cottages">
+    <div class="cottages-text">
+        <h3>{{ cottages }}</h3>
+        <p>{{ cottages_paragraph_1 }}</p>
+        <p>{{ cottages_paragraph_2 }}</p>
+    </div>
+    <div class="cottages-carousel-container">
+        <div id="cottages-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="300000">
+            <div class="carousel-indicators">
+                <button id="cottages-carousel-indicator-1" type="button" data-bs-target="#cottages-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button id="cottages-carousel-indicator-2" type="button" data-bs-target="#cottages-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button id="cottages-carousel-indicator-3" type="button" data-bs-target="#cottages-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button id="cottages-carousel-indicator-4" type="button" data-bs-target="#cottages-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button id="cottages-carousel-indicator-5" type="button" data-bs-target="#cottages-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button id="cottages-carousel-indicator-6" type="button" data-bs-target="#cottages-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button id="cottages-carousel-indicator-7" type="button" data-bs-target="#cottages-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item cottages-carousel-item active">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}cottages/cottage_outside.webp{% else %}{{ MEDIA_URL }}v1749563409/cottage_outside_bdlfbi.webp{% endif %}"
+                        alt="A view of the cottages from outside"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="carousel-item cottages-carousel-item">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}cottages/cottage_1.webp{% else %}{{ MEDIA_URL }}v1749563409/cottage_1_jyf14u.webp{% endif %}"
+                        alt="A view of the cottages from outside"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="carousel-item cottages-carousel-item">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}cottages/cottage_2.webp{% else %}{{ MEDIA_URL }}v1749563409/cottage_2_xwnjzo.webp{% endif %}"
+                        alt="Upstairs interior of the cottages"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="carousel-item cottages-carousel-item">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}cottages/cottage_3.webp{% else %}{{ MEDIA_URL }}v1749563409/cottage_3_sm6l4c.webp{% endif %}"
+                        alt="Upstairs interior of the cottages"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="carousel-item cottages-carousel-item">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}cottages/cottage_4.webp{% else %}{{ MEDIA_URL }}v1749563409/cottage_4_mmwnxv.webp{% endif %}"
+                        alt="Downstairs interior of the cottages"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="carousel-item cottages-carousel-item">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}cottages/cottage_5.webp{% else %}{{ MEDIA_URL }}v1749563409/cottage_5_hpfm4y.webp{% endif %}"
+                        alt="A view of the cottages from outside"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="carousel-item cottages-carousel-item">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}cottages/cottage_6.webp{% else %}{{ MEDIA_URL }}v1749563409/cottage_6_x4masn.webp{% endif %}"
+                        alt="A view of the cottages from outside"
+                        loading="lazy"
+                    >
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#cottages-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cottages-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>

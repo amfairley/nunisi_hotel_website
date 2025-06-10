@@ -137,6 +137,10 @@ def rooms(request):
         'copywrite': trans['copywrite'],
         'developer': trans['developer'],
         'follow_us': trans['follow_us'],
+        # Page Header
+        'packages': trans['packages'],
+        'rooms': trans['rooms'],
+        'cottages': trans['cottages'],
         # Packages
         'packages_title': trans['packages_title'],
         'packages_comment': trans['packages_comment'],
@@ -187,6 +191,9 @@ def rooms(request):
         'amenity_wifi': trans['amenity_wifi'],
         'amenity_tv': trans['amenity_tv'],
         'amenity_cable': trans['amenity_cable'],
+        # Cottages
+        'cottages_paragraph_1': trans['cottages_paragraph_1'],
+        'cottages_paragraph_2': trans['cottages_paragraph_2'],
     }
     return render(
         request,
@@ -313,6 +320,10 @@ def translate(language):
             'water_composition_paragraph_3': _("The annoying itching and discomfort are eliminated, the rash is reduced or completely disappears, sleepless nights and low self-esteem are forgotten. But, of course, this result cannot be achieved in one day. It is necessary to follow the doctor's recommendations precisely and consistently, conduct one or more courses of procedures, and gradually increase or adjust the duration of the procedures. It should be noted that Nunisi water has a positive effect not only on the skin, but also on a number of diseases of the peripheral nervous system and musculoskeletal system."),
             'water_composition_paragraph_4': _("Before starting the Nunis balneotherapy course, you will undergo a consultation with a dermatologist or, if necessary, a therapist. You will receive comprehensive information about your illness and a balneotherapy course will be planned."),
             'water_composition_paragraph_5': _("For many grateful patients, results have already been achieved with the help of the excellent baths and environment of the Nunisi Resort."),
+            # Rooms page: Header
+            'packages': _('Packages'),
+            'rooms': _('Rooms'),
+            'cottages': _('Cottages'),
             # Rooms page: Packages
             'packages_title': _('Choose from one of our tailored experience packages'),
             'packages_comment': _('Or contact us to arrange a bespoke holiday.'),
@@ -363,6 +374,9 @@ def translate(language):
             'amenity_wifi': _('Free WiFi'),
             'amenity_tv': _('TV'),
             'amenity_cable': _('Satellite and Cable Channels'),
+            # Rooms page: cottages
+            'cottages_paragraph_1': _('There are five standard cottages at the resort. They are wooden Finnish-style cottages. Each of them is two-story and consists of three rooms. The rooms are equipped with their own bathrooms (washbasin, shower and toilet).'),
+            'cottages_paragraph_2': _('On the first floor there is a lobby with a TV and one triple room. On the second floor there are two rooms with their own bathrooms, one with a double bed and one with a single bed.'),
         }
 
     finally:

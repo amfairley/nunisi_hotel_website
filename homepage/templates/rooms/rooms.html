@@ -5,17 +5,49 @@
     <!--Adds to the block-->
     {{ block.super }}
     <style>
-        .location-background {
+        #cottages-carousel-indicator-1 {
             background-image: 
-                url('{{ MEDIA_URL }}v1743431422/georgia-map_hm6ezv.webp'),
-                url('{{ MEDIA_URL }}georgia_map.webp'),
-                url('https://i.imgur.com/MaahJ5f.png');
+                url('{{ MEDIA_URL }}/cottages/cottage_outside.webp'),
+                url('{{ MEDIA_URL }}v1749563409/cottage_outside_bdlfbi.webp');
+                ;
         }
+        #cottages-carousel-indicator-2 {
+            background-image: 
+                url('{{ MEDIA_URL }}/cottages/cottage_1.webp'),
+                url('{{ MEDIA_URL }}v1749563409/cottage_1_jyf14u.webp');
+        }
+        #cottages-carousel-indicator-3 {
+            background-image: 
+                url('{{ MEDIA_URL }}/cottages/cottage_2.webp'),
+                url('{{ MEDIA_URL }}v1749563409/cottage_2_xwnjzo.webp');
+        }
+        #cottages-carousel-indicator-4 {
+            background-image: 
+                url('{{ MEDIA_URL }}/cottages/cottage_3.webp'),
+                url('{{ MEDIA_URL }}v1749563409/cottage_3_sm6l4c.webp');
+        }
+        #cottages-carousel-indicator-5 {
+            background-image: 
+                url('{{ MEDIA_URL }}/cottages/cottage_4.webp'),
+                url('{{ MEDIA_URL }}v1749563409/cottage_4_mmwnxv.webp');
+        }
+        #cottages-carousel-indicator-6 {
+            background-image: 
+                url('{{ MEDIA_URL }}/cottages/cottage_5.webp'),
+                url('{{ MEDIA_URL }}v1749563409/cottage_5_hpfm4y.webp');
+        }
+        #cottages-carousel-indicator-7 {
+            background-image: 
+                url('{{ MEDIA_URL }}/cottages/cottage_6.webp'),
+                url('{{ MEDIA_URL }}v1749563409/cottage_6_x4masn.webp');
+        }
+
     </style>
     <link rel="stylesheet" type="text/css" href="{% static 'css/index/rooms_page.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/index/header.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/index/packages.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/index/rooms.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/cottages.css' %}">
 
 {% endblock %}
 
@@ -26,8 +58,8 @@
     {% include 'rooms/includes/header.html' %}
     <main class="content-rooms">
         {% include 'rooms/includes/packages.html' %}
-        {% include 'rooms/includes/cottages.html' %}
         {% include 'rooms/includes/rooms.html' %}
+        {% include 'rooms/includes/cottages.html' %}
     </main>
 {% endblock %}
 
