@@ -202,6 +202,70 @@ def rooms(request):
     )
 
 
+def gallery(request):
+    '''Return the gallery page'''
+    trans = translate(language=get_language() or settings.LANGUAGE_CODE)
+    image_filenames = [
+        'gallery/1_main_house_day.webp',
+        'gallery/2_main_path.webp',
+        'gallery/3_church.webp',
+        'gallery/4_main_house_night.webp',
+        'gallery/bench_2.webp',
+        'gallery/bench.webp',
+        'gallery/cable_car_1.webp',
+        'gallery/cottage_1.webp',
+        'gallery/cottage_2.webp',
+        'gallery/cottage_3.webp',
+        'gallery/cottage_4.webp',
+        'gallery/cottage_5.webp',
+        'gallery/cottage_6.webp',
+        'gallery/cottage_outside.webp',
+        'gallery/dog.webp',
+        'gallery/forest_trees_2.webp',
+        'gallery/forest_trees_night.webp',
+        'gallery/forest_trees.webp',
+        'gallery/main_house_day.webp',
+        'gallery/main_house_main_room.webp',
+        'gallery/main_house_night.webp',
+        'gallery/main_house_other_room.webp',
+        'gallery/main_house_side_room_2.webp',
+        'gallery/nunisi_view.webp',
+        'gallery/path_2.webp',
+        'gallery/path_3.webp',
+        'gallery/path_4.webp',
+        'gallery/path_5.webp',
+        'gallery/path_6.webp',
+        'gallery/path.webp',
+        'gallery/standard_room.webp',
+        'gallery/view.webp',
+        'gallery/water_2.webp',
+        'gallery/woodland_path.webp',
+    ]
+    context = {
+        'MEDIA_URL': settings.MEDIA_URL,
+        'DEBUG': settings.DEBUG,
+        # Images
+        'images': image_filenames,
+        # Translations
+        # Site Header
+        'site_header_home': trans['site_header_home'],
+        'site_header_water': trans['site_header_water'],
+        'site_header_rooms': trans['site_header_rooms'],
+        'site_header_photo': trans['site_header_photo'],
+        'call_us': trans['call_us'],
+        # Site Footer
+        'contact_us': trans['contact_us'],
+        'copywrite': trans['copywrite'],
+        'developer': trans['developer'],
+        'follow_us': trans['follow_us'],
+    }
+    return render(
+        request,
+        'gallery/gallery.html',
+        context,
+    )
+
+
 def translate(language):
     '''Function to translate homepage text'''
     # get the current language

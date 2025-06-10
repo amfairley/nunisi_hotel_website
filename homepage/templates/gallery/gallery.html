@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block corecss %}
+    <!--Adds to the block-->
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index/gallery.css' %}">
+{% endblock %}
+
+{% block header_content %}
+{% endblock %}
+
+{% block main_content %}
+    <main class="content-gallery">
+        <div class="gallery-container">
+            <div>
+                <h2 class="gallery-title">{{ site_header_photo }}</h2>
+                <div class="container">
+                    <div class="row">
+                        {% for image in images %}
+                        <div class="gallery-grid col-6 col-md-4 col-lg-3">
+                            <img src="{{ MEDIA_URL}}{{ image }}" class="img-fluid thumbnail" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="{{ forloop.counter0 }}" style="cursor:pointer;" alt="Gallery image {{ forloop.counter }}">
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content bg-dark">
+                <div class="modal-body p-0">
+                    <div id="carouselGallery" class="carousel slide" data-bs-ride="false" data-bs-interval="false">
+                        <div class="carousel-inner">
+                            {% for image in images %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <img src="{{ MEDIA_URL }}{{ image }}" class="d-block w-100" alt="Gallery image {{ forloop.counter }}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block postloadjs %}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var carouselEl = document.getElementById('carouselGallery');
+  var carousel = new bootstrap.Carousel(carouselEl, {
+    interval: false,
+    ride: false
+  });
+
+  document.querySelectorAll('.thumbnail').forEach(function (thumb) {
+    thumb.addEventListener('click', function () {
+      var slideIndex = this.getAttribute('data-bs-slide-to');
+      carousel.to(parseInt(slideIndex));
+    });
+  });
+});
+</script>
+{% endblock %}
