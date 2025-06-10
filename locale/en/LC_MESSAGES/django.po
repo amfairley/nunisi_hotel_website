@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 09:21+0100\n"
+"POT-Creation-Date: 2025-06-10 11:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,103 +18,103 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\homepage\views.py:188
+#: .\homepage\views.py:209
 msgid "Home"
 msgstr "Home"
 
-#: .\homepage\views.py:189 .\homepage\views.py:200
+#: .\homepage\views.py:210 .\homepage\views.py:221
 msgid "Nunisi Water"
 msgstr "Nunisi Water"
 
-#: .\homepage\views.py:190
+#: .\homepage\views.py:211
 msgid "Build Your Stay"
 msgstr "Build Your Stay"
 
-#: .\homepage\views.py:191
+#: .\homepage\views.py:212
 msgid "Photo Gallery"
 msgstr "Photo Gallery"
 
-#: .\homepage\views.py:192
+#: .\homepage\views.py:213
 msgid "Call us today on"
 msgstr "Call us today on"
 
-#: .\homepage\views.py:194
+#: .\homepage\views.py:215
 msgid "Contact us"
 msgstr "Contact us"
 
-#: .\homepage\views.py:195
+#: .\homepage\views.py:216
 msgid "Nunisi Hotel and Spa. All rights reserved"
 msgstr "Nunisi Hotel and Spa. All rights reserved"
 
-#: .\homepage\views.py:196
+#: .\homepage\views.py:217
 msgid "Developed by"
 msgstr "Developed by"
 
-#: .\homepage\views.py:197
+#: .\homepage\views.py:218
 msgid "Follow us on social media"
 msgstr "Follow us on social media"
 
-#: .\homepage\views.py:199 .\homepage\views.py:216
+#: .\homepage\views.py:220 .\homepage\views.py:237
 msgid "About Us"
 msgstr "About Us"
 
-#: .\homepage\views.py:201 .\homepage\views.py:242
+#: .\homepage\views.py:222 .\homepage\views.py:263
 msgid "Services"
 msgstr "Services"
 
-#: .\homepage\views.py:202 .\homepage\views.py:253
+#: .\homepage\views.py:223 .\homepage\views.py:274
 msgid "Location"
 msgstr "Location"
 
-#: .\homepage\views.py:203
+#: .\homepage\views.py:224
 msgid "Reviews"
 msgstr "Reviews"
 
-#: .\homepage\views.py:205
+#: .\homepage\views.py:226
 msgid "Nunisi Forest Hotel and Spa"
 msgstr "Nunisi Forest Hotel and Spa"
 
-#: .\homepage\views.py:206
+#: .\homepage\views.py:227
 msgid "Where luxury is natural!"
 msgstr "Where luxury is natural!"
 
-#: .\homepage\views.py:208
+#: .\homepage\views.py:229
 msgid "Book now via"
 msgstr "Book now via"
 
-#: .\homepage\views.py:209
+#: .\homepage\views.py:230
 msgid " Email: "
 msgstr " Email: "
 
-#: .\homepage\views.py:210
+#: .\homepage\views.py:231
 msgid " Phone: (+995) 599 22 55 80"
 msgstr " Phone: (+995) 599 22 55 80"
 
-#: .\homepage\views.py:211
+#: .\homepage\views.py:232
 msgid "Through "
 msgstr "Through"
 
-#: .\homepage\views.py:212 .\venv\Lib\site-packages\django\utils\text.py:286
+#: .\homepage\views.py:233 .\venv\Lib\site-packages\django\utils\text.py:286
 msgid "or"
 msgstr "or"
 
-#: .\homepage\views.py:213
+#: .\homepage\views.py:234
 msgid "Book through booking.com"
 msgstr "Book through booking.com"
 
-#: .\homepage\views.py:214
+#: .\homepage\views.py:235
 msgid "Take a look at our rooms & packages"
 msgstr "Take a look at our rooms & packages"
 
-#: .\homepage\views.py:217 .\homepage\views.py:220
+#: .\homepage\views.py:238 .\homepage\views.py:241
 msgid "The Legend of Nunisi"
 msgstr "The Legend of Nunisi"
 
-#: .\homepage\views.py:218
+#: .\homepage\views.py:239
 msgid "A unique resort of world importance"
 msgstr "A unique resort of world importance"
 
-#: .\homepage\views.py:219
+#: .\homepage\views.py:240
 msgid ""
 "Nunisi mineral water was known as early as the 17th century. The "
 "balneological resort has been hosting those who want to relax in picturesque "
@@ -134,7 +134,7 @@ msgstr ""
 "and natural products are the best for deep relaxation and restoration of "
 "strength."
 
-#: .\homepage\views.py:221
+#: .\homepage\views.py:242
 msgid ""
 "There is a legend about the discovery of Nunisi water, which is associated "
 "with the great Georgian king, David the Builder. The legend tells us that "
@@ -152,7 +152,7 @@ msgstr ""
 "temple in the village. The Nunisi Monastery of the Nativity of the Virgin "
 "Mary, built in the 9th-10th centuries, is still in operation today."
 
-#: .\homepage\views.py:222
+#: .\homepage\views.py:243
 msgid ""
 "The healing use of Nunisi water has been known since the 9th century. The "
 "population noticed that their pets were being cured of malaise with the help "
@@ -170,11 +170,11 @@ msgstr ""
 "century Georgian geographer Vakhushti Batonishvili and is actively mentioned "
 "in his works."
 
-#: .\homepage\views.py:224
+#: .\homepage\views.py:245
 msgid "Indication of Nunisi healing water"
 msgstr "Indication of Nunisi healing water"
 
-#: .\homepage\views.py:226
+#: .\homepage\views.py:247
 #, fuzzy
 #| msgid ""
 #| "Legends associated with Nunisi healing water are confirmed by modern "
@@ -237,7 +237,7 @@ msgstr ""
 "                - And others.\n"
 "                "
 
-#: .\homepage\views.py:239
+#: .\homepage\views.py:260
 msgid ""
 "You will also receive aesthetic therapy, with a noticeable skin rejuvenation "
 "effect in our hotel."
@@ -245,154 +245,154 @@ msgstr ""
 "You will also receive aesthetic therapy, with a noticeable skin rejuvenation "
 "effect in our hotel."
 
-#: .\homepage\views.py:240
+#: .\homepage\views.py:261
 msgid "Learn more about Nunisi's water"
 msgstr "Learn more about Nunisi's water"
 
-#: .\homepage\views.py:244
-msgid ""
-"- Three meals a day are included in the room rate\n"
-"                - The restaurant accepts individual orders\n"
-"                - Doctor consultation \n"
-"                - Bath and Massage therapy \n"
-"                The hotel has an open bar (with billiards, film screenings). "
-"Excursions are organized to the monks' cave (so-called Noah's Ark), the "
-"Fathers' Monastery and the waterfall.\n"
-"                The hotel has a 24-hour guarded parking lot. Guests are "
-"transported to the territory by their own cable car.\n"
-"                The hotel has a laundry service. Pets are allowed by prior "
-"arrangement with the administration.\n"
-"                "
-msgstr ""
-"- Three meals a day are included in the room rate\n"
-"                - The restaurant accepts individual orders\n"
-"                - Doctor consultation \n"
-"                - Bath and Massage therapy \n"
-"                The hotel has an open bar (with billiards, film screenings). "
-"Excursions are organized to the monks' cave (so-called Noah's Ark), the "
-"Fathers' Monastery and the waterfall.\n"
-"                The hotel has a 24-hour guarded parking lot. Guests are "
-"transported to the territory by their own cable car.\n"
-"                The hotel has a laundry service. Pets are allowed by prior "
-"arrangement with the administration.\n"
-"                "
-
-#: .\homepage\views.py:254
-msgid ""
-"The resort Nunisi is 22 km away from the center of Kharagauli. It is 6 km "
-"from the railway station in the village of Moliti to Nunisi. The nearest "
-"settlement, the village of the same name, is located 1.5 km from the resort."
-msgstr ""
-"The resort Nunisi is 22 km away from the center of Kharagauli. It is 6 km "
-"from the railway station in the village of Moliti to Nunisi. The nearest "
-"settlement, the village of the same name, is located 1.5 km from the resort."
-
-#: .\homepage\views.py:255
-msgid ""
-"Nunisi Resort is adjacent to the Borjomi-Kharagauli National Park. It is 155 "
-"km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from "
-"Moliti Railway Station."
-msgstr ""
-"Nunisi Resort is adjacent to the Borjomi-Kharagauli National Park. It is 155 "
-"km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from "
-"Moliti Railway Station."
-
-#: .\homepage\views.py:256
-msgid "A hotel minibus meets vacationers at Moliti Railway Station."
-msgstr "A hotel minibus meets vacationers at Moliti Railway Station."
-
-#: .\homepage\views.py:259
-msgid ""
-"The city of Tskheli remained in the dust far away, \n"
-"                Nunisi - my marina, \n"
-"                Soft water and tall trees, \n"
-"                Unforgettable Nunisi days.\n"
-"                "
-msgstr ""
-"The city of Tskheli remained in the dust far away, \n"
-"                Nunisi - my marina, \n"
-"                Soft water and tall trees, \n"
-"                Unforgettable Nunisi days.\n"
-"                "
-
 #: .\homepage\views.py:265
-msgid "Dato, 9 years old"
-msgstr "Dato, 9 years old"
-
-#: .\homepage\views.py:267
 msgid ""
-"I have been receiving treatment at the Nunisi resort for two years now. I "
-"first visited the resort at the end of August last year, and the second time "
-"this year. I suffer from rheumatic disease, severe radiculitis. I was "
-"receiving treatment in our district (Lagodekhi) since March 1970, and in "
-"1974 in Gurjaani, Akhtala, but my condition gradually became more and more "
-"difficult. For months I was chained to a bed with severe attacks and "
-"indescribable pain. Last year's treatment exceeded my expectations. If "
-"someone else had told me this, I honestly would not have believed it. I was "
-"completely cured.\n"
-"                The Nunisi resort is very pleasant and convenient with its "
-"natural relief location, beauty, clean air and water. But I cannot help but "
-"express my heartfelt gratitude to the entire staff of the resort, from the "
-"director and the doctor to the cleaners. I would like to reiterate my "
-"gratitude.\n"
+"- Three meals a day are included in the room rate\n"
+"                - The restaurant accepts individual orders\n"
+"                - Doctor consultation \n"
+"                - Bath and Massage therapy \n"
+"                The hotel has an open bar (with billiards, film screenings). "
+"Excursions are organized to the monks' cave (so-called Noah's Ark), the "
+"Fathers' Monastery and the waterfall.\n"
+"                The hotel has a 24-hour guarded parking lot. Guests are "
+"transported to the territory by their own cable car.\n"
+"                The hotel has a laundry service. Pets are allowed by prior "
+"arrangement with the administration.\n"
 "                "
 msgstr ""
-"I have been receiving treatment at the Nunisi resort for two years now. I "
-"first visited the resort at the end of August last year, and the second time "
-"this year. I suffer from rheumatic disease, severe radiculitis. I was "
-"receiving treatment in our district (Lagodekhi) since March 1970, and in "
-"1974 in Gurjaani, Akhtala, but my condition gradually became more and more "
-"difficult. For months I was chained to a bed with severe attacks and "
-"indescribable pain. Last year's treatment exceeded my expectations. If "
-"someone else had told me this, I honestly would not have believed it. I was "
-"completely cured.\n"
-"                The Nunisi resort is very pleasant and convenient with its "
-"natural relief location, beauty, clean air and water. But I cannot help but "
-"express my heartfelt gratitude to the entire staff of the resort, from the "
-"director and the doctor to the cleaners. I would like to reiterate my "
-"gratitude.\n"
+"- Three meals a day are included in the room rate\n"
+"                - The restaurant accepts individual orders\n"
+"                - Doctor consultation \n"
+"                - Bath and Massage therapy \n"
+"                The hotel has an open bar (with billiards, film screenings). "
+"Excursions are organized to the monks' cave (so-called Noah's Ark), the "
+"Fathers' Monastery and the waterfall.\n"
+"                The hotel has a 24-hour guarded parking lot. Guests are "
+"transported to the territory by their own cable car.\n"
+"                The hotel has a laundry service. Pets are allowed by prior "
+"arrangement with the administration.\n"
 "                "
-
-#: .\homepage\views.py:271
-msgid "Silver Lomidze"
-msgstr "Silver Lomidze"
-
-#: .\homepage\views.py:272
-msgid ""
-"I was at the Nunisi balneological and medical resort from August 7 to 20. "
-"There was peace and friendliness. At the same time, the resort's management "
-"was eager to improve comfort. Many thanks to the entire staff. I believe "
-"that Nunisi will become one of the best resorts in Georgia in the near "
-"future. My heart breaks as I have to leave this place tomorrow."
-msgstr ""
-"I was at the Nunisi balneological and medical resort from August 7 to 20. "
-"There was peace and friendliness. At the same time, the resort's management "
-"was eager to improve comfort. Many thanks to the entire staff. I believe "
-"that Nunisi will become one of the best resorts in Georgia in the near "
-"future. My heart breaks as I have to leave this place tomorrow."
-
-#: .\homepage\views.py:273
-msgid "L.Gogoladze"
-msgstr "L.Gogoladze"
-
-#: .\homepage\views.py:274
-msgid ""
-"I was at the Nunisi Sanatorium from 25.07.02 to 8.08.02. We were amazed by "
-"the results of the healing waters, they have such a beneficial effect on "
-"skin diseases. In addition, we were amazed by the service, conditions and "
-"warm welcome of the staff."
-msgstr ""
-"I was at the Nunisi Sanatorium from 25.07.02 to 8.08.02. We were amazed by "
-"the results of the healing waters, they have such a beneficial effect on "
-"skin diseases. In addition, we were amazed by the service, conditions and "
-"warm welcome of the staff."
 
 #: .\homepage\views.py:275
-msgid "Leila Munjishvili"
-msgstr "Leila Munjishvili"
+msgid ""
+"The resort Nunisi is 22 km away from the center of Kharagauli. It is 6 km "
+"from the railway station in the village of Moliti to Nunisi. The nearest "
+"settlement, the village of the same name, is located 1.5 km from the resort."
+msgstr ""
+"The resort Nunisi is 22 km away from the center of Kharagauli. It is 6 km "
+"from the railway station in the village of Moliti to Nunisi. The nearest "
+"settlement, the village of the same name, is located 1.5 km from the resort."
 
 #: .\homepage\views.py:276
 msgid ""
+"Nunisi Resort is adjacent to the Borjomi-Kharagauli National Park. It is 155 "
+"km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from "
+"Moliti Railway Station."
+msgstr ""
+"Nunisi Resort is adjacent to the Borjomi-Kharagauli National Park. It is 155 "
+"km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from "
+"Moliti Railway Station."
+
+#: .\homepage\views.py:277
+msgid "A hotel minibus meets vacationers at Moliti Railway Station."
+msgstr "A hotel minibus meets vacationers at Moliti Railway Station."
+
+#: .\homepage\views.py:280
+msgid ""
+"The city of Tskheli remained in the dust far away, \n"
+"                Nunisi - my marina, \n"
+"                Soft water and tall trees, \n"
+"                Unforgettable Nunisi days.\n"
+"                "
+msgstr ""
+"The city of Tskheli remained in the dust far away, \n"
+"                Nunisi - my marina, \n"
+"                Soft water and tall trees, \n"
+"                Unforgettable Nunisi days.\n"
+"                "
+
+#: .\homepage\views.py:286
+msgid "Dato, 9 years old"
+msgstr "Dato, 9 years old"
+
+#: .\homepage\views.py:288
+msgid ""
+"I have been receiving treatment at the Nunisi resort for two years now. I "
+"first visited the resort at the end of August last year, and the second time "
+"this year. I suffer from rheumatic disease, severe radiculitis. I was "
+"receiving treatment in our district (Lagodekhi) since March 1970, and in "
+"1974 in Gurjaani, Akhtala, but my condition gradually became more and more "
+"difficult. For months I was chained to a bed with severe attacks and "
+"indescribable pain. Last year's treatment exceeded my expectations. If "
+"someone else had told me this, I honestly would not have believed it. I was "
+"completely cured.\n"
+"                The Nunisi resort is very pleasant and convenient with its "
+"natural relief location, beauty, clean air and water. But I cannot help but "
+"express my heartfelt gratitude to the entire staff of the resort, from the "
+"director and the doctor to the cleaners. I would like to reiterate my "
+"gratitude.\n"
+"                "
+msgstr ""
+"I have been receiving treatment at the Nunisi resort for two years now. I "
+"first visited the resort at the end of August last year, and the second time "
+"this year. I suffer from rheumatic disease, severe radiculitis. I was "
+"receiving treatment in our district (Lagodekhi) since March 1970, and in "
+"1974 in Gurjaani, Akhtala, but my condition gradually became more and more "
+"difficult. For months I was chained to a bed with severe attacks and "
+"indescribable pain. Last year's treatment exceeded my expectations. If "
+"someone else had told me this, I honestly would not have believed it. I was "
+"completely cured.\n"
+"                The Nunisi resort is very pleasant and convenient with its "
+"natural relief location, beauty, clean air and water. But I cannot help but "
+"express my heartfelt gratitude to the entire staff of the resort, from the "
+"director and the doctor to the cleaners. I would like to reiterate my "
+"gratitude.\n"
+"                "
+
+#: .\homepage\views.py:292
+msgid "Silver Lomidze"
+msgstr "Silver Lomidze"
+
+#: .\homepage\views.py:293
+msgid ""
+"I was at the Nunisi balneological and medical resort from August 7 to 20. "
+"There was peace and friendliness. At the same time, the resort's management "
+"was eager to improve comfort. Many thanks to the entire staff. I believe "
+"that Nunisi will become one of the best resorts in Georgia in the near "
+"future. My heart breaks as I have to leave this place tomorrow."
+msgstr ""
+"I was at the Nunisi balneological and medical resort from August 7 to 20. "
+"There was peace and friendliness. At the same time, the resort's management "
+"was eager to improve comfort. Many thanks to the entire staff. I believe "
+"that Nunisi will become one of the best resorts in Georgia in the near "
+"future. My heart breaks as I have to leave this place tomorrow."
+
+#: .\homepage\views.py:294
+msgid "L.Gogoladze"
+msgstr "L.Gogoladze"
+
+#: .\homepage\views.py:295
+msgid ""
+"I was at the Nunisi Sanatorium from 25.07.02 to 8.08.02. We were amazed by "
+"the results of the healing waters, they have such a beneficial effect on "
+"skin diseases. In addition, we were amazed by the service, conditions and "
+"warm welcome of the staff."
+msgstr ""
+"I was at the Nunisi Sanatorium from 25.07.02 to 8.08.02. We were amazed by "
+"the results of the healing waters, they have such a beneficial effect on "
+"skin diseases. In addition, we were amazed by the service, conditions and "
+"warm welcome of the staff."
+
+#: .\homepage\views.py:296
+msgid "Leila Munjishvili"
+msgstr "Leila Munjishvili"
+
+#: .\homepage\views.py:297
+msgid ""
 "I had heard about the Nunisi Baths since I was a child, but how did I know "
 "then that my little daughter would need treatment here?! When my 5-year-old "
 "daughter was diagnosed with psoriasis, I started asking people who had this "
@@ -409,11 +409,11 @@ msgstr ""
 "out of the car, I couldn't hide my admiration. I liked the environment here "
 "so much. Thank you all for such warmth and attention!"
 
-#: .\homepage\views.py:277
+#: .\homepage\views.py:298
 msgid "Marine Laradze"
 msgstr "Marine Laradze"
 
-#: .\homepage\views.py:280
+#: .\homepage\views.py:301
 msgid ""
 "Treatment and remission with medication is often a problem. A dermatologist "
 "diagnoses and prescribes treatment with natural remedies. The course of "
@@ -485,17 +485,17 @@ msgstr ""
 "of developing secondary infections.\n"
 "                "
 
-#: .\homepage\views.py:284
+#: .\homepage\views.py:305
 msgid ""
 "The solution is the unique Nunisi baths, which have no analogues in the "
 "world."
 msgstr ""
 
-#: .\homepage\views.py:285
+#: .\homepage\views.py:306
 msgid "Composition of our mineral water"
 msgstr "Composition of our mineral water"
 
-#: .\homepage\views.py:286
+#: .\homepage\views.py:307
 msgid ""
 "Nunisi water is distinguished by its low mineralization and high alkalinity "
 "(- PH 8.3 – 10.4). It is a weakly sulfide, chloride, hydrocarbonate, sodium, "
@@ -511,7 +511,7 @@ msgstr ""
 "such microelements and ions as: potassium, calcium, iron, bromine, chlorine, "
 "iodine, etc."
 
-#: .\homepage\views.py:288
+#: .\homepage\views.py:309
 msgid ""
 "Water contains dissolved gas in the range of 20-28 mg. Nitrogen predominates "
 "by mass and smaller amounts of methane and hydrogen sulfide. Its composition "
@@ -549,7 +549,7 @@ msgstr ""
 "complete cure.\n"
 "                "
 
-#: .\homepage\views.py:292
+#: .\homepage\views.py:313
 msgid ""
 "The annoying itching and discomfort are eliminated, the rash is reduced or "
 "completely disappears, sleepless nights and low self-esteem are forgotten. "
@@ -569,7 +569,7 @@ msgstr ""
 "positive effect not only on the skin, but also on a number of diseases of "
 "the peripheral nervous system and musculoskeletal system."
 
-#: .\homepage\views.py:293
+#: .\homepage\views.py:314
 msgid ""
 "Before starting the Nunis balneotherapy course, you will undergo a "
 "consultation with a dermatologist or, if necessary, a therapist. You will "
@@ -581,7 +581,7 @@ msgstr ""
 "receive comprehensive information about your illness and a balneotherapy "
 "course will be planned."
 
-#: .\homepage\views.py:294
+#: .\homepage\views.py:315
 msgid ""
 "For many grateful patients, results have already been achieved with the help "
 "of the excellent baths and environment of the Nunisi Resort."
@@ -589,117 +589,217 @@ msgstr ""
 "For many grateful patients, results have already been achieved with the help "
 "of the excellent baths and environment of the Nunisi Resort."
 
-#: .\homepage\views.py:296
+#: .\homepage\views.py:317
 msgid "Choose from one of our tailored experience packages"
 msgstr "Choose from one of our tailored experience packages*"
 
-#: .\homepage\views.py:297
+#: .\homepage\views.py:318
 msgid "Or contact us to arrange a bespoke holiday."
 msgstr "*Or contact us to arrange a bespoke holiday."
 
-#: .\homepage\views.py:298
+#: .\homepage\views.py:319
 msgid "Medical Package"
 msgstr "Medical Package"
 
-#: .\homepage\views.py:299
+#: .\homepage\views.py:320
 msgid "Wellness Recreational Package"
 msgstr "Wellness Recreational Package"
 
-#: .\homepage\views.py:300
+#: .\homepage\views.py:321
 msgid "Esthetic Retreat Package"
 msgstr "Esthetic Retreat Package"
 
-#: .\homepage\views.py:301
+#: .\homepage\views.py:322
 msgid "Beauty Restoration Package"
 msgstr "Beauty Restoration Package"
 
-#: .\homepage\views.py:302
+#: .\homepage\views.py:323
 msgid "Family Package"
 msgstr "Family Package (2 adults, 2 children)"
 
-#: .\homepage\views.py:303
+#: .\homepage\views.py:324
 msgid "One week of hotel accommodation"
 msgstr "One week of hotel accommodation"
 
-#: .\homepage\views.py:304
+#: .\homepage\views.py:325
 msgid "Five days of hotel accommodation"
 msgstr "Five days of hotel accommodation"
 
-#: .\homepage\views.py:305
+#: .\homepage\views.py:326
 msgid "Three meals a day"
 msgstr "Three meals a day"
 
-#: .\homepage\views.py:306
+#: .\homepage\views.py:327
 msgid "Three healthy meals a day"
 msgstr "Three healthy meals a day"
 
-#: .\homepage\views.py:307
+#: .\homepage\views.py:328
 msgid "Three meals a day including a child menu"
 msgstr "Three meals a day including a child menu"
 
-#: .\homepage\views.py:308
+#: .\homepage\views.py:329
 msgid "Dermatologist consultation"
 msgstr "Dermatologist consultation"
 
-#: .\homepage\views.py:309
+#: .\homepage\views.py:330
 msgid "Wellness procedure of 2 showers and 10 baths"
 msgstr "Wellness procedure of 2 showers and 10 baths"
 
-#: .\homepage\views.py:310
+#: .\homepage\views.py:331
 msgid "10 procedures in a mineral water pool"
 msgstr "10 procedures in a mineral water pool"
 
-#: .\homepage\views.py:311
+#: .\homepage\views.py:332
 msgid "Access to the mineral pool"
 msgstr "Access to the mineral pool"
 
-#: .\homepage\views.py:312
+#: .\homepage\views.py:333
 msgid "Nunisi water procedures for skin rejuvenation and anti-aging"
 msgstr "Nunisi water procedures for skin rejuvenation and anti-aging"
 
-#: .\homepage\views.py:313
+#: .\homepage\views.py:334
 msgid "Massage"
 msgstr "Massage"
 
-#: .\homepage\views.py:314
+#: .\homepage\views.py:335
 msgid "Facial massage"
 msgstr "Facial massage"
 
-#: .\homepage\views.py:315
+#: .\homepage\views.py:336
 msgid "Morning exercise with instructor"
 msgstr "Morning exercise with instructor"
 
-#: .\homepage\views.py:316
+#: .\homepage\views.py:337
 msgid "Morning and evening exercises with instructor"
 msgstr "Morning and evening exercises with instructor"
 
-#: .\homepage\views.py:317
+#: .\homepage\views.py:338
 msgid "Evening yoga and meditation"
 msgstr "Evening yoga and meditation"
 
-#: .\homepage\views.py:318
+#: .\homepage\views.py:339
 msgid "Guided sight-seeing hike"
 msgstr "Guided sight-seeing hike"
 
-#: .\homepage\views.py:319
+#: .\homepage\views.py:340
 msgid "Horse riding"
 msgstr "Horse riding"
 
-#: .\homepage\views.py:320
+#: .\homepage\views.py:341
 msgid "Fishing"
 msgstr "Fishing"
 
-#: .\homepage\views.py:321
+#: .\homepage\views.py:342
 msgid "Educational and entertainment activities"
 msgstr "Educational and entertainment activities"
 
-#: .\homepage\views.py:322
+#: .\homepage\views.py:343
 msgid "This package is for 2 people"
 msgstr "This package is for 2 people"
 
-#: .\homepage\views.py:323
+#: .\homepage\views.py:344
 msgid "This package is for 4 people"
 msgstr "This package is for 4 people"
+
+#: .\homepage\views.py:346
+msgid "Where you'll stay"
+msgstr "Where you'll stay"
+
+#: .\homepage\views.py:347
+msgid "Standard Room"
+msgstr "Standard Room"
+
+#: .\homepage\views.py:348
+msgid "Standard Double Room"
+msgstr "Standard Double Room"
+
+#: .\homepage\views.py:349
+msgid "Panarama Room"
+msgstr "Panarama Room"
+
+#: .\homepage\views.py:350
+msgid "Suite"
+msgstr "Suite"
+
+#: .\homepage\views.py:351
+msgid "Family Room"
+msgstr "Family Room"
+
+#: .\homepage\views.py:352
+msgid "This room is suitable for a maximum of 2 people."
+msgstr "This room is suitable for a maximum of 2 people."
+
+#: .\homepage\views.py:353
+msgid "This room is suitable for a maximum of 4 people."
+msgstr "This room is suitable for a maximum of 4 people."
+
+#: .\homepage\views.py:354
+msgid "This room is suitable for a maximum of 5 people."
+msgstr "This room is suitable for a maximum of 5 people."
+
+#: .\homepage\views.py:355
+msgid ""
+"A room with twin beds, desk, chair, complimentary tea/coffee maker, mini "
+"refrigerator, plasma TV, Wi-Fi. "
+msgstr ""
+"A room with twin beds, desk, chair, complimentary tea/coffee maker, mini "
+"refrigerator, plasma TV, Wi-Fi."
+
+#: .\homepage\views.py:356
+msgid ""
+"Modern design room with double bed, chairs, coffee table, mini refrigerator, "
+"Complimentary tea / coffee maker, TV, WiFi."
+msgstr ""
+"Modern design room with double bed, chairs, coffee table, mini refrigerator, "
+"Complimentary tea / coffee maker, TV, WiFi."
+
+#: .\homepage\views.py:357
+msgid ""
+"A modern room with queen bed, sofa, three chairs, coffee table mini "
+"refrigerator, complimentary tea/coffee maker, plasma TV set, Wi-Fi."
+msgstr ""
+"A modern room with queen bed, sofa, three chairs, coffee table mini "
+"refrigerator, complimentary tea/coffee maker, plasma TV set, Wi-Fi."
+
+#: .\homepage\views.py:358
+msgid ""
+"A modern room with several beds, sofa, chairs, coffee table, complimentary "
+"tea/coffee, mini refrigerator, plasma TV, Wi-Fi."
+msgstr ""
+"A modern room with several beds, sofa, chairs, coffee table, complimentary "
+"tea/coffee, mini refrigerator, plasma TV, Wi-Fi."
+
+#: .\homepage\views.py:359
+msgid "Bathroom equipped with all necessary hygiene amenities."
+msgstr "Bathroom equipped with all necessary hygiene amenities."
+
+#: .\homepage\views.py:360
+msgid ""
+"Bathroom equipped with all necessary hygiene amenities, bathrobes and a "
+"hairdryer."
+msgstr ""
+"Bathroom equipped with all necessary hygiene amenities, bathrobes and a "
+"hairdryer."
+
+#: .\homepage\views.py:361
+msgid "Private bathroom"
+msgstr "Private bathroom"
+
+#: .\homepage\views.py:362
+msgid "Mini refrigerator"
+msgstr "Mini refrigerator"
+
+#: .\homepage\views.py:363
+msgid "Free WiFi"
+msgstr "Free WiFi"
+
+#: .\homepage\views.py:364
+msgid "TV"
+msgstr "TV"
+
+#: .\homepage\views.py:365
+msgid "Satellite and Cable Channels"
+msgstr "Satellite and Cable Channels"
 
 #: .\nunisi_hotel_website\settings.py:145
 msgid "English"

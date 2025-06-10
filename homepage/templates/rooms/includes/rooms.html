@@ -1,0 +1,272 @@
+<div class="container-fluid" id="rooms-rooms">
+    <!--Packages-->
+    <div class="rooms-container">
+        <!--Section title-->
+        <h2 class="rooms-rooms-title">{{ rooms_title }}</h2>
+        <div class="row g-0">
+            <!--Standard room-->
+            <div class="col-12 row rooms-rooms-card">
+                <!--Room title-->
+                <div class="col-12 rooms-title">
+                    <h3>{{ standard_room_title }}</h3>
+                    <p>
+                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-person"></i>
+                        {{ room_occupancy_2 }}
+                    </p>
+                </div>
+                <!--Room immage-->
+                <div class="col-12 d-md-none rooms-image">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
+                        alt="An view of Nunisi through the trees"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="col-12 col-md-6">
+                    <!--Rooms list - left hand-->
+                    <!--Room Description-->
+                    <div>
+                        <p>{{ standard_room_description }}</p>
+                        <p>{{ bathroom_description }}</p>
+                    </div>
+                    <!--Amenities-->
+                    <ul class="rooms-list">
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-bed"></i></span> {{ amenity_bathroom }}
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-snowflake"></i></span> {{ amenity_fridge }} 
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-wifi"></i></span> {{ amenity_wifi }}
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-tv"></i></span> {{ amenity_tv }} 
+                        </li>                        
+                    </ul>
+                </div>
+                <!--Right hand - Rooms image-->
+                <div class="d-none d-md-block col-md-6 rooms-image">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
+                        alt="An view of Nunisi through the trees"
+                        loading="lazy"
+                    >
+                </div>
+            </div>
+            <!--Standard twin room balcony-->
+            <div class="col-12 row rooms-rooms-card">
+                <!--Room title-->
+                <div class="col-12 rooms-title">
+                    <h3>{{ standard_double_room_title }}</h3>
+                    <p>
+                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-person"></i>
+                        {{ room_occupancy_2 }}
+                    </p>
+                </div>
+                <!--Room immage-->
+                <div class="col-12 d-md-none rooms-image">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
+                        alt="An view of Nunisi through the trees"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="col-12 col-md-6">
+                    <!--Rooms list - left hand-->
+                    <!--Room Description-->
+                    <div>
+                        <p>{{ standard_double_room_description }}</p>
+                        <p>{{ bathroom_description }}</p>
+                    </div>
+                    <!--Amenities-->
+                    <ul class="rooms-list">
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-bed"></i></span> {{ amenity_bathroom }}
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-snowflake"></i></span> {{ amenity_fridge }} 
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-wifi"></i></span> {{ amenity_wifi }}
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-tv"></i></span> {{ amenity_tv }} 
+                        </li>                        
+                    </ul>
+                </div>
+                <!--Right hand - Rooms image-->
+                <div class="d-none d-md-block col-md-6 rooms-image">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
+                        alt="An view of Nunisi through the trees"
+                        loading="lazy"
+                    >
+                </div>
+            </div>
+            <!--Panorama Room-->
+            <div class="col-12 row rooms-rooms-card">
+                <!--Room title-->
+                <div class="col-12 rooms-title">
+                    <h3>{{ panarama_room_title }}</h3>
+                    <p>
+                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-person"></i>
+                        {{ room_occupancy_2 }}
+                    </p>
+                </div>
+                <!--Room immage-->
+                <div class="col-12 d-md-none rooms-image">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
+                        alt="An view of Nunisi through the trees"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="col-12 col-md-6">
+                    <!--Rooms list - left hand-->
+                    <!--Room Description-->
+                    <div>
+                        <p>{{ standard_double_room_description }}</p>
+                        <p>{{ bathroom_description }}</p>
+                    </div>
+                    <!--Amenities-->
+                    <ul class="rooms-list">
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-bed"></i></span> {{ amenity_bathroom }}
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-snowflake"></i></span> {{ amenity_fridge }} 
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-wifi"></i></span> {{ amenity_wifi }}
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-tv"></i></span> {{ amenity_tv }} 
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-satellite-dish"></i></span> {{ amenity_cable }} 
+                        </li>                     
+                    </ul>
+                </div>
+                <!--Right hand - Rooms image-->
+                <div class="d-none d-md-block col-md-6 rooms-image">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
+                        alt="An view of Nunisi through the trees"
+                        loading="lazy"
+                    >
+                </div>
+            </div>
+            <!--Suite-->
+            <div class="col-12 row rooms-rooms-card">
+                <!--Room title-->
+                <div class="col-12 rooms-title">
+                    <h3>{{ suite_room_title }}</h3>
+                    <p>
+                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-person"></i>
+                        {{ room_occupancy_4 }}
+                    </p>
+                </div>
+                <!--Room immage-->
+                <div class="col-12 d-md-none rooms-image">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
+                        alt="An view of Nunisi through the trees"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="col-12 col-md-6">
+                    <!--Rooms list - left hand-->
+                    <!--Room Description-->
+                    <div>
+                        <p>{{ suite_room_description }}</p>
+                        <p>{{ bathroom_description_suite }}</p>
+                    </div>
+                    <!--Amenities-->
+                    <ul class="rooms-list">
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-bed"></i></span> {{ amenity_bathroom }}
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-snowflake"></i></span> {{ amenity_fridge }} 
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-wifi"></i></span> {{ amenity_wifi }}
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-tv"></i></span> {{ amenity_tv }} 
+                        </li>                   
+                    </ul>
+                </div>
+                <!--Right hand - Rooms image-->
+                <div class="d-none d-md-block col-md-6 rooms-image">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
+                        alt="An view of Nunisi through the trees"
+                        loading="lazy"
+                    >
+                </div>
+            </div>
+            <!--Family room-->
+            <div class="col-12 row rooms-rooms-card rooms-last-rooms-card">
+                <!--Room title-->
+                <div class="col-12 rooms-title">
+                    <h3>{{ family_room_title }}</h3>
+                    <p>
+                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-person"></i>
+                        {{ room_occupancy_5 }}
+                    </p>
+                </div>
+                <!--Room immage-->
+                <div class="col-12 d-md-none rooms-image">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
+                        alt="An view of Nunisi through the trees"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="col-12 col-md-6">
+                    <!--Rooms list - left hand-->
+                    <!--Room Description-->
+                    <div>
+                        <p>{{ family_room_description }}</p>
+                        <p>{{ bathroom_description }}</p>
+                    </div>
+                    <!--Amenities-->
+                    <ul class="rooms-list">
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-bed"></i></span> {{ amenity_bathroom }}
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-snowflake"></i></span> {{ amenity_fridge }} 
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-wifi"></i></span> {{ amenity_wifi }}
+                        </li>
+                        <li>
+                            <span class="rooms-icon"><i class="fa-solid fa-tv"></i></span> {{ amenity_tv }} 
+                        </li>                   
+                    </ul>
+                </div>
+                <!--Right hand - Rooms image-->
+                <div class="d-none d-md-block col-md-6 rooms-image">
+                    <img 
+                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
+                        alt="An view of Nunisi through the trees"
+                        loading="lazy"
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
