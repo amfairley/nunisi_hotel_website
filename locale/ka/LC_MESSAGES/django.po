@@ -72,7 +72,7 @@ msgstr "მიმოხილვები"
 
 #: .\homepage\views.py:269
 msgid "Nunisi Forest Hotel and Spa"
-msgstr "ნუნისი ფორესტ რეზორტ & სპა"
+msgstr "ნუნისის ტყის სასტუმრო და სპა"
 
 #: .\homepage\views.py:270
 msgid "Where luxury is natural!"
