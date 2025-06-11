@@ -2,14 +2,14 @@
 {% load i18n %}
 {% get_current_language as LANGUAGE_CODE %}
 <!doctype html>
-<html lang="{{ LANGUAGE_CODE }}">
+<html lang="{{ LANGUAGE_CODE|default:'ka' }}">
     <head>
         <!--Block for meta information that can be expanded upon-->
         {% block meta %}
+            <meta charset="utf-8">
             <!--Avoid compatability issues with internet explorer-->	
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-            <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
 
             <!--Keywords-->
@@ -71,6 +71,55 @@
         {% endblock %}
         {% block extra_js %}
         {% endblock %}
+        <!--SEO-->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Hotel",
+        "name": "Nunisi Forest Hotel and Spa",
+        "image": "https://example.com/media/nunisi-site-logo.png",
+        "description": "Nestled in the forests of Kharagauli, Nunisi Forest Hotel and Spa offers natural mineral water treatments, modern rooms, and authentic Georgian hospitality.",
+        "url": "https://www.nunisihotel.ge/",
+        "telephone": "+995599225580",
+        "email": "nunisi2002@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "10 Cereteli street, Borough",
+            "addressLocality": "Kharagauli",
+            "addressCountry": "GE"
+        },
+        "amenityFeature": [
+            {
+                "@type": "LocationFeatureSpecification",
+                "name": "Spa",
+                "value": true
+            },
+            {
+                "@type": "LocationFeatureSpecification",
+                "name": "Free WiFi",
+                "value": true
+            },
+            {
+                "@type": "LocationFeatureSpecification",
+                "name": "Mineral Water Baths",
+                "value": true
+            }
+        ],
+        "checkinTime": "14:00",
+        "checkoutTime": "12:00",
+        "starRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5"
+        },
+        "priceRange": "$$",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.95071,
+            "longitude": 43.41029
+        }
+    }
+    </script>
     </head>
     <body>
         <!--Navigation bar and header-->

@@ -29,16 +29,16 @@
         <div class="collapse navbar-collapse" id="headerNavBarBurgerMenu">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item-header">
-                    <a class="nav-link {% if request.resolver_match.url_name == 'homepage' %}active{% endif %}" aria-current="page" href="{% url 'homepage' %}">{{ site_header_home }}</a>
+                    <a class="nav-link {% if request.resolver_match.url_name == 'homepage' %}active{% endif %}" aria-current="{% if request.resolver_match.url_name == 'homepage' %}page{% endif %}" href="{% url 'homepage' %}">{{ site_header_home }}</a>
                 </li>
                 <li class="nav-item-header">
-                    <a class="nav-link {% if request.resolver_match.url_name == 'water' %}active{% endif %}" href="{% url 'water' %}">{{ site_header_water }}</a>
+                    <a class="nav-link {% if request.resolver_match.url_name == 'water' %}active{% endif %}" aria-current="{% if request.resolver_match.url_name == 'water' %}page{% endif %}" href="{% url 'water' %}">{{ site_header_water }}</a>
                 </li>
                 <li class="nav-item-header">
-                    <a class="nav-link {% if request.resolver_match.url_name == 'rooms' %}active{% endif %}" href="{% url 'rooms' %}">{{ site_header_rooms }}</a>
+                    <a class="nav-link {% if request.resolver_match.url_name == 'rooms' %}active{% endif %}" aria-current="{% if request.resolver_match.url_name == 'rooms' %}page{% endif %}" href="{% url 'rooms' %}">{{ site_header_rooms }}</a>
                 </li>
                 <li class="nav-item-header">
-                    <a class="nav-link {% if request.resolver_match.url_name == 'gallery' %}active{% endif %}" href="{% url 'gallery' %}">{{ site_header_photo }}</a>
+                    <a class="nav-link {% if request.resolver_match.url_name == 'gallery' %}active{% endif %}" aria-current="{% if request.resolver_match.url_name == 'gallery' %}page{% endif %}" href="{% url 'gallery' %}">{{ site_header_photo }}</a>
                 </li>
             </ul>
         </div>
@@ -48,7 +48,7 @@
             {% get_language_info_list for LANGUAGES as languages %}
             <div class="dropdown">
                 <button class="btn dropdown-toggle" type="button"
-                        id="languageDropDownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        id="languageDropDownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Select Language">
                     <!--Set current language-->
                     {% if LANGUAGE_CODE == 'ka' %}
                         {% if DEBUG %}
@@ -57,6 +57,7 @@
                                 alt="{{ lang.name_local }} flag"
                                 class="language-dropdown-flag me-2"
                                 loading="lazy"
+                                alt="{% if lang.code == 'en' %}English{% elif lang.code == 'ka' %}ქართული{% endif %} flag"
                             >
                         {% else %}
                             <img 
@@ -64,6 +65,7 @@
                                 alt="{{ lang.name_local }} flag"
                                 class="language-dropdown-flag me-2"
                                 loading="lazy"
+                                alt="{% if lang.code == 'en' %}English{% elif lang.code == 'ka' %}ქართული{% endif %} flag"
                             >
                         {% endif %} ქა
                     {% elif LANGUAGE_CODE == 'en' %}
