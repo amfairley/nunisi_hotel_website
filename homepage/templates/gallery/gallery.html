@@ -19,7 +19,7 @@
                     <div class="row">
                         {% for image in images %}
                         <div class="gallery-grid col-6 col-md-4 col-lg-3">
-                            <img src="{{ MEDIA_URL}}{{ image }}" class="img-fluid thumbnail" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="{{ forloop.counter0 }}" style="cursor:pointer;" alt="Gallery image {{ forloop.counter }}">
+                            <img src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}" class="img-fluid thumbnail" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="{{ forloop.counter0 }}" style="cursor:pointer;" alt="{{ image.alt }}">
                         </div>
                         {% endfor %}
                     </div>
@@ -36,7 +36,10 @@
                         <div class="carousel-inner">
                             {% for image in images %}
                             <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                                <img src="{{ MEDIA_URL }}{{ image }}" class="d-block w-100" alt="Gallery image {{ forloop.counter }}">
+                                <img 
+                                    src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}"
+                                    class="d-block w-100" 
+                                    alt="{{ image.alt }}">
                             </div>
                             {% endfor %}
                         </div>
@@ -59,18 +62,32 @@
 {% block postloadjs %}
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var carouselEl = document.getElementById('carouselGallery');
-  var carousel = new bootstrap.Carousel(carouselEl, {
+  const carouselEl = document.getElementById('carouselGallery');
+  const modalEl = document.getElementById('galleryModal');
+  const carousel = new bootstrap.Carousel(carouselEl, {
     interval: false,
     ride: false
   });
 
+  // Handle thumbnail clicks
   document.querySelectorAll('.thumbnail').forEach(function (thumb) {
     thumb.addEventListener('click', function () {
-      var slideIndex = this.getAttribute('data-bs-slide-to');
+      const slideIndex = this.getAttribute('data-bs-slide-to');
       carousel.to(parseInt(slideIndex));
     });
   });
+
+  // Enable keyboard arrow navigation when modal is open
+  document.addEventListener('keydown', function (e) {
+    if (modalEl.classList.contains('show')) {
+      if (e.key === 'ArrowLeft') {
+        carousel.prev();
+      } else if (e.key === 'ArrowRight') {
+        carousel.next();
+      }
+    }
+  });
 });
 </script>
+
 {% endblock %}
