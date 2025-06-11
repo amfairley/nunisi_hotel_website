@@ -71,55 +71,65 @@
         {% endblock %}
         {% block extra_js %}
         {% endblock %}
+        <!--Google Analytics-->
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W0WCHRJJC6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-W0WCHRJJC6');
+        </script>
         <!--SEO-->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Hotel",
-        "name": "Nunisi Forest Hotel and Spa",
-        "image": "https://example.com/media/nunisi-site-logo.png",
-        "description": "Nestled in the forests of Kharagauli, Nunisi Forest Hotel and Spa offers natural mineral water treatments, modern rooms, and authentic Georgian hospitality.",
-        "url": "https://www.nunisihotel.ge/",
-        "telephone": "+995599225580",
-        "email": "nunisi2002@gmail.com",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "10 Cereteli street, Borough",
-            "addressLocality": "Kharagauli",
-            "addressCountry": "GE"
-        },
-        "amenityFeature": [
-            {
-                "@type": "LocationFeatureSpecification",
-                "name": "Spa",
-                "value": true
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Nunisi Forest Hotel and Spa",
+            "image": "https://example.com/media/nunisi-site-logo.png",
+            "description": "Nestled in the forests of Kharagauli, Nunisi Forest Hotel and Spa offers natural mineral water treatments, modern rooms, and authentic Georgian hospitality.",
+            "url": "https://www.nunisihotel.ge/",
+            "telephone": "+995599225580",
+            "email": "nunisi2002@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "10 Cereteli street, Borough",
+                "addressLocality": "Kharagauli",
+                "addressCountry": "GE"
             },
-            {
-                "@type": "LocationFeatureSpecification",
-                "name": "Free WiFi",
-                "value": true
+            "amenityFeature": [
+                {
+                    "@type": "LocationFeatureSpecification",
+                    "name": "Spa",
+                    "value": true
+                },
+                {
+                    "@type": "LocationFeatureSpecification",
+                    "name": "Free WiFi",
+                    "value": true
+                },
+                {
+                    "@type": "LocationFeatureSpecification",
+                    "name": "Mineral Water Baths",
+                    "value": true
+                }
+            ],
+            "checkinTime": "14:00",
+            "checkoutTime": "12:00",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4",
+                "bestRating": "5"
             },
-            {
-                "@type": "LocationFeatureSpecification",
-                "name": "Mineral Water Baths",
-                "value": true
+            "priceRange": "$$",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 41.95071,
+                "longitude": 43.41029
             }
-        ],
-        "checkinTime": "14:00",
-        "checkoutTime": "12:00",
-        "starRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5"
-        },
-        "priceRange": "$$",
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 41.95071,
-            "longitude": 43.41029
         }
-    }
-    </script>
+        </script>
     </head>
     <body>
         <!--Navigation bar and header-->
