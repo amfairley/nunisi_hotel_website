@@ -90,7 +90,7 @@
 }
 
 /* Indicator */
-.carousel-indicators {
+#cottages-carousel .carousel-indicators {
     margin-left: 0;
     margin-right: 0;
     margin-top: 1rem;

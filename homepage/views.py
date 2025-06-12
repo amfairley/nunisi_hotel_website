@@ -122,9 +122,70 @@ def water(request):
 def rooms(request):
     '''Return the rooms information page'''
     trans = translate(language=get_language() or settings.LANGUAGE_CODE)
+    standard_room_images = [
+        {
+            'local': 'rooms/standard_room.webp',
+            'host': '',
+            'alt': 'The standard room'
+        },
+    ]
+    standard_twin_room_images = [
+        {
+            'local': 'rooms/standard_twin_1.webp',
+            'host': 'v1749716975/standard_twin_1_l4omdb.webp',
+            'alt': 'The standard twin room'
+        },
+        {
+            'local': 'rooms/standard_twin_2.webp',
+            'host': 'v1749716975/standard_twin_2_ijnahj.webp',
+            'alt': 'The standard twin room'
+        },
+    ]
+    panorama_room_images = [
+        {
+            'local': 'rooms/panorama_1.webp',
+            'host': 'v1749716975/panorama_1_syof2m.webp',
+            'alt': 'The panorma room'
+        },
+        {
+            'local': 'rooms/panorama_2.webp',
+            'host': 'v1749716975/panorama_2_aixq7s.webp',
+            'alt': 'The panorma room'
+        },
+    ]
+    suite_images = [
+        {
+            'local': 'rooms/suite_1.webp',
+            'host': 'v1749716976/suite_1_ckyv5s.webp',
+            'alt': 'The suite room'
+        },
+        {
+            'local': 'rooms/suite_2.webp',
+            'host': 'v1749716976/suite_2_voka4c.webp',
+            'alt': 'The suite room'
+        },
+    ]
+    family_room_images = [
+        {
+            'local': 'rooms/family_room_1.webp',
+            'host': 'v1749716975/family_room_1_lksgpo.webp',
+            'alt': 'The family room'
+        },
+        {
+            'local': 'rooms/family_room_2.webp',
+            'host': 'v1749716975/family_room_2_yiir0p.webp',
+            'alt': 'The family room'
+        },
+    ]
     context = {
         'MEDIA_URL': settings.MEDIA_URL,
         'DEBUG': settings.DEBUG,
+        # Images
+        'standard_room_images': standard_room_images,
+        'standard_twin_room_images': standard_twin_room_images,
+        'panorama_room_images': panorama_room_images,
+        'suite_images': suite_images,
+        'family_room_images': family_room_images,
         # Translations
         # Site Header
         'site_header_home': trans['site_header_home'],

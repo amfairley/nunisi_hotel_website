@@ -723,7 +723,7 @@ msgstr "Standard Room"
 
 #: .\homepage\views.py:395
 msgid "Standard Double Room"
-msgstr "Standard Double Room"
+msgstr "Standard Twin Room"
 
 #: .\homepage\views.py:396
 msgid "Panarama Room"

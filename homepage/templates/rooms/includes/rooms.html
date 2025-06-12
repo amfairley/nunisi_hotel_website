@@ -15,13 +15,40 @@
                         {{ room_occupancy_2 }}
                     </p>
                 </div>
-                <!--Room immage-->
+                <!--Room Image Carousel - Mobile-->
                 <div class="col-12 d-md-none rooms-image">
-                    <img 
-                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
-                        alt="An view of Nunisi through the trees"
-                        loading="lazy"
-                    >
+                    <div id="carouselStandardMobile" class="carousel slide carouselRooms" data-bs-ride="false" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                            {% for image in standard_room_images %}
+                                <button 
+                                    type="button" 
+                                    data-bs-target="#carouselStandardMobile" 
+                                    data-bs-slide-to="{{ forloop.counter0 }}" 
+                                    class="{% if forloop.first %}active{% endif %}" 
+                                    {% if forloop.first %}aria-current="true"{% endif %} 
+                                    aria-label="Slide {{ forloop.counter }}">
+                                </button>
+                            {% endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {% for image in standard_room_images %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <img 
+                                    src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}"
+                                    class="d-block w-100" 
+                                    alt="{{ image.alt }}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselStandardMobile" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselStandardMobile" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <!--Rooms list - left hand-->
@@ -46,13 +73,40 @@
                         </li>                        
                     </ul>
                 </div>
-                <!--Right hand - Rooms image-->
+                <!--Room Image Carousel - Desktop-->
                 <div class="d-none d-md-block col-md-6 rooms-image">
-                    <img 
-                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
-                        alt="An view of Nunisi through the trees"
-                        loading="lazy"
-                    >
+                    <div id="carouselStandardDesktop" class="carousel slide carouselRooms" data-bs-ride="false" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                            {% for image in standard_room_images %}
+                                <button 
+                                    type="button" 
+                                    data-bs-target="#carouselStandardDesktop" 
+                                    data-bs-slide-to="{{ forloop.counter0 }}" 
+                                    class="{% if forloop.first %}active{% endif %}" 
+                                    {% if forloop.first %}aria-current="true"{% endif %} 
+                                    aria-label="Slide {{ forloop.counter }}">
+                                </button>
+                            {% endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {% for image in standard_room_images %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <img 
+                                    src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}"
+                                    class="d-block w-100" 
+                                    alt="{{ image.alt }}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselStandardDesktop" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselStandardDesktop" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <!--Standard twin room balcony-->
@@ -66,13 +120,40 @@
                         {{ room_occupancy_2 }}
                     </p>
                 </div>
-                <!--Room immage-->
+                <!--Room Image Carousel - Mobile-->
                 <div class="col-12 d-md-none rooms-image">
-                    <img 
-                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
-                        alt="An view of Nunisi through the trees"
-                        loading="lazy"
-                    >
+                    <div id="carouselTwinMobile" class="carousel slide carouselRooms" data-bs-ride="false" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                            {% for image in standard_twin_room_images %}
+                                <button 
+                                    type="button" 
+                                    data-bs-target="#carouselTwinMobile" 
+                                    data-bs-slide-to="{{ forloop.counter0 }}" 
+                                    class="{% if forloop.first %}active{% endif %}" 
+                                    {% if forloop.first %}aria-current="true"{% endif %} 
+                                    aria-label="Slide {{ forloop.counter }}">
+                                </button>
+                            {% endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {% for image in standard_twin_room_images %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <img 
+                                    src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}"
+                                    class="d-block w-100" 
+                                    alt="{{ image.alt }}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTwinMobile" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselTwinMobile" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <!--Rooms list - left hand-->
@@ -97,13 +178,40 @@
                         </li>                        
                     </ul>
                 </div>
-                <!--Right hand - Rooms image-->
+                <!--Room Image Carousel - Desktop-->
                 <div class="d-none d-md-block col-md-6 rooms-image">
-                    <img 
-                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
-                        alt="An view of Nunisi through the trees"
-                        loading="lazy"
-                    >
+                    <div id="carouselTwinDesktop" class="carousel slide carouselRooms" data-bs-ride="false" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                            {% for image in standard_twin_room_images %}
+                                <button 
+                                    type="button" 
+                                    data-bs-target="#carouselTwinDesktop" 
+                                    data-bs-slide-to="{{ forloop.counter0 }}" 
+                                    class="{% if forloop.first %}active{% endif %}" 
+                                    {% if forloop.first %}aria-current="true"{% endif %} 
+                                    aria-label="Slide {{ forloop.counter }}">
+                                </button>
+                            {% endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {% for image in standard_twin_room_images %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <img 
+                                    src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}"
+                                    class="d-block w-100" 
+                                    alt="{{ image.alt }}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTwinDesktop" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselTwinDesktop" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <!--Panorama Room-->
@@ -117,13 +225,40 @@
                         {{ room_occupancy_2 }}
                     </p>
                 </div>
-                <!--Room immage-->
+                <!--Room Image Carousel - Mobile-->
                 <div class="col-12 d-md-none rooms-image">
-                    <img 
-                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
-                        alt="An view of Nunisi through the trees"
-                        loading="lazy"
-                    >
+                    <div id="carouselPanoramaMobile" class="carousel slide carouselRooms" data-bs-ride="false" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                            {% for image in panorama_room_images %}
+                                <button 
+                                    type="button" 
+                                    data-bs-target="#carouselPanoramaMobile" 
+                                    data-bs-slide-to="{{ forloop.counter0 }}" 
+                                    class="{% if forloop.first %}active{% endif %}" 
+                                    {% if forloop.first %}aria-current="true"{% endif %} 
+                                    aria-label="Slide {{ forloop.counter }}">
+                                </button>
+                            {% endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {% for image in panorama_room_images %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <img 
+                                    src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}"
+                                    class="d-block w-100" 
+                                    alt="{{ image.alt }}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPanoramaMobile" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPanoramaMobile" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <!--Rooms list - left hand-->
@@ -151,13 +286,40 @@
                         </li>                     
                     </ul>
                 </div>
-                <!--Right hand - Rooms image-->
+                <!--Room Image Carousel - Desktop-->
                 <div class="d-none d-md-block col-md-6 rooms-image">
-                    <img 
-                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
-                        alt="An view of Nunisi through the trees"
-                        loading="lazy"
-                    >
+                    <div id="carouselPanoramaDesktop" class="carousel slide carouselRooms" data-bs-ride="false" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                            {% for image in panorama_room_images %}
+                                <button 
+                                    type="button" 
+                                    data-bs-target="#carouselPanoramaDesktop" 
+                                    data-bs-slide-to="{{ forloop.counter0 }}" 
+                                    class="{% if forloop.first %}active{% endif %}" 
+                                    {% if forloop.first %}aria-current="true"{% endif %} 
+                                    aria-label="Slide {{ forloop.counter }}">
+                                </button>
+                            {% endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {% for image in panorama_room_images %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <img 
+                                    src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}"
+                                    class="d-block w-100" 
+                                    alt="{{ image.alt }}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPanoramaDesktop" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPanoramaDesktop" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <!--Suite-->
@@ -173,13 +335,40 @@
                         {{ room_occupancy_4 }}
                     </p>
                 </div>
-                <!--Room immage-->
+                <!--Room Image Carousel - Mobile-->
                 <div class="col-12 d-md-none rooms-image">
-                    <img 
-                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
-                        alt="An view of Nunisi through the trees"
-                        loading="lazy"
-                    >
+                    <div id="carouselSuiteMobile" class="carousel slide carouselRooms" data-bs-ride="false" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                            {% for image in suite_images %}
+                                <button 
+                                    type="button" 
+                                    data-bs-target="#carouselSuiteMobile" 
+                                    data-bs-slide-to="{{ forloop.counter0 }}" 
+                                    class="{% if forloop.first %}active{% endif %}" 
+                                    {% if forloop.first %}aria-current="true"{% endif %} 
+                                    aria-label="Slide {{ forloop.counter }}">
+                                </button>
+                            {% endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {% for image in suite_images %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <img 
+                                    src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}"
+                                    class="d-block w-100" 
+                                    alt="{{ image.alt }}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSuiteMobile" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselSuiteMobile" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <!--Rooms list - left hand-->
@@ -204,13 +393,40 @@
                         </li>                   
                     </ul>
                 </div>
-                <!--Right hand - Rooms image-->
+                <!--Room Image Carousel - Desktop-->
                 <div class="d-none d-md-block col-md-6 rooms-image">
-                    <img 
-                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
-                        alt="An view of Nunisi through the trees"
-                        loading="lazy"
-                    >
+                    <div id="carouselSuiteDesktop" class="carousel slide carouselRooms" data-bs-ride="false" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                            {% for image in suite_images %}
+                                <button 
+                                    type="button" 
+                                    data-bs-target="#carouselSuiteDesktop" 
+                                    data-bs-slide-to="{{ forloop.counter0 }}" 
+                                    class="{% if forloop.first %}active{% endif %}" 
+                                    {% if forloop.first %}aria-current="true"{% endif %} 
+                                    aria-label="Slide {{ forloop.counter }}">
+                                </button>
+                            {% endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {% for image in suite_images %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <img 
+                                    src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}"
+                                    class="d-block w-100" 
+                                    alt="{{ image.alt }}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSuiteDesktop" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselSuiteDesktop" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <!--Family room-->
@@ -227,13 +443,40 @@
                         {{ room_occupancy_5 }}
                     </p>
                 </div>
-                <!--Room immage-->
+                <!--Room Image Carousel - Mobile-->
                 <div class="col-12 d-md-none rooms-image">
-                    <img 
-                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
-                        alt="An view of Nunisi through the trees"
-                        loading="lazy"
-                    >
+                    <div id="carouselFamilyMobile" class="carousel slide carouselRooms" data-bs-ride="false" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                            {% for image in family_room_images %}
+                                <button 
+                                    type="button" 
+                                    data-bs-target="#carouselFamilyMobile" 
+                                    data-bs-slide-to="{{ forloop.counter0 }}" 
+                                    class="{% if forloop.first %}active{% endif %}" 
+                                    {% if forloop.first %}aria-current="true"{% endif %} 
+                                    aria-label="Slide {{ forloop.counter }}">
+                                </button>
+                            {% endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {% for image in family_room_images %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <img 
+                                    src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}"
+                                    class="d-block w-100" 
+                                    alt="{{ image.alt }}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFamilyMobile" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFamilyMobile" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <!--Rooms list - left hand-->
@@ -258,15 +501,43 @@
                         </li>                   
                     </ul>
                 </div>
-                <!--Right hand - Rooms image-->
+                <!--Rooms Image Carousel - Desktop-->
                 <div class="d-none d-md-block col-md-6 rooms-image">
-                    <img 
-                        src="{% if DEBUG %}{{ MEDIA_URL }}rooms/standard_room.webp{% else %}{{ MEDIA_URL }}v1748526899/standard_room_wl0ojg.webp{% endif %}"
-                        alt="An view of Nunisi through the trees"
-                        loading="lazy"
-                    >
+                    <div id="carouselFamilyDesktop" class="carousel slide carouselRooms" data-bs-ride="false" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                            {% for image in family_room_images %}
+                                <button 
+                                    type="button" 
+                                    data-bs-target="#carouselFamilyDesktop" 
+                                    data-bs-slide-to="{{ forloop.counter0 }}" 
+                                    class="{% if forloop.first %}active{% endif %}" 
+                                    {% if forloop.first %}aria-current="true"{% endif %} 
+                                    aria-label="Slide {{ forloop.counter }}">
+                                </button>
+                            {% endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {% for image in family_room_images %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <img 
+                                    src="{% if DEBUG %}{{ MEDIA_URL }}{{ image.local }}{% else %}{{ MEDIA_URL }}{{ image.host }}{% endif %}"
+                                    class="d-block w-100" 
+                                    alt="{{ image.alt }}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFamilyDesktop" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFamilyDesktop" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+

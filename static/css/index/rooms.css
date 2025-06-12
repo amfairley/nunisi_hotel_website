@@ -39,6 +39,10 @@
     border-bottom: 1px dashed black;
 }
 
+.rooms-last-rooms-card {
+    border: none;
+}
+
 .rooms-title {
     padding: 0;
     font-family: Prata, 'Georgia', 'Times New Roman', Times, serif;
@@ -63,19 +67,14 @@
     text-align: left;
 }
 
+/* Image Carousel */
 .rooms-image {
     padding: 0.5rem;
 }
 
-.rooms-image img{
+.carouselRooms {
+    border-radius: 1rem;
     overflow: hidden;
-    height: auto;
-    width: 100%;
-    margin: auto;
-}
-
-.rooms-last-rooms-card {
-    border: none;
 }
 
 @media (max-width: 800px) {
