@@ -112,7 +112,7 @@ msgstr "The Legend of Nunisi"
 
 #: .\homepage\views.py:282
 msgid "A unique resort of world importance"
-msgstr "A unique resort of world importance"
+msgstr "A unique resort of the world"
 
 #: .\homepage\views.py:283
 msgid ""

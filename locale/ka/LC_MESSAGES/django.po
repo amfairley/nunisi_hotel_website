@@ -36,7 +36,7 @@ msgstr "ფოტო გალერეა"
 
 #: .\homepage\views.py:256
 msgid "Call us today on"
-msgstr "დაგვირეკეთ დღეს"
+msgstr "დაგვირეკეთ"
 
 #: .\homepage\views.py:258
 msgid "Contact us"
