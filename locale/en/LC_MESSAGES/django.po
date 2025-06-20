@@ -72,7 +72,7 @@ msgstr "Reviews"
 
 #: .\homepage\views.py:269
 msgid "Nunisi Forest Hotel and Spa"
-msgstr "Nunisi Forest Hotel and Spa"
+msgstr "Nunisi Forest Resort and Spa"
 
 #: .\homepage\views.py:270
 msgid "Where luxury is natural!"
@@ -623,7 +623,7 @@ msgstr "Esthetic Retreat Package"
 
 #: .\homepage\views.py:369
 msgid "Beauty Restoration Package"
-msgstr "Beauty Restoration Package"
+msgstr "Beauty Package"
 
 #: .\homepage\views.py:370
 msgid "Family Package"
@@ -727,7 +727,7 @@ msgstr "Standard Twin Room"
 
 #: .\homepage\views.py:396
 msgid "Panarama Room"
-msgstr "Panarama Room"
+msgstr "Panorama Room"
 
 #: .\homepage\views.py:397
 msgid "Suite"

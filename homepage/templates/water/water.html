@@ -28,8 +28,12 @@
                 <p class="water-page-paragraph">{{ water_composition_paragraph_4|linebreaksbr }}</p>
                 <p class="water-page-paragraph last-water-paragraph">{{ water_composition_paragraph_5|linebreaksbr }}</p>
             </div>
+            <div class="home-button-div">
+                <a href="{% url 'homepage' %}" class="nunisi-button">
+                    &lt;&lt; {{ site_header_home }}
+                </a>
+            </div>
         </div>
-        
     </main>
 {% endblock %}
 

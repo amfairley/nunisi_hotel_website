@@ -41,6 +41,11 @@
     padding-bottom: 1rem;
 }
 
+.home-button-div {
+    text-align: right;
+    padding-bottom: 1rem;
+}
+
 @media (max-width: 768px) {
     .water-container {
         border: none;
