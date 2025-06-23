@@ -82,54 +82,29 @@
             gtag('config', 'G-W0WCHRJJC6');
         </script>
         <!--SEO-->
-        <script type="application/ld+json">
-        {
+        {% if LANGUAGE_CODE == "en" %}
+            <!-- English JSON-LD -->
+            <script type="application/ld+json">
+            {
             "@context": "https://schema.org",
             "@type": "Hotel",
             "name": "Nunisi Forest Hotel and Spa",
-            "image": "https://example.com/media/nunisi-site-logo.png",
-            "description": "Nestled in the forests of Kharagauli, Nunisi Forest Hotel and Spa offers natural mineral water treatments, modern rooms, and authentic Georgian hospitality.",
-            "url": "https://www.nunisihotel.ge/",
-            "telephone": "+995599225580",
-            "email": "nunisi2002@gmail.com",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "10 Cereteli street, Borough",
-                "addressLocality": "Kharagauli",
-                "addressCountry": "GE"
-            },
-            "amenityFeature": [
-                {
-                    "@type": "LocationFeatureSpecification",
-                    "name": "Spa",
-                    "value": true
-                },
-                {
-                    "@type": "LocationFeatureSpecification",
-                    "name": "Free WiFi",
-                    "value": true
-                },
-                {
-                    "@type": "LocationFeatureSpecification",
-                    "name": "Mineral Water Baths",
-                    "value": true
-                }
-            ],
-            "checkinTime": "14:00",
-            "checkoutTime": "12:00",
-            "starRating": {
-                "@type": "Rating",
-                "ratingValue": "4",
-                "bestRating": "5"
-            },
-            "priceRange": "$$",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 41.95071,
-                "longitude": 43.41029
+            "inLanguage": "en",
+            ...
             }
-        }
-        </script>
+            </script>
+        {% elif LANGUAGE_CODE == "ka" %}
+            <!-- Georgian JSON-LD -->
+            <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "ნუნისის ტყის სასტუმრო და სპა",
+            "inLanguage": "ka",
+            ...
+            }
+            </script>
+        {% endif %}
     </head>
     <body>
         <!--Navigation bar and header-->
