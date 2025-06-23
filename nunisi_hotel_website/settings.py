@@ -174,7 +174,7 @@ CLOUDINARY_STORAGE = {
 }
 
 DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
-MEDIA_URL = f"https://res.cloudinary.com/{CLOUDINARY_NAME}/image/upload/auto=format,compress/"
+MEDIA_URL = f"https://res.cloudinary.com/{CLOUDINARY_NAME}/image/upload/f_auto,q_auto/"
 
 # Whitenoise
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
