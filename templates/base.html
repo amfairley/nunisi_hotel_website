@@ -21,6 +21,9 @@
         <!--Block for page specific extra meta information-->
         {% block extra_meta %}
         {% endblock %}
+        <!--SEO Language targetting-->
+        <link rel="alternate" href="https://www.nunisi.ge/en/" hreflang="en" />
+        <link rel="alternate" href="https://www.nunisi.ge/ka/" hreflang="ka" />
         <!--Page title for the browser tab with a block to add page specific titles-->
         <title>Nunisi Forest Hotel and Spa{% block extra_title %}{% endblock %}</title>
         <!--CSS block-->
@@ -86,22 +89,126 @@
             <!-- English JSON-LD -->
             <script type="application/ld+json">
             {
-            "@context": "https://schema.org",
-            "@type": "Hotel",
-            "name": "Nunisi Forest Hotel and Spa",
-            "inLanguage": "en",
-            ...
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "@language": "en"
+                },
+                "@type": "Hotel",
+                "name": "Nunisi Forest Hotel and Spa",
+                "image": [
+                    "https://res.cloudinary.com/dzqdkxssx/image/upload/f_auto,q_auto/v1742992503/nunisi-site-logo_y0xeta.png",
+                    "https://res.cloudinary.com/dzqdkxssx/image/upload/f_auto,q_auto/v1747244369/main_house_day_ui6vtj.webp",
+                    "https://res.cloudinary.com/dzqdkxssx/image/upload/f_auto,q_auto/v1749619991/bench_dv6t39.webp"
+                ],
+                "description": "Nestled in the forests of Kharagauli, Nunisi Forest Hotel and Spa offers natural mineral water treatments, modern rooms, and authentic Georgian hospitality.",
+                "url": "https://www.nunisi.ge/en/",
+                "telephone": "+995599225580",
+                "email": "nunisi2002@gmail.com",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "10 Cereteli Street, Borough",
+                    "addressLocality": "Kharagauli",
+                    "addressCountry": "GE"
+                },
+                "amenityFeature": [
+                    { "@type": "LocationFeatureSpecification", "name": "Spa", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "Free WiFi", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "Mineral Water Baths", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "Massage Service", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "Mountain View", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "Forest View", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "Breakfast Included", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "Buffet Breakfast", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "Laundry Service", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "Children's Playground", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "Shuttle Service", "value": true }
+                ],
+                "checkinTime": "14:00",
+                "checkoutTime": "12:00",
+                "starRating": {
+                    "@type": "Rating",
+                    "ratingValue": "3",
+                    "bestRating": "5"
+                },
+                "priceRange": "$$",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 41.95071,
+                    "longitude": 43.41029
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.7",
+                    "reviewCount": "43",
+                    "bestRating": "5"
+                },
+                "sameAs": [
+                    "https://www.facebook.com/NunisiResort",
+                    "https://www.instagram.com/nunisi_forest_hotel_and_spa/"
+                ]
             }
             </script>
         {% elif LANGUAGE_CODE == "ka" %}
             <!-- Georgian JSON-LD -->
             <script type="application/ld+json">
             {
-            "@context": "https://schema.org",
-            "@type": "Hotel",
-            "name": "ნუნისის ტყის სასტუმრო და სპა",
-            "inLanguage": "ka",
-            ...
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "@language": "ka"
+                },
+                "@type": "Hotel",
+                "name": "ნუნისი სპა და ტყის რეზორტი",
+                "image": [
+                    "https://res.cloudinary.com/dzqdkxssx/image/upload/f_auto,q_auto/v1742992503/nunisi-site-logo_y0xeta.png",
+                    "https://res.cloudinary.com/dzqdkxssx/image/upload/f_auto,q_auto/v1747244369/main_house_day_ui6vtj.webp",
+                    "https://res.cloudinary.com/dzqdkxssx/image/upload/f_auto,q_auto/v1749619991/bench_dv6t39.webp"
+                ],
+                "description": "მდებარეობს ხარაგაულის ტყეებში, ნუნისის ტყის სასტუმრო და სპა სთავაზობს ბუნებრივ მინერალურ წყლის პროცედურებს, თანამედროვე ოთახებს და ნამდვილ ქართულ სტუმარ-მასპინძლობას.",
+                "url": "https://www.nunisi.ge/ka/",
+                "telephone": "+995599225580",
+                "email": "nunisi2002@gmail.com",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "ჩერეთელის 10, ბოროჯი",
+                    "addressLocality": "ხარაგაული",
+                    "addressCountry": "GE"
+                },
+                "amenityFeature": [
+                    { "@type": "LocationFeatureSpecification", "name": "სპა", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "უფასო WiFi", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "მინერალური აბაზანები", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "მასაჟის სერვისი", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "მთის ხედები", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "ტყის ხედები", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "საუზმე შედის", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "ბუფეტური საუზმე", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "სარეცხის სერვისი", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "ბავშვთა სათამაშო მოედანი", "value": true },
+                    { "@type": "LocationFeatureSpecification", "name": "შატლ სერვისი", "value": true }
+                ],
+                "checkinTime": "14:00",
+                "checkoutTime": "12:00",
+                "starRating": {
+                    "@type": "Rating",
+                    "ratingValue": "3",
+                    "bestRating": "5"
+                },
+                "priceRange": "$$",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 41.95071,
+                    "longitude": 43.41029
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.7",
+                    "reviewCount": "43",
+                    "bestRating": "5"
+                },
+                "sameAs": [
+                    "https://www.facebook.com/NunisiResort",
+                    "https://www.instagram.com/nunisi_forest_hotel_and_spa/"
+                ]
             }
             </script>
         {% endif %}
