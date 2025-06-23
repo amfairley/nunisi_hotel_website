@@ -45,19 +45,5 @@
 {% endblock %}
 
 {% block postloadjs %}
-    <!-- <script>
-        document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
-            /**
-             * Script to hide the homepage navbar burger menu when a link is clicked
-             */
-            link.addEventListener("click", function () {
-                const navbarCollapse = new bootstrap.Collapse(
-                    document.getElementById("navbarSupportedContent"),
-                    {toggle: false}
-                );
-                navbarCollapse.hide();
-            });
-        });
-    </script> -->
     <script src="{% static 'js/index.js' %}" defer></script>
 {% endblock %}
