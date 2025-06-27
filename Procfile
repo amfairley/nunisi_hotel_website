@@ -1,1 +1,1 @@
-web: gunicorn nunisi_hotel_website.wsgi:application
+web: gunicorn nunisi_hotel_website.wsgi:application --workers 3 --log-file -

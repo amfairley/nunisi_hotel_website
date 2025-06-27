@@ -39,7 +39,9 @@ else:
 
 ALLOWED_HOSTS = [
     "nunisi-hotel-website-5c36c15fb3f8.herokuapp.com",
-    "127.0.0.1"
+    "127.0.0.1",
+    "www.nunisi.ge",
+    "nunisi.ge",
 ]
 
 
