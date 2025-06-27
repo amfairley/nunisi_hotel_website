@@ -5,6 +5,7 @@ from django.conf.urls.static import static
 from django.conf.urls.i18n import i18n_patterns
 from django.utils.translation import get_language_from_request
 from django.shortcuts import redirect
+from django.views.generic.base import RedirectView
 
 
 def redirect_to_default_language(request):
@@ -23,6 +24,7 @@ def redirect_to_default_language(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('nu/home-en/', RedirectView.as_view(url='/en/', permanent=True)), # Redirects the old english site to new
     path('', redirect_to_default_language),  # Redirect `/` to preferred or default language
 ]
 
