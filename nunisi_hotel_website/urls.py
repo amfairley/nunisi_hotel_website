@@ -17,7 +17,7 @@ def redirect_to_default_language(request):
     if 'django_language' not in request.COOKIES:
         language = 'ka'  # Force default language
 
-    response = redirect(f'/{language}/')
+    response = redirect(f'/{language}/', permanent=True) # Makes it 301
     response.set_cookie('django_language', language)  # Store language preference
     return response
 
