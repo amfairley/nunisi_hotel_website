@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block corecss %}
+    <!--Adds to the block-->
+    {{ block.super }}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/errors/error_page.css' %}">
+
+
+
+
+{% endblock %}
+
+
+{% block main_content %}
+    <main class="content-error">
+        <div class="error-container">
+            <h2 class="error-title">Error: 403</h2>
+            <p class="error-text">{{ error_403_message }}</p>
+            <div class="home-button-div">
+                <a href="{% url 'homepage' %}" class="nunisi-button">
+                    {{ site_header_home }}
+                </a>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+
+{% block postloadjs %}
+{% endblock %}

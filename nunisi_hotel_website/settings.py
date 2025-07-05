@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Created apps
     'homepage',
+    'core',
     # Cloudinary
     "cloudinary",
     "cloudinary_storage",
@@ -88,6 +89,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'core.context_processors.media_url',
+                'core.context_processors.translated_text',
             ],
         },
     },

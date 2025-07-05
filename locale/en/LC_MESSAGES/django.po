@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 17:48+0100\n"
+"POT-Creation-Date: 2025-07-05 08:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,103 +18,126 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\homepage\views.py:252
+#: .\core\context_processors.py:29
 msgid "Home"
 msgstr "Home"
 
-#: .\homepage\views.py:253 .\homepage\views.py:264
+#: .\core\context_processors.py:30 .\core\context_processors.py:50
 msgid "Nunisi Water"
 msgstr "Nunisi Water"
 
-#: .\homepage\views.py:254
+#: .\core\context_processors.py:31
 msgid "Build Your Stay"
 msgstr "Build Your Stay"
 
-#: .\homepage\views.py:255 .\homepage\views.py:417
+#: .\core\context_processors.py:32
 msgid "Photo Gallery"
 msgstr "Photo Gallery"
 
-#: .\homepage\views.py:256
+#: .\core\context_processors.py:33
 msgid "Call us today on"
 msgstr "Call us today on"
 
-#: .\homepage\views.py:258
+#: .\core\context_processors.py:36
 msgid "Contact us"
 msgstr "Contact us"
 
-#: .\homepage\views.py:259
+#: .\core\context_processors.py:37
 msgid "Nunisi Hotel and Spa. All rights reserved"
 msgstr "Nunisi Hotel and Spa. All rights reserved"
 
-#: .\homepage\views.py:260
+#: .\core\context_processors.py:38
 msgid "Developed by"
 msgstr "Developed by"
 
-#: .\homepage\views.py:261
+#: .\core\context_processors.py:39
 msgid "Follow us on social media"
 msgstr "Follow us on social media"
 
-#: .\homepage\views.py:263 .\homepage\views.py:280
+#: .\core\context_processors.py:42
+msgid "Bad request. Please return to the homepage."
+msgstr "Bad request. Please return to the homepage."
+
+#: .\core\context_processors.py:43
+msgid ""
+"Access denied. You do not have access to this page. Please return to the "
+"homepage."
+msgstr ""
+"Access denied. You do not have access to this page. Please return to the "
+"homepage."
+
+#: .\core\context_processors.py:44
+msgid "The page you're looking for couldn't be found."
+msgstr "The page you're looking for couldn't be found."
+
+#: .\core\context_processors.py:45
+msgid ""
+"Internal server error. Please return to the homepage or try again later."
+msgstr ""
+"Internal server error. Please return to the homepage or try again later."
+
+#: .\core\context_processors.py:49 .\core\context_processors.py:66
 msgid "About Us"
 msgstr "About Us"
 
-#: .\homepage\views.py:265 .\homepage\views.py:306
+#: .\core\context_processors.py:51 .\core\context_processors.py:92
 msgid "Services"
 msgstr "Services"
 
-#: .\homepage\views.py:266 .\homepage\views.py:317
+#: .\core\context_processors.py:52 .\core\context_processors.py:103
 msgid "Location"
 msgstr "Location"
 
-#: .\homepage\views.py:267
+#: .\core\context_processors.py:53
 msgid "Reviews"
 msgstr "Reviews"
 
-#: .\homepage\views.py:269
+#: .\core\context_processors.py:55
 msgid "Nunisi Forest Hotel and Spa"
 msgstr "Nunisi Forest Resort and Spa"
 
-#: .\homepage\views.py:270
+#: .\core\context_processors.py:56
 msgid "Where luxury is natural!"
 msgstr "Where luxury is natural!"
 
-#: .\homepage\views.py:272
+#: .\core\context_processors.py:58
 msgid "Book now via"
 msgstr "Book now via"
 
-#: .\homepage\views.py:273
+#: .\core\context_processors.py:59
 msgid " Email: "
 msgstr " Email: "
 
-#: .\homepage\views.py:274
+#: .\core\context_processors.py:60
 msgid " Phone: (+995) 599 22 55 80"
 msgstr " Phone: (+995) 599 22 55 80"
 
-#: .\homepage\views.py:275
+#: .\core\context_processors.py:61
 msgid "Through "
 msgstr "Through"
 
-#: .\homepage\views.py:276 .\venv\Lib\site-packages\django\utils\text.py:286
+#: .\core\context_processors.py:62
+#: .\venv\Lib\site-packages\django\utils\text.py:286
 msgid "or"
 msgstr "or"
 
-#: .\homepage\views.py:277
+#: .\core\context_processors.py:63
 msgid "Book through booking.com"
 msgstr "Book through booking.com"
 
-#: .\homepage\views.py:278
+#: .\core\context_processors.py:64
 msgid "Take a look at our rooms & packages"
 msgstr "Take a look at our rooms & packages"
 
-#: .\homepage\views.py:281 .\homepage\views.py:284
+#: .\core\context_processors.py:67 .\core\context_processors.py:70
 msgid "The Legend of Nunisi"
 msgstr "The Legend of Nunisi"
 
-#: .\homepage\views.py:282
+#: .\core\context_processors.py:68
 msgid "A unique resort of world importance"
 msgstr "A unique resort of the world"
 
-#: .\homepage\views.py:283
+#: .\core\context_processors.py:69
 msgid ""
 "Nunisi mineral water was known as early as the 17th century. The "
 "balneological resort has been hosting those who want to relax in picturesque "
@@ -134,7 +157,7 @@ msgstr ""
 "and natural products are the best for deep relaxation and restoration of "
 "strength."
 
-#: .\homepage\views.py:285
+#: .\core\context_processors.py:71
 msgid ""
 "There is a legend about the discovery of Nunisi water, which is associated "
 "with the great Georgian king, David the Builder. The legend tells us that "
@@ -152,7 +175,7 @@ msgstr ""
 "temple in the village. The Nunisi Monastery of the Nativity of the Virgin "
 "Mary, built in the 9th-10th centuries, is still in operation today."
 
-#: .\homepage\views.py:286
+#: .\core\context_processors.py:72
 msgid ""
 "The healing use of Nunisi water has been known since the 9th century. The "
 "population noticed that their pets were being cured of malaise with the help "
@@ -170,11 +193,11 @@ msgstr ""
 "century Georgian geographer Vakhushti Batonishvili and is actively mentioned "
 "in his works."
 
-#: .\homepage\views.py:288
+#: .\core\context_processors.py:74
 msgid "Indication of Nunisi healing water"
 msgstr "Indication of Nunisi healing water"
 
-#: .\homepage\views.py:290
+#: .\core\context_processors.py:76
 #, fuzzy
 #| msgid ""
 #| "Legends associated with Nunisi healing water are confirmed by modern "
@@ -237,7 +260,7 @@ msgstr ""
 "                - And others.\n"
 "                "
 
-#: .\homepage\views.py:303
+#: .\core\context_processors.py:89
 msgid ""
 "You will also receive aesthetic therapy, with a noticeable skin rejuvenation "
 "effect in our hotel."
@@ -245,11 +268,11 @@ msgstr ""
 "You will also receive aesthetic therapy, with a noticeable skin rejuvenation "
 "effect in our hotel."
 
-#: .\homepage\views.py:304
+#: .\core\context_processors.py:90
 msgid "Learn more about Nunisi's water"
 msgstr "Learn more about Nunisi's water"
 
-#: .\homepage\views.py:308
+#: .\core\context_processors.py:94
 msgid ""
 "- Three meals a day are included in the room rate\n"
 "                - The restaurant accepts individual orders\n"
@@ -268,16 +291,16 @@ msgstr ""
 "                - The restaurant accepts individual orders\n"
 "                - Doctor consultation \n"
 "                - Bath and Massage therapy \n"
-"                The hotel has an outside bar (with billiards, film screenings). "
-"Excursions are organized to the monks' cave (so-called Noah's Ark), the "
-"Fathers' Monastery and the waterfall.\n"
+"                The hotel has an outside bar (with billiards, film "
+"screenings). Excursions are organized to the monks' cave (so-called Noah's "
+"Ark), the Fathers' Monastery and the waterfall.\n"
 "                The hotel has a 24-hour guarded parking lot. Guests are "
 "transported to the territory by their own cable car.\n"
 "                The hotel has a laundry service. Pets are allowed by prior "
 "arrangement with the administration.\n"
 "                "
 
-#: .\homepage\views.py:318
+#: .\core\context_processors.py:104
 msgid ""
 "The resort Nunisi is 22 km away from the center of Kharagauli. It is 6 km "
 "from the railway station in the village of Moliti to Nunisi. The nearest "
@@ -287,7 +310,7 @@ msgstr ""
 "from the railway station in the village of Moliti to Nunisi. The nearest "
 "settlement, the village of the same name, is located 1.5 km from the resort."
 
-#: .\homepage\views.py:319
+#: .\core\context_processors.py:105
 msgid ""
 "Nunisi Resort is adjacent to the Borjomi-Kharagauli National Park. It is 155 "
 "km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from "
@@ -297,11 +320,11 @@ msgstr ""
 "km from Tbilisi, 84 km from Kutaisi, 22 km from Kharagauli and 6 km from "
 "Moliti Railway Station."
 
-#: .\homepage\views.py:320
+#: .\core\context_processors.py:106
 msgid "A hotel minibus meets vacationers at Moliti Railway Station."
 msgstr "A hotel minibus meets vacationers at Moliti Railway Station."
 
-#: .\homepage\views.py:323
+#: .\core\context_processors.py:109
 msgid ""
 "The city of Tskheli remained in the dust far away, \n"
 "                Nunisi - my marina, \n"
@@ -315,11 +338,11 @@ msgstr ""
 "                A vibrant breath in my humdrum existence life! \n"
 "                "
 
-#: .\homepage\views.py:329
+#: .\core\context_processors.py:115
 msgid "Dato, 9 years old"
 msgstr "Dato, 9 years old"
 
-#: .\homepage\views.py:331
+#: .\core\context_processors.py:117
 msgid ""
 "I have been receiving treatment at the Nunisi resort for two years now. I "
 "first visited the resort at the end of August last year, and the second time "
@@ -353,11 +376,11 @@ msgstr ""
 "gratitude.\n"
 "                "
 
-#: .\homepage\views.py:335
+#: .\core\context_processors.py:121
 msgid "Silver Lomidze"
 msgstr "Silver Lomidze"
 
-#: .\homepage\views.py:336
+#: .\core\context_processors.py:122
 msgid ""
 "I was at the Nunisi balneological and medical resort from August 7 to 20. "
 "There was peace and friendliness. At the same time, the resort's management "
@@ -371,11 +394,11 @@ msgstr ""
 "that Nunisi will become one of the best resorts in Georgia in the near "
 "future. My heart breaks as I have to leave this place tomorrow."
 
-#: .\homepage\views.py:337
+#: .\core\context_processors.py:123
 msgid "L.Gogoladze"
 msgstr "L.Gogoladze"
 
-#: .\homepage\views.py:338
+#: .\core\context_processors.py:124
 msgid ""
 "I was at the Nunisi Sanatorium from 25.07.02 to 8.08.02. We were amazed by "
 "the results of the healing waters, they have such a beneficial effect on "
@@ -387,11 +410,11 @@ msgstr ""
 "skin diseases. In addition, we were amazed by the service, conditions and "
 "warm welcome of the staff."
 
-#: .\homepage\views.py:339
+#: .\core\context_processors.py:125
 msgid "Leila Munjishvili"
 msgstr "Leila Munjishvili"
 
-#: .\homepage\views.py:340
+#: .\core\context_processors.py:126
 msgid ""
 "I had heard about the Nunisi Baths since I was a child, but how did I know "
 "then that my little daughter would need treatment here?! When my 5-year-old "
@@ -409,11 +432,11 @@ msgstr ""
 "out of the car, I couldn't hide my admiration. I liked the environment here "
 "so much. Thank you all for such warmth and attention!"
 
-#: .\homepage\views.py:341
+#: .\core\context_processors.py:127
 msgid "Marine Laradze"
 msgstr "Marine Laradze"
 
-#: .\homepage\views.py:344
+#: .\core\context_processors.py:130
 msgid ""
 "Treatment and remission with medication is often a problem. A dermatologist "
 "diagnoses and prescribes treatment with natural remedies. The course of "
@@ -485,17 +508,17 @@ msgstr ""
 "of developing secondary infections.\n"
 "                "
 
-#: .\homepage\views.py:348
+#: .\core\context_processors.py:134
 msgid ""
 "The solution is the unique Nunisi baths, which have no analogues in the "
 "world."
 msgstr ""
 
-#: .\homepage\views.py:349
+#: .\core\context_processors.py:135
 msgid "Composition of our mineral water"
 msgstr "Composition of our mineral water"
 
-#: .\homepage\views.py:350
+#: .\core\context_processors.py:136
 msgid ""
 "Nunisi water is distinguished by its low mineralization and high alkalinity "
 "(- PH 8.3 – 10.4). It is a weakly sulfide, chloride, hydrocarbonate, sodium, "
@@ -511,7 +534,7 @@ msgstr ""
 "such microelements and ions as: potassium, calcium, iron, bromine, chlorine, "
 "iodine, etc."
 
-#: .\homepage\views.py:352
+#: .\core\context_processors.py:138
 msgid ""
 "Water contains dissolved gas in the range of 20-28 mg. Nitrogen predominates "
 "by mass and smaller amounts of methane and hydrogen sulfide. Its composition "
@@ -549,7 +572,7 @@ msgstr ""
 "complete cure.\n"
 "                "
 
-#: .\homepage\views.py:356
+#: .\core\context_processors.py:142
 msgid ""
 "The annoying itching and discomfort are eliminated, the rash is reduced or "
 "completely disappears, sleepless nights and low self-esteem are forgotten. "
@@ -569,7 +592,7 @@ msgstr ""
 "positive effect not only on the skin, but also on a number of diseases of "
 "the peripheral nervous system and musculoskeletal system."
 
-#: .\homepage\views.py:357
+#: .\core\context_processors.py:143
 msgid ""
 "Before starting the Nunis balneotherapy course, you will undergo a "
 "consultation with a dermatologist or, if necessary, a therapist. You will "
@@ -581,7 +604,7 @@ msgstr ""
 "receive comprehensive information about your illness and a balneotherapy "
 "course will be planned."
 
-#: .\homepage\views.py:358
+#: .\core\context_processors.py:144
 msgid ""
 "For many grateful patients, results have already been achieved with the help "
 "of the excellent baths and environment of the Nunisi Resort."
@@ -589,167 +612,167 @@ msgstr ""
 "For many grateful patients, results have already been achieved with the help "
 "of the excellent baths and environment of the Nunisi Resort."
 
-#: .\homepage\views.py:360
+#: .\core\context_processors.py:147
 msgid "Packages"
 msgstr "Packages"
 
-#: .\homepage\views.py:361
+#: .\core\context_processors.py:148
 msgid "Rooms"
 msgstr "Rooms"
 
-#: .\homepage\views.py:362
+#: .\core\context_processors.py:149
 msgid "Cottages"
 msgstr "Cottages"
 
-#: .\homepage\views.py:364
+#: .\core\context_processors.py:151
 msgid "Choose from one of our tailored experience packages"
 msgstr "Choose from one of our tailored experience packages*"
 
-#: .\homepage\views.py:365
+#: .\core\context_processors.py:152
 msgid "Or contact us to arrange a bespoke holiday."
 msgstr "*Or contact us to arrange a bespoke holiday."
 
-#: .\homepage\views.py:366
+#: .\core\context_processors.py:153
 msgid "Medical Package"
 msgstr "Medical Package"
 
-#: .\homepage\views.py:367
+#: .\core\context_processors.py:154
 msgid "Wellness Recreational Package"
 msgstr "Wellness Recreational Package"
 
-#: .\homepage\views.py:368
+#: .\core\context_processors.py:155
 msgid "Esthetic Retreat Package"
 msgstr "Esthetic Retreat Package"
 
-#: .\homepage\views.py:369
+#: .\core\context_processors.py:156
 msgid "Beauty Restoration Package"
 msgstr "Beauty Package"
 
-#: .\homepage\views.py:370
+#: .\core\context_processors.py:157
 msgid "Family Package"
 msgstr "Family Package (2 adults, 2 children)"
 
-#: .\homepage\views.py:371
+#: .\core\context_processors.py:158
 msgid "One week of hotel accommodation"
 msgstr "One week of hotel accommodation"
 
-#: .\homepage\views.py:372
+#: .\core\context_processors.py:159
 msgid "Five days of hotel accommodation"
 msgstr "Five days of hotel accommodation"
 
-#: .\homepage\views.py:373
+#: .\core\context_processors.py:160
 msgid "Three meals a day"
 msgstr "Three meals a day"
 
-#: .\homepage\views.py:374
+#: .\core\context_processors.py:161
 msgid "Three healthy meals a day"
 msgstr "Three healthy meals a day"
 
-#: .\homepage\views.py:375
+#: .\core\context_processors.py:162
 msgid "Three meals a day including a child menu"
 msgstr "Three meals a day including a child menu"
 
-#: .\homepage\views.py:376
+#: .\core\context_processors.py:163
 msgid "Dermatologist consultation"
 msgstr "Dermatologist consultation"
 
-#: .\homepage\views.py:377
+#: .\core\context_processors.py:164
 msgid "Wellness procedure of 2 showers and 10 baths"
 msgstr "Wellness procedure of 2 showers and 10 baths"
 
-#: .\homepage\views.py:378
+#: .\core\context_processors.py:165
 msgid "10 procedures in a mineral water pool"
 msgstr "10 procedures in a mineral water pool"
 
-#: .\homepage\views.py:379
+#: .\core\context_processors.py:166
 msgid "Access to the mineral pool"
 msgstr "Access to the mineral pool"
 
-#: .\homepage\views.py:380
+#: .\core\context_processors.py:167
 msgid "Nunisi water procedures for skin rejuvenation and anti-aging"
 msgstr "Nunisi water procedures for skin rejuvenation and anti-aging"
 
-#: .\homepage\views.py:381
+#: .\core\context_processors.py:168
 msgid "Massage"
 msgstr "Massage"
 
-#: .\homepage\views.py:382
+#: .\core\context_processors.py:169
 msgid "Facial massage"
 msgstr "Facial massage"
 
-#: .\homepage\views.py:383
+#: .\core\context_processors.py:170
 msgid "Morning exercise with instructor"
 msgstr "Morning exercise with instructor"
 
-#: .\homepage\views.py:384
+#: .\core\context_processors.py:171
 msgid "Morning and evening exercises with instructor"
 msgstr "Morning and evening exercises with instructor"
 
-#: .\homepage\views.py:385
+#: .\core\context_processors.py:172
 msgid "Evening yoga and meditation"
 msgstr "Evening yoga and meditation"
 
-#: .\homepage\views.py:386
+#: .\core\context_processors.py:173
 msgid "Guided sight-seeing hike"
 msgstr "Guided sight-seeing hike"
 
-#: .\homepage\views.py:387
+#: .\core\context_processors.py:174
 msgid "Horse riding"
 msgstr "Horse riding"
 
-#: .\homepage\views.py:388
+#: .\core\context_processors.py:175
 msgid "Fishing"
 msgstr "Fishing"
 
-#: .\homepage\views.py:389
+#: .\core\context_processors.py:176
 msgid "Educational and entertainment activities"
 msgstr "Educational and entertainment activities"
 
-#: .\homepage\views.py:390
+#: .\core\context_processors.py:177
 msgid "This package is for 2 people"
 msgstr "This package is for 2 people"
 
-#: .\homepage\views.py:391
+#: .\core\context_processors.py:178
 msgid "This package is for 4 people"
 msgstr "This package is for 4 people"
 
-#: .\homepage\views.py:393
+#: .\core\context_processors.py:180
 msgid "Where you'll stay"
 msgstr "Where you'll stay"
 
-#: .\homepage\views.py:394
+#: .\core\context_processors.py:181
 msgid "Standard Room"
 msgstr "Standard Room"
 
-#: .\homepage\views.py:395
+#: .\core\context_processors.py:182
 msgid "Standard Double Room"
 msgstr "Standard Twin Room"
 
-#: .\homepage\views.py:396
+#: .\core\context_processors.py:183
 msgid "Panarama Room"
 msgstr "Panorama Room"
 
-#: .\homepage\views.py:397
+#: .\core\context_processors.py:184
 msgid "Suite"
 msgstr "Suite"
 
-#: .\homepage\views.py:398
+#: .\core\context_processors.py:185
 msgid "Family Room"
 msgstr "Family Room"
 
-#: .\homepage\views.py:399
+#: .\core\context_processors.py:186
 msgid "This room is suitable for a maximum of 2 people."
 msgstr "This room is suitable for a maximum of 2 people."
 
-#: .\homepage\views.py:400
+#: .\core\context_processors.py:187
 msgid "This room is suitable for a maximum of 4 people."
 msgstr "This room is suitable for a maximum of 4 people."
 
-#: .\homepage\views.py:401
+#: .\core\context_processors.py:188
 msgid "This room is suitable for a maximum of 5 people."
 msgstr "This room is suitable for a maximum of 5 people."
 
-#: .\homepage\views.py:402
+#: .\core\context_processors.py:189
 msgid ""
 "A room with twin beds, desk, chair, complimentary tea/coffee maker, mini "
 "refrigerator, plasma TV, Wi-Fi. "
@@ -757,7 +780,7 @@ msgstr ""
 "A room with twin beds, desk, chair, complimentary tea/coffee maker, mini "
 "refrigerator, plasma TV, Wi-Fi."
 
-#: .\homepage\views.py:403
+#: .\core\context_processors.py:190
 msgid ""
 "Modern design room with double bed, chairs, coffee table, mini refrigerator, "
 "Complimentary tea / coffee maker, TV, WiFi."
@@ -765,7 +788,7 @@ msgstr ""
 "Modern design room with double bed, chairs, coffee table, mini refrigerator, "
 "Complimentary tea / coffee maker, TV, WiFi."
 
-#: .\homepage\views.py:404
+#: .\core\context_processors.py:191
 msgid ""
 "A modern room with queen bed, sofa, three chairs, coffee table mini "
 "refrigerator, complimentary tea/coffee maker, plasma TV set, Wi-Fi."
@@ -773,7 +796,7 @@ msgstr ""
 "A modern room with queen bed, sofa, three chairs, coffee table mini "
 "refrigerator, complimentary tea/coffee maker, plasma TV set, Wi-Fi."
 
-#: .\homepage\views.py:405
+#: .\core\context_processors.py:192
 msgid ""
 "A modern room with several beds, sofa, chairs, coffee table, complimentary "
 "tea/coffee, mini refrigerator, plasma TV, Wi-Fi."
@@ -781,11 +804,11 @@ msgstr ""
 "A modern room with several beds, sofa, chairs, coffee table, complimentary "
 "tea/coffee, mini refrigerator, plasma TV, Wi-Fi."
 
-#: .\homepage\views.py:406
+#: .\core\context_processors.py:193
 msgid "Bathroom equipped with all necessary hygiene amenities."
 msgstr "Bathroom equipped with all necessary hygiene amenities."
 
-#: .\homepage\views.py:407
+#: .\core\context_processors.py:194
 msgid ""
 "Bathroom equipped with all necessary hygiene amenities, bathrobes and a "
 "hairdryer."
@@ -793,27 +816,27 @@ msgstr ""
 "Bathroom equipped with all necessary hygiene amenities, bathrobes and a "
 "hairdryer."
 
-#: .\homepage\views.py:408
+#: .\core\context_processors.py:195
 msgid "Private bathroom"
 msgstr "Private bathroom"
 
-#: .\homepage\views.py:409
+#: .\core\context_processors.py:196
 msgid "Mini refrigerator"
 msgstr "Mini refrigerator"
 
-#: .\homepage\views.py:410
+#: .\core\context_processors.py:197
 msgid "Free WiFi"
 msgstr "Free WiFi"
 
-#: .\homepage\views.py:411
+#: .\core\context_processors.py:198
 msgid "TV"
 msgstr "TV"
 
-#: .\homepage\views.py:412
+#: .\core\context_processors.py:199
 msgid "Satellite and Cable Channels"
 msgstr "Satellite and Cable Channels"
 
-#: .\homepage\views.py:414
+#: .\core\context_processors.py:201
 msgid ""
 "There are five standard cottages at the resort. They are wooden Finnish-"
 "style cottages. Each of them is two-story and consists of three rooms. The "
@@ -823,7 +846,7 @@ msgstr ""
 "style cottages. Each of them is two-story and consists of three rooms. The "
 "rooms are equipped with their own bathrooms (washbasin, shower and toilet)."
 
-#: .\homepage\views.py:415
+#: .\core\context_processors.py:202
 msgid ""
 "On the first floor there is a lobby with a TV and one triple room. On the "
 "second floor there are two rooms with their own bathrooms, one with a double "
@@ -833,11 +856,11 @@ msgstr ""
 "second floor there are two rooms with their own bathrooms, one with a double "
 "bed and one with a single bed."
 
-#: .\nunisi_hotel_website\settings.py:145
+#: .\nunisi_hotel_website\settings.py:150
 msgid "English"
 msgstr "English"
 
-#: .\nunisi_hotel_website\settings.py:146
+#: .\nunisi_hotel_website\settings.py:151
 msgid "Georgian"
 msgstr "Georgian"
 
